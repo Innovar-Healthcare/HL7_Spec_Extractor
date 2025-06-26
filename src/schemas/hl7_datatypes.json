@@ -1,0 +1,1882 @@
+{
+  "AD": {
+    "1": {
+      "name": "Street Address",
+      "type": "ST"
+    },
+    "2": {
+      "name": "Other Designation",
+      "type": "ST"
+    },
+    "3": {
+      "name": "City",
+      "type": "ST"
+    },
+    "4": {
+      "name": "State or Province",
+      "type": "ST"
+    },
+    "5": {
+      "name": "Zip or Postal Code",
+      "type": "ST"
+    },
+    "6": {
+      "name": "Country",
+      "type": "ID"
+    },
+    "7": {
+      "name": "Address Type",
+      "type": "ID"
+    },
+    "8": {
+      "name": "Other Geographic Designation",
+      "type": "ST"
+    }
+  },
+  "AUI": {
+    "1": {
+      "name": "Authorization Number",
+      "type": "ST"
+    },
+    "2": {
+      "name": "Date",
+      "type": "DT"
+    },
+    "3": {
+      "name": "Source",
+      "type": "ST"
+    }
+  },
+  "CCD": {
+    "1": {
+      "name": "Invocation Event",
+      "type": "ID"
+    },
+    "2": {
+      "name": "Date/time",
+      "type": "TS"
+    }
+  },
+  "CCP": {
+    "1": {
+      "name": "Channel Calibration Sensitivity Correction Factor",
+      "type": "NM"
+    },
+    "2": {
+      "name": "Channel Calibration Baseline",
+      "type": "NM"
+    },
+    "3": {
+      "name": "Channel Calibration Time Skew",
+      "type": "NM"
+    }
+  },
+  "CD": {
+    "1": {
+      "name": "Channel Identifier",
+      "type": "WVI"
+    },
+    "2": {
+      "name": "Waveform Source",
+      "type": "WVS"
+    },
+    "3": {
+      "name": "Channel Sensitivity/Units",
+      "type": "CSU"
+    },
+    "4": {
+      "name": "Channel Calibration Parameters",
+      "type": "CCP"
+    },
+    "5": {
+      "name": "Channel Sampling Frequency",
+      "type": "NM"
+    },
+    "6": {
+      "name": "Minimum/Maximum Data Values",
+      "type": "NR"
+    }
+  },
+  "CE": {
+    "1": {
+      "name": "Identifier",
+      "type": "ST"
+    },
+    "2": {
+      "name": "Text",
+      "type": "ST"
+    },
+    "3": {
+      "name": "Name of Coding System",
+      "type": "ID"
+    },
+    "4": {
+      "name": "Alternate Identifier",
+      "type": "ST"
+    },
+    "5": {
+      "name": "Alternate Text",
+      "type": "ST"
+    },
+    "6": {
+      "name": "Name of Alternate Coding System",
+      "type": "ID"
+    }
+  },
+  "CF": {
+    "1": {
+      "name": "Identifier",
+      "type": "ST"
+    },
+    "2": {
+      "name": "Formatted Text",
+      "type": "FT"
+    },
+    "3": {
+      "name": "Name of Coding System",
+      "type": "ID"
+    },
+    "4": {
+      "name": "Alternate Identifier",
+      "type": "ST"
+    },
+    "5": {
+      "name": "Alternate Formatted Text",
+      "type": "FT"
+    },
+    "6": {
+      "name": "Name of Alternate Coding System",
+      "type": "ID"
+    }
+  },
+  "CNE": {
+    "1": {
+      "name": "Identifier",
+      "type": "ST"
+    },
+    "2": {
+      "name": "Text",
+      "type": "ST"
+    },
+    "3": {
+      "name": "Name of Coding System",
+      "type": "ID"
+    },
+    "4": {
+      "name": "Alternate Identifier",
+      "type": "ST"
+    },
+    "5": {
+      "name": "Alternate Text",
+      "type": "ST"
+    },
+    "6": {
+      "name": "Name of Alternate Coding System",
+      "type": "ID"
+    },
+    "7": {
+      "name": "Coding System Version ID",
+      "type": "ST"
+    },
+    "8": {
+      "name": "Alternate Coding System Version ID",
+      "type": "ST"
+    },
+    "9": {
+      "name": "Original Text",
+      "type": "ST"
+    }
+  },
+  "CNN": {
+    "1": {
+      "name": "ID Number",
+      "type": "ST"
+    },
+    "2": {
+      "name": "Family Name",
+      "type": "ST"
+    },
+    "3": {
+      "name": "Given Name",
+      "type": "ST"
+    },
+    "4": {
+      "name": "Second and Further Given Names or Initials Thereof",
+      "type": "ST"
+    },
+    "5": {
+      "name": "Suffix (e.g., JR or III)",
+      "type": "ST"
+    },
+    "6": {
+      "name": "Prefix (e.g., DR)",
+      "type": "ST"
+    },
+    "7": {
+      "name": "Degree (e.g., MD",
+      "type": "IS"
+    },
+    "8": {
+      "name": "Source Table",
+      "type": "IS"
+    },
+    "9": {
+      "name": "Assigning Authority   - Namespace ID",
+      "type": "IS"
+    },
+    "10": {
+      "name": "Assigning Authority  - Universal ID",
+      "type": "ST"
+    },
+    "11": {
+      "name": "Assigning Authority  - Universal ID Type",
+      "type": "ID"
+    }
+  },
+  "CP": {
+    "1": {
+      "name": "Price",
+      "type": "MO"
+    },
+    "2": {
+      "name": "Price Type",
+      "type": "ID"
+    },
+    "3": {
+      "name": "From Value",
+      "type": "NM"
+    },
+    "4": {
+      "name": "To Value",
+      "type": "NM"
+    },
+    "5": {
+      "name": "Range Units",
+      "type": "CE"
+    },
+    "6": {
+      "name": "Range Type",
+      "type": "ID"
+    }
+  },
+  "CQ": {
+    "1": {
+      "name": "Quantity",
+      "type": "NM"
+    },
+    "2": {
+      "name": "Units",
+      "type": "CE"
+    }
+  },
+  "CSU": {
+    "1": {
+      "name": "Channel Sensitivity",
+      "type": "NM"
+    },
+    "2": {
+      "name": "Unit of Measure Identifier",
+      "type": "ST"
+    },
+    "3": {
+      "name": "Unit of Measure Description",
+      "type": "ST"
+    },
+    "4": {
+      "name": "Unit of Measure Coding System",
+      "type": "ID"
+    },
+    "5": {
+      "name": "Alternate Unit of Measure Identifier",
+      "type": "ST"
+    },
+    "6": {
+      "name": "Alternate Unit of Measure Description",
+      "type": "ST"
+    },
+    "7": {
+      "name": "Alternate Unit of Measure Coding System",
+      "type": "ID"
+    }
+  },
+  "CWE": {
+    "1": {
+      "name": "Identifier",
+      "type": "ST"
+    },
+    "2": {
+      "name": "Text",
+      "type": "ST"
+    },
+    "3": {
+      "name": "Name of Coding System",
+      "type": "ID"
+    },
+    "4": {
+      "name": "Alternate Identifier",
+      "type": "ST"
+    },
+    "5": {
+      "name": "Alternate Text",
+      "type": "ST"
+    },
+    "6": {
+      "name": "Name of Alternate Coding System",
+      "type": "ID"
+    },
+    "7": {
+      "name": "Coding System Version ID",
+      "type": "ST"
+    },
+    "8": {
+      "name": "Alternate Coding System Version ID",
+      "type": "ST"
+    },
+    "9": {
+      "name": "Original Text",
+      "type": "ST"
+    }
+  },
+  "CX": {
+    "1": {
+      "name": "ID Number",
+      "type": "ST"
+    },
+    "2": {
+      "name": "Check Digit",
+      "type": "ST"
+    },
+    "3": {
+      "name": "Check Digit Scheme",
+      "type": "ID"
+    },
+    "4": {
+      "name": "Assigning Authority",
+      "type": "HD"
+    },
+    "5": {
+      "name": "Identifier Type Code",
+      "type": "ID"
+    },
+    "6": {
+      "name": "Assigning Facility",
+      "type": "HD"
+    },
+    "7": {
+      "name": "Effective Date",
+      "type": "DT"
+    },
+    "8": {
+      "name": "Expiration Date",
+      "type": "DT"
+    },
+    "9": {
+      "name": "Assigning Jurisdiction",
+      "type": "CWE"
+    },
+    "10": {
+      "name": "Assigning Agency or Department",
+      "type": "CWE"
+    }
+  },
+  "DDI": {
+    "1": {
+      "name": "Delay Days",
+      "type": "NM"
+    },
+    "2": {
+      "name": "Monetary Amount",
+      "type": "MO"
+    },
+    "3": {
+      "name": "Number of Days",
+      "type": "NM"
+    }
+  },
+  "DIN": {
+    "1": {
+      "name": "Date",
+      "type": "TS"
+    },
+    "2": {
+      "name": "Institution Name",
+      "type": "CE"
+    }
+  },
+  "DLD": {
+    "1": {
+      "name": "Discharge Location",
+      "type": "IS"
+    },
+    "2": {
+      "name": "Effective Date",
+      "type": "TS"
+    }
+  },
+  "DLN": {
+    "1": {
+      "name": "License Number",
+      "type": "ST"
+    },
+    "2": {
+      "name": "Issuing State, Province, Country",
+      "type": "IS"
+    },
+    "3": {
+      "name": "Expiration Date",
+      "type": "DT"
+    }
+  },
+  "DLT": {
+    "1": {
+      "name": "Normal Range",
+      "type": "NR"
+    },
+    "2": {
+      "name": "Numeric Threshold",
+      "type": "NM"
+    },
+    "3": {
+      "name": "Change Computation",
+      "type": "ID"
+    },
+    "4": {
+      "name": "Days Retained",
+      "type": "NM"
+    }
+  },
+  "DR": {
+    "1": {
+      "name": "Range Start Date/Time",
+      "type": "TS"
+    },
+    "2": {
+      "name": "Range End Date/Time",
+      "type": "TS"
+    }
+  },
+  "DTN": {
+    "1": {
+      "name": "Day Type",
+      "type": "IS"
+    },
+    "2": {
+      "name": "Number of Days",
+      "type": "NM"
+    }
+  },
+  "ED": {
+    "1": {
+      "name": "Source Application",
+      "type": "HD"
+    },
+    "2": {
+      "name": "Type of Data",
+      "type": "ID"
+    },
+    "3": {
+      "name": "Data Subtype",
+      "type": "ID"
+    },
+    "4": {
+      "name": "Encoding",
+      "type": "ID"
+    },
+    "5": {
+      "name": "Data",
+      "type": "TX"
+    }
+  },
+  "EI": {
+    "1": {
+      "name": "Entity Identifier",
+      "type": "ST"
+    },
+    "2": {
+      "name": "Namespace ID",
+      "type": "IS"
+    },
+    "3": {
+      "name": "Universal ID",
+      "type": "ST"
+    },
+    "4": {
+      "name": "Universal ID Type",
+      "type": "ID"
+    }
+  },
+  "EIP": {
+    "1": {
+      "name": "Placer Assigned Identifier",
+      "type": "EI"
+    },
+    "2": {
+      "name": "Filler Assigned Identifier",
+      "type": "EI"
+    }
+  },
+  "ELD": {
+    "1": {
+      "name": "Segment ID",
+      "type": "ST"
+    },
+    "2": {
+      "name": "Segment Sequence",
+      "type": "NM"
+    },
+    "3": {
+      "name": "Field Position",
+      "type": "NM"
+    },
+    "4": {
+      "name": "Code Identifying Error",
+      "type": "CE"
+    }
+  },
+  "ERL": {
+    "1": {
+      "name": "Segment ID",
+      "type": "ST"
+    },
+    "2": {
+      "name": "Segment Sequence",
+      "type": "NM"
+    },
+    "3": {
+      "name": "Field Position",
+      "type": "NM"
+    },
+    "4": {
+      "name": "Field Repetition",
+      "type": "NM"
+    },
+    "5": {
+      "name": "Component Number",
+      "type": "NM"
+    },
+    "6": {
+      "name": "Sub-Component Number",
+      "type": "NM"
+    }
+  },
+  "FC": {
+    "1": {
+      "name": "Financial Class Code",
+      "type": "IS"
+    },
+    "2": {
+      "name": "Effective Date",
+      "type": "TS"
+    }
+  },
+  "FN": {
+    "1": {
+      "name": "Surname",
+      "type": "ST"
+    },
+    "2": {
+      "name": "Own Surname Prefix",
+      "type": "ST"
+    },
+    "3": {
+      "name": "Own Surname",
+      "type": "ST"
+    },
+    "4": {
+      "name": "Surname Prefix From Partner/Spouse",
+      "type": "ST"
+    },
+    "5": {
+      "name": "Surname From Partner/Spouse",
+      "type": "ST"
+    }
+  },
+  "HD": {
+    "1": {
+      "name": "Namespace ID",
+      "type": "IS"
+    },
+    "2": {
+      "name": "Universal ID",
+      "type": "ST"
+    },
+    "3": {
+      "name": "Universal ID Type",
+      "type": "ID"
+    }
+  },
+  "ICD": {
+    "1": {
+      "name": "Certification Patient Type",
+      "type": "IS"
+    },
+    "2": {
+      "name": "Certification Required",
+      "type": "ID"
+    },
+    "3": {
+      "name": "Date/Time Certification Required",
+      "type": "TS"
+    }
+  },
+  "JCC": {
+    "1": {
+      "name": "Job Code",
+      "type": "IS"
+    },
+    "2": {
+      "name": "Job Class",
+      "type": "IS"
+    },
+    "3": {
+      "name": "Job Description Text",
+      "type": "TX"
+    }
+  },
+  "LA1": {
+    "1": {
+      "name": "Point of Care",
+      "type": "IS"
+    },
+    "2": {
+      "name": "Room",
+      "type": "IS"
+    },
+    "3": {
+      "name": "Bed",
+      "type": "IS"
+    },
+    "4": {
+      "name": "Facility",
+      "type": "HD"
+    },
+    "5": {
+      "name": "Location Status",
+      "type": "IS"
+    },
+    "6": {
+      "name": "Patient Location Type",
+      "type": "IS"
+    },
+    "7": {
+      "name": "Building",
+      "type": "IS"
+    },
+    "8": {
+      "name": "Floor",
+      "type": "IS"
+    },
+    "9": {
+      "name": "Address",
+      "type": "AD"
+    }
+  },
+  "LA2": {
+    "1": {
+      "name": "Point of Care",
+      "type": "IS"
+    },
+    "2": {
+      "name": "Room",
+      "type": "IS"
+    },
+    "3": {
+      "name": "Bed",
+      "type": "IS"
+    },
+    "4": {
+      "name": "Facility",
+      "type": "HD"
+    },
+    "5": {
+      "name": "Location Status",
+      "type": "IS"
+    },
+    "6": {
+      "name": "Patient Location Type",
+      "type": "IS"
+    },
+    "7": {
+      "name": "Building",
+      "type": "IS"
+    },
+    "8": {
+      "name": "Floor",
+      "type": "IS"
+    },
+    "9": {
+      "name": "Street Address",
+      "type": "ST"
+    },
+    "10": {
+      "name": "Other Designation",
+      "type": "ST"
+    },
+    "11": {
+      "name": "City",
+      "type": "ST"
+    },
+    "12": {
+      "name": "State or Province",
+      "type": "ST"
+    },
+    "13": {
+      "name": "Zip or Postal Code",
+      "type": "ST"
+    },
+    "14": {
+      "name": "Country",
+      "type": "ID"
+    },
+    "15": {
+      "name": "Address Type",
+      "type": "ID"
+    },
+    "16": {
+      "name": "Other Geographic Designation",
+      "type": "ST"
+    }
+  },
+  "MA": {
+    "1": {
+      "name": "Sample 1 From Channel 1",
+      "type": "NM"
+    },
+    "2": {
+      "name": "Sample 1 From Channel 2",
+      "type": "NM"
+    },
+    "3": {
+      "name": "Sample 1 From Channel N",
+      "type": "NM"
+    },
+    "4": {
+      "name": "Sample 2 From Channel 1",
+      "type": "NM"
+    },
+    "5": {
+      "name": "Sample 2 From Channel N",
+      "type": "NM"
+    },
+    "6": {
+      "name": "Sample N From Channel N",
+      "type": "NM"
+    }
+  },
+  "MO": {
+    "1": {
+      "name": "Quantity",
+      "type": "NM"
+    },
+    "2": {
+      "name": "Denomination",
+      "type": "ID"
+    }
+  },
+  "MOC": {
+    "1": {
+      "name": "Monetary Amount",
+      "type": "MO"
+    },
+    "2": {
+      "name": "Charge Code",
+      "type": "CE"
+    }
+  },
+  "MOP": {
+    "1": {
+      "name": "Money or Percentage Indicator",
+      "type": "ID"
+    },
+    "2": {
+      "name": "Money or Percentage Quantity",
+      "type": "NM"
+    },
+    "3": {
+      "name": "Currency Denomination",
+      "type": "ID"
+    }
+  },
+  "MSG": {
+    "1": {
+      "name": "Message Code",
+      "type": "ID"
+    },
+    "2": {
+      "name": "Trigger Event",
+      "type": "ID"
+    },
+    "3": {
+      "name": "Message Structure",
+      "type": "ID"
+    }
+  },
+  "NA": {
+    "1": {
+      "name": "Value1",
+      "type": "NM"
+    },
+    "2": {
+      "name": "Value2",
+      "type": "NM"
+    },
+    "3": {
+      "name": "Value3",
+      "type": "NM"
+    },
+    "4": {
+      "name": "Value4",
+      "type": "NM"
+    }
+  },
+  "NDL": {
+    "1": {
+      "name": "Name",
+      "type": "CNN"
+    },
+    "2": {
+      "name": "Start Date/time",
+      "type": "TS"
+    },
+    "3": {
+      "name": "End Date/time",
+      "type": "TS"
+    },
+    "4": {
+      "name": "Point of Care",
+      "type": "IS"
+    },
+    "5": {
+      "name": "Room",
+      "type": "IS"
+    },
+    "6": {
+      "name": "Bed",
+      "type": "IS"
+    },
+    "7": {
+      "name": "Facility",
+      "type": "HD"
+    },
+    "8": {
+      "name": "Location Status",
+      "type": "IS"
+    },
+    "9": {
+      "name": "Patient Location Type",
+      "type": "IS"
+    },
+    "10": {
+      "name": "Building",
+      "type": "IS"
+    },
+    "11": {
+      "name": "Floor",
+      "type": "IS"
+    }
+  },
+  "NR": {
+    "1": {
+      "name": "Low Value",
+      "type": "NM"
+    },
+    "2": {
+      "name": "High Value",
+      "type": "NM"
+    }
+  },
+  "OCD": {
+    "1": {
+      "name": "Occurrence Code",
+      "type": "CNE"
+    },
+    "2": {
+      "name": "Occurrence Date",
+      "type": "DT"
+    }
+  },
+  "OSD": {
+    "1": {
+      "name": "Sequence/Results Flag",
+      "type": "ID"
+    },
+    "2": {
+      "name": "Placer Order Number: Entity Identifier",
+      "type": "ST"
+    },
+    "3": {
+      "name": "Placer Order Number: Namespace ID",
+      "type": "IS"
+    },
+    "4": {
+      "name": "Filler Order Number: Entity Identifier",
+      "type": "ST"
+    },
+    "5": {
+      "name": "Filler Order Number: Namespace ID",
+      "type": "IS"
+    },
+    "6": {
+      "name": "Sequence Condition Value",
+      "type": "ST"
+    },
+    "7": {
+      "name": "Maximum Number of Repeats",
+      "type": "NM"
+    },
+    "8": {
+      "name": "Placer Order Number: Universal ID",
+      "type": "ST"
+    },
+    "9": {
+      "name": "Placer Order Number: Universal ID Type",
+      "type": "ID"
+    },
+    "10": {
+      "name": "Filler Order Number: Universal ID",
+      "type": "ST"
+    },
+    "11": {
+      "name": "Filler Order Number: Universal ID Type",
+      "type": "ID"
+    }
+  },
+  "OSP": {
+    "1": {
+      "name": "Occurrence Span Code",
+      "type": "CNE"
+    },
+    "2": {
+      "name": "Occurrence Span Start Date",
+      "type": "DT"
+    },
+    "3": {
+      "name": "Occurrence Span Stop Date",
+      "type": "DT"
+    }
+  },
+  "PIP": {
+    "1": {
+      "name": "Privilege",
+      "type": "CE"
+    },
+    "2": {
+      "name": "Privilege Class",
+      "type": "CE"
+    },
+    "3": {
+      "name": "Expiration Date",
+      "type": "DT"
+    },
+    "4": {
+      "name": "Activation Date",
+      "type": "DT"
+    },
+    "5": {
+      "name": "Facility",
+      "type": "EI"
+    }
+  },
+  "PL": {
+    "1": {
+      "name": "Point of Care",
+      "type": "IS"
+    },
+    "2": {
+      "name": "Room",
+      "type": "IS"
+    },
+    "3": {
+      "name": "Bed",
+      "type": "IS"
+    },
+    "4": {
+      "name": "Facility",
+      "type": "HD"
+    },
+    "5": {
+      "name": "Location Status",
+      "type": "IS"
+    },
+    "6": {
+      "name": "Person Location Type",
+      "type": "IS"
+    },
+    "7": {
+      "name": "Building",
+      "type": "IS"
+    },
+    "8": {
+      "name": "Floor",
+      "type": "IS"
+    },
+    "9": {
+      "name": "Location Description",
+      "type": "ST"
+    },
+    "10": {
+      "name": "Comprehensive Location Identifier",
+      "type": "EI"
+    },
+    "11": {
+      "name": "Assigning Authority for Location",
+      "type": "HD"
+    }
+  },
+  "PLN": {
+    "1": {
+      "name": "ID Number",
+      "type": "ST"
+    },
+    "2": {
+      "name": "Type of ID Number",
+      "type": "IS"
+    },
+    "3": {
+      "name": "State/other Qualifying Information",
+      "type": "ST"
+    },
+    "4": {
+      "name": "Expiration Date",
+      "type": "DT"
+    }
+  },
+  "PPN": {
+    "1": {
+      "name": "ID Number",
+      "type": "ST"
+    },
+    "2": {
+      "name": "Family Name",
+      "type": "FN"
+    },
+    "3": {
+      "name": "Given Name",
+      "type": "ST"
+    },
+    "4": {
+      "name": "Second and Further Given Names or Initials Thereof",
+      "type": "ST"
+    },
+    "5": {
+      "name": "Suffix (e.g., JR or III)",
+      "type": "ST"
+    },
+    "6": {
+      "name": "Prefix (e.g., DR)",
+      "type": "ST"
+    },
+    "7": {
+      "name": "Degree (e.g., MD)",
+      "type": "IS"
+    },
+    "8": {
+      "name": "Source Table",
+      "type": "IS"
+    },
+    "9": {
+      "name": "Assigning Authority",
+      "type": "HD"
+    },
+    "10": {
+      "name": "Name Type Code",
+      "type": "ID"
+    },
+    "11": {
+      "name": "Identifier Check Digit",
+      "type": "ST"
+    },
+    "12": {
+      "name": "Check Digit Scheme",
+      "type": "ID"
+    },
+    "13": {
+      "name": "Identifier Type Code",
+      "type": "ID"
+    },
+    "14": {
+      "name": "Assigning Facility",
+      "type": "HD"
+    },
+    "15": {
+      "name": "Date/Time Action Performed",
+      "type": "TS"
+    },
+    "16": {
+      "name": "Name Representation Code",
+      "type": "ID"
+    },
+    "17": {
+      "name": "Name Context",
+      "type": "CE"
+    },
+    "18": {
+      "name": "Name Validity Range",
+      "type": "DR"
+    },
+    "19": {
+      "name": "Name Assembly Order",
+      "type": "ID"
+    },
+    "20": {
+      "name": "Effective Date",
+      "type": "TS"
+    },
+    "21": {
+      "name": "Expiration Date",
+      "type": "TS"
+    },
+    "22": {
+      "name": "Professional Suffix",
+      "type": "ST"
+    },
+    "23": {
+      "name": "Assigning Jurisdiction",
+      "type": "CWE"
+    },
+    "24": {
+      "name": "Assigning Agency or Department",
+      "type": "CWE"
+    }
+  },
+  "PRL": {
+    "1": {
+      "name": "Parent Observation Identifier",
+      "type": "CE"
+    },
+    "2": {
+      "name": "Parent Observation Sub-identifier",
+      "type": "ST"
+    },
+    "3": {
+      "name": "Parent Observation Value Descriptor",
+      "type": "TX"
+    }
+  },
+  "PT": {
+    "1": {
+      "name": "Processing ID",
+      "type": "ID"
+    },
+    "2": {
+      "name": "Processing Mode",
+      "type": "ID"
+    }
+  },
+  "PTA": {
+    "1": {
+      "name": "Policy Type",
+      "type": "IS"
+    },
+    "2": {
+      "name": "Amount Class",
+      "type": "IS"
+    },
+    "3": {
+      "name": "Money or Percentage Quantity",
+      "type": "NM"
+    },
+    "4": {
+      "name": "Money or Percentage",
+      "type": "MOP"
+    }
+  },
+  "QIP": {
+    "1": {
+      "name": "Segment Field Name",
+      "type": "ST"
+    },
+    "2": {
+      "name": "Values",
+      "type": "ST"
+    }
+  },
+  "QSC": {
+    "1": {
+      "name": "Segment Field Name",
+      "type": "ST"
+    },
+    "2": {
+      "name": "Relational Operator",
+      "type": "ID"
+    },
+    "3": {
+      "name": "Value",
+      "type": "ST"
+    },
+    "4": {
+      "name": "Relational Conjunction",
+      "type": "ID"
+    }
+  },
+  "RCD": {
+    "1": {
+      "name": "Segment Field Name",
+      "type": "ST"
+    },
+    "2": {
+      "name": "HL7 Data Type",
+      "type": "ID"
+    },
+    "3": {
+      "name": "Maximum Column Width",
+      "type": "NM"
+    }
+  },
+  "RFR": {
+    "1": {
+      "name": "Numeric Range",
+      "type": "NR"
+    },
+    "2": {
+      "name": "Administrative Sex",
+      "type": "IS"
+    },
+    "3": {
+      "name": "Age Range",
+      "type": "NR"
+    },
+    "4": {
+      "name": "Gestational Age Range",
+      "type": "NR"
+    },
+    "5": {
+      "name": "Species",
+      "type": "ST"
+    },
+    "6": {
+      "name": "Race/subspecies",
+      "type": "ST"
+    },
+    "7": {
+      "name": "Conditions",
+      "type": "TX"
+    }
+  },
+  "RI": {
+    "1": {
+      "name": "Repeat Pattern",
+      "type": "IS"
+    },
+    "2": {
+      "name": "Explicit Time Interval",
+      "type": "ST"
+    }
+  },
+  "RMC": {
+    "1": {
+      "name": "Room Type",
+      "type": "IS"
+    },
+    "2": {
+      "name": "Amount Type",
+      "type": "IS"
+    },
+    "3": {
+      "name": "Coverage Amount",
+      "type": "NM"
+    },
+    "4": {
+      "name": "Money or Percentage",
+      "type": "MOP"
+    }
+  },
+  "RP": {
+    "1": {
+      "name": "Pointer",
+      "type": "ST"
+    },
+    "2": {
+      "name": "Application ID",
+      "type": "HD"
+    },
+    "3": {
+      "name": "Type of Data",
+      "type": "ID"
+    },
+    "4": {
+      "name": "Subtype",
+      "type": "ID"
+    }
+  },
+  "RPT": {
+    "1": {
+      "name": "Repeat Pattern Code",
+      "type": "CWE"
+    },
+    "2": {
+      "name": "Calendar Alignment",
+      "type": "ID"
+    },
+    "3": {
+      "name": "Phase Range Begin Value",
+      "type": "NM"
+    },
+    "4": {
+      "name": "Phase Range End Value",
+      "type": "NM"
+    },
+    "5": {
+      "name": "Period Quantity",
+      "type": "NM"
+    },
+    "6": {
+      "name": "Period Units",
+      "type": "IS"
+    },
+    "7": {
+      "name": "Institution Specified Time",
+      "type": "ID"
+    },
+    "8": {
+      "name": "Event",
+      "type": "ID"
+    },
+    "9": {
+      "name": "Event Offset Quantity",
+      "type": "NM"
+    },
+    "10": {
+      "name": "Event Offset Units",
+      "type": "IS"
+    },
+    "11": {
+      "name": "General Timing Specification",
+      "type": "GTS"
+    }
+  },
+  "SAD": {
+    "1": {
+      "name": "Street or Mailing Address",
+      "type": "ST"
+    },
+    "2": {
+      "name": "Street Name",
+      "type": "ST"
+    },
+    "3": {
+      "name": "Dwelling Number",
+      "type": "ST"
+    }
+  },
+  "SCV": {
+    "1": {
+      "name": "Parameter Class",
+      "type": "CWE"
+    },
+    "2": {
+      "name": "Parameter Value",
+      "type": "ST"
+    }
+  },
+  "SN": {
+    "1": {
+      "name": "Comparator",
+      "type": "ST"
+    },
+    "2": {
+      "name": "Num1",
+      "type": "NM"
+    },
+    "3": {
+      "name": "Separator/Suffix",
+      "type": "ST"
+    },
+    "4": {
+      "name": "Num2",
+      "type": "NM"
+    }
+  },
+  "SPD": {
+    "1": {
+      "name": "Specialty Name",
+      "type": "ST"
+    },
+    "2": {
+      "name": "Governing Board",
+      "type": "ST"
+    },
+    "3": {
+      "name": "Eligible or Certified",
+      "type": "ID"
+    },
+    "4": {
+      "name": "Date of Certification",
+      "type": "DT"
+    }
+  },
+  "SPS": {
+    "1": {
+      "name": "Specimen Source Name or Code",
+      "type": "CWE"
+    },
+    "2": {
+      "name": "Additives",
+      "type": "CWE"
+    },
+    "3": {
+      "name": "Specimen Collection Method",
+      "type": "TX"
+    },
+    "4": {
+      "name": "Body Site",
+      "type": "CWE"
+    },
+    "5": {
+      "name": "Site Modifier",
+      "type": "CWE"
+    },
+    "6": {
+      "name": "Collection Method Modifier Code",
+      "type": "CWE"
+    },
+    "7": {
+      "name": "Specimen Role",
+      "type": "CWE"
+    }
+  },
+  "SRT": {
+    "1": {
+      "name": "Sort-by Field",
+      "type": "ST"
+    },
+    "2": {
+      "name": "Sequencing",
+      "type": "ID"
+    }
+  },
+  "TQ": {
+    "1": {
+      "name": "Quantity",
+      "type": "CQ"
+    },
+    "2": {
+      "name": "Interval",
+      "type": "RI"
+    },
+    "3": {
+      "name": "Duration",
+      "type": "ST"
+    },
+    "4": {
+      "name": "Start Date/Time",
+      "type": "TS"
+    },
+    "5": {
+      "name": "End Date/Time",
+      "type": "TS"
+    },
+    "6": {
+      "name": "Priority",
+      "type": "ST"
+    },
+    "7": {
+      "name": "Condition",
+      "type": "ST"
+    },
+    "8": {
+      "name": "Text",
+      "type": "TX"
+    },
+    "9": {
+      "name": "Conjunction",
+      "type": "ID"
+    },
+    "10": {
+      "name": "Order Sequencing",
+      "type": "OSD"
+    },
+    "11": {
+      "name": "Occurrence Duration",
+      "type": "CE"
+    },
+    "12": {
+      "name": "Total Occurrences",
+      "type": "NM"
+    }
+  },
+  "TS": {
+    "1": {
+      "name": "Time",
+      "type": "DTM"
+    },
+    "2": {
+      "name": "Degree of Precision",
+      "type": "ID"
+    }
+  },
+  "UVC": {
+    "1": {
+      "name": "Value Code",
+      "type": "CNE"
+    },
+    "2": {
+      "name": "Value Amount",
+      "type": "MO"
+    }
+  },
+  "VH": {
+    "1": {
+      "name": "Start Day Range",
+      "type": "ID"
+    },
+    "2": {
+      "name": "End Day Range",
+      "type": "ID"
+    },
+    "3": {
+      "name": "Start Hour Range",
+      "type": "TM"
+    },
+    "4": {
+      "name": "End Hour Range",
+      "type": "TM"
+    }
+  },
+  "VID": {
+    "1": {
+      "name": "Version ID",
+      "type": "ID"
+    },
+    "2": {
+      "name": "Internationalization Code",
+      "type": "CE"
+    },
+    "3": {
+      "name": "International Version ID",
+      "type": "CE"
+    }
+  },
+  "VR": {
+    "1": {
+      "name": "First Data Code Value",
+      "type": "ST"
+    },
+    "2": {
+      "name": "Last Data Code Value",
+      "type": "ST"
+    }
+  },
+  "WVI": {
+    "1": {
+      "name": "Channel Number",
+      "type": "NM"
+    },
+    "2": {
+      "name": "Channel Name",
+      "type": "ST"
+    }
+  },
+  "WVS": {
+    "1": {
+      "name": "Source One Name",
+      "type": "ST"
+    },
+    "2": {
+      "name": "Source Two Name",
+      "type": "ST"
+    }
+  },
+  "XAD": {
+    "1": {
+      "name": "Street Address",
+      "type": "SAD"
+    },
+    "2": {
+      "name": "Other Designation",
+      "type": "ST"
+    },
+    "3": {
+      "name": "City",
+      "type": "ST"
+    },
+    "4": {
+      "name": "State or Province",
+      "type": "ST"
+    },
+    "5": {
+      "name": "Zip or Postal Code",
+      "type": "ST"
+    },
+    "6": {
+      "name": "Country",
+      "type": "ID"
+    },
+    "7": {
+      "name": "Address Type",
+      "type": "ID"
+    },
+    "8": {
+      "name": "Other Geographic Designation",
+      "type": "ST"
+    },
+    "9": {
+      "name": "County/Parish Code",
+      "type": "IS"
+    },
+    "10": {
+      "name": "Census Tract",
+      "type": "IS"
+    },
+    "11": {
+      "name": "Address Representation Code",
+      "type": "ID"
+    },
+    "12": {
+      "name": "Address Validity Range",
+      "type": "DR"
+    },
+    "13": {
+      "name": "Effective Date",
+      "type": "TS"
+    },
+    "14": {
+      "name": "Expiration Date",
+      "type": "TS"
+    }
+  },
+  "XCN": {
+    "1": {
+      "name": "ID Number",
+      "type": "ST"
+    },
+    "2": {
+      "name": "Family Name",
+      "type": "FN"
+    },
+    "3": {
+      "name": "Given Name",
+      "type": "ST"
+    },
+    "4": {
+      "name": "Second and Further Given Names or Initials Thereof",
+      "type": "ST"
+    },
+    "5": {
+      "name": "Suffix (e.g., JR or III)",
+      "type": "ST"
+    },
+    "6": {
+      "name": "Prefix (e.g., DR)",
+      "type": "ST"
+    },
+    "7": {
+      "name": "Degree (e.g., MD)",
+      "type": "IS"
+    },
+    "8": {
+      "name": "Source Table",
+      "type": "IS"
+    },
+    "9": {
+      "name": "Assigning Authority",
+      "type": "HD"
+    },
+    "10": {
+      "name": "Name Type Code",
+      "type": "ID"
+    },
+    "11": {
+      "name": "Identifier Check Digit",
+      "type": "ST"
+    },
+    "12": {
+      "name": "Check Digit Scheme",
+      "type": "ID"
+    },
+    "13": {
+      "name": "Identifier Type Code",
+      "type": "ID"
+    },
+    "14": {
+      "name": "Assigning Facility",
+      "type": "HD"
+    },
+    "15": {
+      "name": "Name Representation Code",
+      "type": "ID"
+    },
+    "16": {
+      "name": "Name Context",
+      "type": "CE"
+    },
+    "17": {
+      "name": "Name Validity Range",
+      "type": "DR"
+    },
+    "18": {
+      "name": "Name Assembly Order",
+      "type": "ID"
+    },
+    "19": {
+      "name": "Effective Date",
+      "type": "TS"
+    },
+    "20": {
+      "name": "Expiration Date",
+      "type": "TS"
+    },
+    "21": {
+      "name": "Professional Suffix",
+      "type": "ST"
+    },
+    "22": {
+      "name": "Assigning Jurisdiction",
+      "type": "CWE"
+    },
+    "23": {
+      "name": "Assigning Agency or Department",
+      "type": "CWE"
+    }
+  },
+  "XON": {
+    "1": {
+      "name": "Organization Name",
+      "type": "ST"
+    },
+    "2": {
+      "name": "Organization Name Type Code",
+      "type": "IS"
+    },
+    "3": {
+      "name": "ID Number",
+      "type": "NM"
+    },
+    "4": {
+      "name": "Check Digit",
+      "type": "NM"
+    },
+    "5": {
+      "name": "Check Digit Scheme",
+      "type": "ID"
+    },
+    "6": {
+      "name": "Assigning Authority",
+      "type": "HD"
+    },
+    "7": {
+      "name": "Identifier Type Code",
+      "type": "ID"
+    },
+    "8": {
+      "name": "Assigning Facility",
+      "type": "HD"
+    },
+    "9": {
+      "name": "Name Representation Code",
+      "type": "ID"
+    },
+    "10": {
+      "name": "Organization Identifier",
+      "type": "ST"
+    }
+  },
+  "XPN": {
+    "1": {
+      "name": "Family Name",
+      "type": "FN"
+    },
+    "2": {
+      "name": "Given Name",
+      "type": "ST"
+    },
+    "3": {
+      "name": "Second and Further Given Names or Initials Thereof",
+      "type": "ST"
+    },
+    "4": {
+      "name": "Suffix (e.g., JR or III)",
+      "type": "ST"
+    },
+    "5": {
+      "name": "Prefix (e.g., DR)",
+      "type": "ST"
+    },
+    "6": {
+      "name": "Degree (e.g., MD)",
+      "type": "IS"
+    },
+    "7": {
+      "name": "Name Type Code",
+      "type": "ID"
+    },
+    "8": {
+      "name": "Name Representation Code",
+      "type": "ID"
+    },
+    "9": {
+      "name": "Name Context",
+      "type": "CE"
+    },
+    "10": {
+      "name": "Name Validity Range",
+      "type": "DR"
+    },
+    "11": {
+      "name": "Name Assembly Order",
+      "type": "ID"
+    },
+    "12": {
+      "name": "Effective Date",
+      "type": "TS"
+    },
+    "13": {
+      "name": "Expiration Date",
+      "type": "TS"
+    },
+    "14": {
+      "name": "Professional Suffix",
+      "type": "ST"
+    }
+  },
+  "XTN": {
+    "1": {
+      "name": "Telephone Number",
+      "type": "ST"
+    },
+    "2": {
+      "name": "Telecommunication Use Code",
+      "type": "ID"
+    },
+    "3": {
+      "name": "Telecommunication Equipment Type",
+      "type": "ID"
+    },
+    "4": {
+      "name": "Email Address",
+      "type": "ST"
+    },
+    "5": {
+      "name": "Country Code",
+      "type": "NM"
+    },
+    "6": {
+      "name": "Area/City Code",
+      "type": "NM"
+    },
+    "7": {
+      "name": "Local Number",
+      "type": "NM"
+    },
+    "8": {
+      "name": "Extension",
+      "type": "NM"
+    },
+    "9": {
+      "name": "Any Text",
+      "type": "ST"
+    },
+    "10": {
+      "name": "Extension Prefix",
+      "type": "ST"
+    },
+    "11": {
+      "name": "Speed Dial Code",
+      "type": "ST"
+    },
+    "12": {
+      "name": "Unformatted Telephone number",
+      "type": "ST"
+    }
+  }
+}

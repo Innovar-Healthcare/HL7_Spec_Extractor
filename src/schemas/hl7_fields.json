@@ -1,0 +1,8410 @@
+{
+  "ABS.1": {
+    "field_name": "Discharge Care Provider",
+    "field_type": "XCN"
+  },
+  "ABS.2": {
+    "field_name": "Transfer Medical Service Code",
+    "field_type": "CE"
+  },
+  "ABS.3": {
+    "field_name": "Severity of Illness Code",
+    "field_type": "CE"
+  },
+  "ABS.4": {
+    "field_name": "Date/Time of Attestation",
+    "field_type": "TS"
+  },
+  "ABS.5": {
+    "field_name": "Attested By",
+    "field_type": "XCN"
+  },
+  "ABS.6": {
+    "field_name": "Triage Code",
+    "field_type": "CE"
+  },
+  "ABS.7": {
+    "field_name": "Abstract Completion Date/Time",
+    "field_type": "TS"
+  },
+  "ABS.8": {
+    "field_name": "Abstracted By",
+    "field_type": "XCN"
+  },
+  "ABS.9": {
+    "field_name": "Case Category Code",
+    "field_type": "CE"
+  },
+  "ABS.10": {
+    "field_name": "Caesarian Section Indicator",
+    "field_type": "ID"
+  },
+  "ABS.11": {
+    "field_name": "Gestation Category Code",
+    "field_type": "CE"
+  },
+  "ABS.12": {
+    "field_name": "Gestation Period - Weeks",
+    "field_type": "NM"
+  },
+  "ABS.13": {
+    "field_name": "Newborn Code",
+    "field_type": "CE"
+  },
+  "ABS.14": {
+    "field_name": "Stillborn Indicator",
+    "field_type": "ID"
+  },
+  "ACC.1": {
+    "field_name": "Accident Date/Time",
+    "field_type": "TS"
+  },
+  "ACC.2": {
+    "field_name": "Accident Code",
+    "field_type": "CE"
+  },
+  "ACC.3": {
+    "field_name": "Accident Location",
+    "field_type": "ST"
+  },
+  "ACC.4": {
+    "field_name": "Auto Accident State",
+    "field_type": "CE"
+  },
+  "ACC.5": {
+    "field_name": "Accident Job Related Indicator",
+    "field_type": "ID"
+  },
+  "ACC.6": {
+    "field_name": "Accident Death Indicator",
+    "field_type": "ID"
+  },
+  "ACC.7": {
+    "field_name": "Entered By",
+    "field_type": "XCN"
+  },
+  "ACC.8": {
+    "field_name": "Accident Description",
+    "field_type": "ST"
+  },
+  "ACC.9": {
+    "field_name": "Brought In By",
+    "field_type": "ST"
+  },
+  "ACC.10": {
+    "field_name": "Police Notified Indicator",
+    "field_type": "ID"
+  },
+  "ACC.11": {
+    "field_name": "Accident Address",
+    "field_type": "XAD"
+  },
+  "ADD.1": {
+    "field_name": "Addendum Continuation Pointer",
+    "field_type": "ST"
+  },
+  "AFF.1": {
+    "field_name": "Set ID - AFF",
+    "field_type": "SI"
+  },
+  "AFF.2": {
+    "field_name": "Professional Organization",
+    "field_type": "XON"
+  },
+  "AFF.3": {
+    "field_name": "Professional Organization Address",
+    "field_type": "XAD"
+  },
+  "AFF.4": {
+    "field_name": "Professional Organization Affiliation Date Range",
+    "field_type": "DR"
+  },
+  "AFF.5": {
+    "field_name": "Professional Affiliation Additional Information",
+    "field_type": "ST"
+  },
+  "AIG.1": {
+    "field_name": "Set ID - AIG",
+    "field_type": "SI"
+  },
+  "AIG.2": {
+    "field_name": "Segment Action Code",
+    "field_type": "ID"
+  },
+  "AIG.3": {
+    "field_name": "Resource ID",
+    "field_type": "CE"
+  },
+  "AIG.4": {
+    "field_name": "Resource Type",
+    "field_type": "CE"
+  },
+  "AIG.5": {
+    "field_name": "Resource Group",
+    "field_type": "CE"
+  },
+  "AIG.6": {
+    "field_name": "Resource Quantity",
+    "field_type": "NM"
+  },
+  "AIG.7": {
+    "field_name": "Resource Quantity Units",
+    "field_type": "CE"
+  },
+  "AIG.8": {
+    "field_name": "Start Date/Time",
+    "field_type": "TS"
+  },
+  "AIG.9": {
+    "field_name": "Start Date/Time Offset",
+    "field_type": "NM"
+  },
+  "AIG.10": {
+    "field_name": "Start Date/Time Offset Units",
+    "field_type": "CE"
+  },
+  "AIG.11": {
+    "field_name": "Duration",
+    "field_type": "NM"
+  },
+  "AIG.12": {
+    "field_name": "Duration Units",
+    "field_type": "CE"
+  },
+  "AIG.13": {
+    "field_name": "Allow Substitution Code",
+    "field_type": "IS"
+  },
+  "AIG.14": {
+    "field_name": "Filler Status Code",
+    "field_type": "CE"
+  },
+  "AIL.1": {
+    "field_name": "Set ID - AIL",
+    "field_type": "SI"
+  },
+  "AIL.2": {
+    "field_name": "Segment Action Code",
+    "field_type": "ID"
+  },
+  "AIL.3": {
+    "field_name": "Location Resource ID",
+    "field_type": "PL"
+  },
+  "AIL.4": {
+    "field_name": "Location Type-AIL",
+    "field_type": "CE"
+  },
+  "AIL.5": {
+    "field_name": "Location Group",
+    "field_type": "CE"
+  },
+  "AIL.6": {
+    "field_name": "Start Date/Time",
+    "field_type": "TS"
+  },
+  "AIL.7": {
+    "field_name": "Start Date/Time Offset",
+    "field_type": "NM"
+  },
+  "AIL.8": {
+    "field_name": "Start Date/Time Offset Units",
+    "field_type": "CE"
+  },
+  "AIL.9": {
+    "field_name": "Duration",
+    "field_type": "NM"
+  },
+  "AIL.10": {
+    "field_name": "Duration Units",
+    "field_type": "CE"
+  },
+  "AIL.11": {
+    "field_name": "Allow Substitution Code",
+    "field_type": "IS"
+  },
+  "AIL.12": {
+    "field_name": "Filler Status Code",
+    "field_type": "CE"
+  },
+  "AIP.1": {
+    "field_name": "Set ID - AIP",
+    "field_type": "SI"
+  },
+  "AIP.2": {
+    "field_name": "Segment Action Code",
+    "field_type": "ID"
+  },
+  "AIP.3": {
+    "field_name": "Personnel Resource ID",
+    "field_type": "XCN"
+  },
+  "AIP.4": {
+    "field_name": "Resource Type",
+    "field_type": "CE"
+  },
+  "AIP.5": {
+    "field_name": "Resource Group",
+    "field_type": "CE"
+  },
+  "AIP.6": {
+    "field_name": "Start Date/Time",
+    "field_type": "TS"
+  },
+  "AIP.7": {
+    "field_name": "Start Date/Time Offset",
+    "field_type": "NM"
+  },
+  "AIP.8": {
+    "field_name": "Start Date/Time Offset Units",
+    "field_type": "CE"
+  },
+  "AIP.9": {
+    "field_name": "Duration",
+    "field_type": "NM"
+  },
+  "AIP.10": {
+    "field_name": "Duration Units",
+    "field_type": "CE"
+  },
+  "AIP.11": {
+    "field_name": "Allow Substitution Code",
+    "field_type": "IS"
+  },
+  "AIP.12": {
+    "field_name": "Filler Status Code",
+    "field_type": "CE"
+  },
+  "AIS.1": {
+    "field_name": "Set ID - AIS",
+    "field_type": "SI"
+  },
+  "AIS.2": {
+    "field_name": "Segment Action Code",
+    "field_type": "ID"
+  },
+  "AIS.3": {
+    "field_name": "Universal Service Identifier",
+    "field_type": "CE"
+  },
+  "AIS.4": {
+    "field_name": "Start Date/Time",
+    "field_type": "TS"
+  },
+  "AIS.5": {
+    "field_name": "Start Date/Time Offset",
+    "field_type": "NM"
+  },
+  "AIS.6": {
+    "field_name": "Start Date/Time Offset Units",
+    "field_type": "CE"
+  },
+  "AIS.7": {
+    "field_name": "Duration",
+    "field_type": "NM"
+  },
+  "AIS.8": {
+    "field_name": "Duration Units",
+    "field_type": "CE"
+  },
+  "AIS.9": {
+    "field_name": "Allow Substitution Code",
+    "field_type": "IS"
+  },
+  "AIS.10": {
+    "field_name": "Filler Status Code",
+    "field_type": "CE"
+  },
+  "AIS.11": {
+    "field_name": "Placer Supplemental Service Information",
+    "field_type": "CE"
+  },
+  "AIS.12": {
+    "field_name": "Filler Supplemental Service Information",
+    "field_type": "CE"
+  },
+  "AL1.1": {
+    "field_name": "Set ID - AL1",
+    "field_type": "SI"
+  },
+  "AL1.2": {
+    "field_name": "Allergen Type Code",
+    "field_type": "CE"
+  },
+  "AL1.3": {
+    "field_name": "Allergen Code/Mnemonic/Description",
+    "field_type": "CE"
+  },
+  "AL1.4": {
+    "field_name": "Allergy Severity Code",
+    "field_type": "CE"
+  },
+  "AL1.5": {
+    "field_name": "Allergy Reaction Code",
+    "field_type": "ST"
+  },
+  "AL1.6": {
+    "field_name": "Identification Date",
+    "field_type": "DT"
+  },
+  "APR.1": {
+    "field_name": "Time Selection Criteria",
+    "field_type": "SCV"
+  },
+  "APR.2": {
+    "field_name": "Resource Selection Criteria",
+    "field_type": "SCV"
+  },
+  "APR.3": {
+    "field_name": "Location Selection Criteria",
+    "field_type": "SCV"
+  },
+  "APR.4": {
+    "field_name": "Slot Spacing Criteria",
+    "field_type": "NM"
+  },
+  "APR.5": {
+    "field_name": "Filler Override Criteria",
+    "field_type": "SCV"
+  },
+  "ARQ.1": {
+    "field_name": "Placer Appointment ID",
+    "field_type": "EI"
+  },
+  "ARQ.2": {
+    "field_name": "Filler Appointment ID",
+    "field_type": "EI"
+  },
+  "ARQ.3": {
+    "field_name": "Occurrence Number",
+    "field_type": "NM"
+  },
+  "ARQ.4": {
+    "field_name": "Placer Group Number",
+    "field_type": "EI"
+  },
+  "ARQ.5": {
+    "field_name": "Schedule ID",
+    "field_type": "CE"
+  },
+  "ARQ.6": {
+    "field_name": "Request Event Reason",
+    "field_type": "CE"
+  },
+  "ARQ.7": {
+    "field_name": "Appointment Reason",
+    "field_type": "CE"
+  },
+  "ARQ.8": {
+    "field_name": "Appointment Type",
+    "field_type": "CE"
+  },
+  "ARQ.9": {
+    "field_name": "Appointment Duration",
+    "field_type": "NM"
+  },
+  "ARQ.10": {
+    "field_name": "Appointment Duration Units",
+    "field_type": "CE"
+  },
+  "ARQ.11": {
+    "field_name": "Requested Start Date/Time Range",
+    "field_type": "DR"
+  },
+  "ARQ.12": {
+    "field_name": "Priority-ARQ",
+    "field_type": "ST"
+  },
+  "ARQ.13": {
+    "field_name": "Repeating Interval",
+    "field_type": "RI"
+  },
+  "ARQ.14": {
+    "field_name": "Repeating Interval Duration",
+    "field_type": "ST"
+  },
+  "ARQ.15": {
+    "field_name": "Placer Contact Person",
+    "field_type": "XCN"
+  },
+  "ARQ.16": {
+    "field_name": "Placer Contact Phone Number",
+    "field_type": "XTN"
+  },
+  "ARQ.17": {
+    "field_name": "Placer Contact Address",
+    "field_type": "XAD"
+  },
+  "ARQ.18": {
+    "field_name": "Placer Contact Location",
+    "field_type": "PL"
+  },
+  "ARQ.19": {
+    "field_name": "Entered By Person",
+    "field_type": "XCN"
+  },
+  "ARQ.20": {
+    "field_name": "Entered By Phone Number",
+    "field_type": "XTN"
+  },
+  "ARQ.21": {
+    "field_name": "Entered By Location",
+    "field_type": "PL"
+  },
+  "ARQ.22": {
+    "field_name": "Parent Placer Appointment ID",
+    "field_type": "EI"
+  },
+  "ARQ.23": {
+    "field_name": "Parent Filler Appointment ID",
+    "field_type": "EI"
+  },
+  "ARQ.24": {
+    "field_name": "Placer Order Number",
+    "field_type": "EI"
+  },
+  "ARQ.25": {
+    "field_name": "Filler Order Number",
+    "field_type": "EI"
+  },
+  "AUT.1": {
+    "field_name": "Authorizing Payor, Plan ID",
+    "field_type": "CE"
+  },
+  "AUT.2": {
+    "field_name": "Authorizing Payor, Company ID",
+    "field_type": "CE"
+  },
+  "AUT.3": {
+    "field_name": "Authorizing Payor, Company Name",
+    "field_type": "ST"
+  },
+  "AUT.4": {
+    "field_name": "Authorization Effective Date",
+    "field_type": "TS"
+  },
+  "AUT.5": {
+    "field_name": "Authorization Expiration Date",
+    "field_type": "TS"
+  },
+  "AUT.6": {
+    "field_name": "Authorization Identifier",
+    "field_type": "EI"
+  },
+  "AUT.7": {
+    "field_name": "Reimbursement Limit",
+    "field_type": "CP"
+  },
+  "AUT.8": {
+    "field_name": "Requested Number of Treatments",
+    "field_type": "NM"
+  },
+  "AUT.9": {
+    "field_name": "Authorized Number of Treatments",
+    "field_type": "NM"
+  },
+  "AUT.10": {
+    "field_name": "Process Date",
+    "field_type": "TS"
+  },
+  "BHS.1": {
+    "field_name": "Batch Field Separator",
+    "field_type": "ST"
+  },
+  "BHS.2": {
+    "field_name": "Batch Encoding Characters",
+    "field_type": "ST"
+  },
+  "BHS.3": {
+    "field_name": "Batch Sending Application",
+    "field_type": "HD"
+  },
+  "BHS.4": {
+    "field_name": "Batch Sending Facility",
+    "field_type": "HD"
+  },
+  "BHS.5": {
+    "field_name": "Batch Receiving Application",
+    "field_type": "HD"
+  },
+  "BHS.6": {
+    "field_name": "Batch Receiving Facility",
+    "field_type": "HD"
+  },
+  "BHS.7": {
+    "field_name": "Batch Creation Date/Time",
+    "field_type": "TS"
+  },
+  "BHS.8": {
+    "field_name": "Batch Security",
+    "field_type": "ST"
+  },
+  "BHS.9": {
+    "field_name": "Batch Name/ID/Type",
+    "field_type": "ST"
+  },
+  "BHS.10": {
+    "field_name": "Batch Comment",
+    "field_type": "ST"
+  },
+  "BHS.11": {
+    "field_name": "Batch Control ID",
+    "field_type": "ST"
+  },
+  "BHS.12": {
+    "field_name": "Reference Batch Control ID",
+    "field_type": "ST"
+  },
+  "BLC.1": {
+    "field_name": "Blood Product Code",
+    "field_type": "CE"
+  },
+  "BLC.2": {
+    "field_name": "Blood Amount",
+    "field_type": "CQ"
+  },
+  "BLG.1": {
+    "field_name": "When to Charge",
+    "field_type": "CCD"
+  },
+  "BLG.2": {
+    "field_name": "Charge Type",
+    "field_type": "ID"
+  },
+  "BLG.3": {
+    "field_name": "Account ID",
+    "field_type": "CX"
+  },
+  "BLG.4": {
+    "field_name": "Charge Type Reason",
+    "field_type": "CWE"
+  },
+  "BPO.1": {
+    "field_name": "Set ID - BPO",
+    "field_type": "SI"
+  },
+  "BPO.2": {
+    "field_name": "BP Universal Service ID",
+    "field_type": "CWE"
+  },
+  "BPO.3": {
+    "field_name": "BP  Processing Requirements",
+    "field_type": "CWE"
+  },
+  "BPO.4": {
+    "field_name": "BP Quantity",
+    "field_type": "NM"
+  },
+  "BPO.5": {
+    "field_name": "BP Amount",
+    "field_type": "NM"
+  },
+  "BPO.6": {
+    "field_name": "BP Units",
+    "field_type": "CE"
+  },
+  "BPO.7": {
+    "field_name": "BP Intended Use Date/Time",
+    "field_type": "TS"
+  },
+  "BPO.8": {
+    "field_name": "BP Intended Dispense From Location",
+    "field_type": "PL"
+  },
+  "BPO.9": {
+    "field_name": "BP Intended Dispense From Address",
+    "field_type": "XAD"
+  },
+  "BPO.10": {
+    "field_name": "BP Requested Dispense Date/Time",
+    "field_type": "TS"
+  },
+  "BPO.11": {
+    "field_name": "BP Requested Dispense To Location",
+    "field_type": "PL"
+  },
+  "BPO.12": {
+    "field_name": "BP Requested Dispense To Address",
+    "field_type": "XAD"
+  },
+  "BPO.13": {
+    "field_name": "BP Indication for Use",
+    "field_type": "CWE"
+  },
+  "BPO.14": {
+    "field_name": "BP Informed Consent Indicator",
+    "field_type": "ID"
+  },
+  "BPX.1": {
+    "field_name": "Set ID - BPX",
+    "field_type": "SI"
+  },
+  "BPX.2": {
+    "field_name": "BP Dispense Status",
+    "field_type": "CWE"
+  },
+  "BPX.3": {
+    "field_name": "BP Status",
+    "field_type": "ID"
+  },
+  "BPX.4": {
+    "field_name": "BP Date/Time of Status",
+    "field_type": "TS"
+  },
+  "BPX.5": {
+    "field_name": "BC Donation ID",
+    "field_type": "EI"
+  },
+  "BPX.6": {
+    "field_name": "BC Component",
+    "field_type": "CNE"
+  },
+  "BPX.7": {
+    "field_name": "BC Donation Type / Intended Use",
+    "field_type": "CNE"
+  },
+  "BPX.8": {
+    "field_name": "CP Commercial Product",
+    "field_type": "CWE"
+  },
+  "BPX.9": {
+    "field_name": "CP Manufacturer",
+    "field_type": "XON"
+  },
+  "BPX.10": {
+    "field_name": "CP Lot Number",
+    "field_type": "EI"
+  },
+  "BPX.11": {
+    "field_name": "BP Blood Group",
+    "field_type": "CNE"
+  },
+  "BPX.12": {
+    "field_name": "BC Special Testing",
+    "field_type": "CNE"
+  },
+  "BPX.13": {
+    "field_name": "BP Expiration Date/Time",
+    "field_type": "TS"
+  },
+  "BPX.14": {
+    "field_name": "BP Quantity",
+    "field_type": "NM"
+  },
+  "BPX.15": {
+    "field_name": "BP Amount",
+    "field_type": "NM"
+  },
+  "BPX.16": {
+    "field_name": "BP Units",
+    "field_type": "CE"
+  },
+  "BPX.17": {
+    "field_name": "BP Unique ID",
+    "field_type": "EI"
+  },
+  "BPX.18": {
+    "field_name": "BP Actual Dispensed To Location",
+    "field_type": "PL"
+  },
+  "BPX.19": {
+    "field_name": "BP Actual Dispensed To Address",
+    "field_type": "XAD"
+  },
+  "BPX.20": {
+    "field_name": "BP Dispensed to Receiver",
+    "field_type": "XCN"
+  },
+  "BPX.21": {
+    "field_name": "BP Dispensing Individual",
+    "field_type": "XCN"
+  },
+  "BTS.1": {
+    "field_name": "Batch Message Count",
+    "field_type": "ST"
+  },
+  "BTS.2": {
+    "field_name": "Batch Comment",
+    "field_type": "ST"
+  },
+  "BTS.3": {
+    "field_name": "Batch Totals",
+    "field_type": "NM"
+  },
+  "BTX.1": {
+    "field_name": "Set ID - BTX",
+    "field_type": "SI"
+  },
+  "BTX.2": {
+    "field_name": "BC Donation ID",
+    "field_type": "EI"
+  },
+  "BTX.3": {
+    "field_name": "BC Component",
+    "field_type": "CNE"
+  },
+  "BTX.4": {
+    "field_name": "BC Blood Group",
+    "field_type": "CNE"
+  },
+  "BTX.5": {
+    "field_name": "CP Commercial Product",
+    "field_type": "CWE"
+  },
+  "BTX.6": {
+    "field_name": "CP Manufacturer",
+    "field_type": "XON"
+  },
+  "BTX.7": {
+    "field_name": "CP Lot Number",
+    "field_type": "EI"
+  },
+  "BTX.8": {
+    "field_name": "BP Quantity",
+    "field_type": "NM"
+  },
+  "BTX.9": {
+    "field_name": "BP Amount",
+    "field_type": "NM"
+  },
+  "BTX.10": {
+    "field_name": "BP Units",
+    "field_type": "CE"
+  },
+  "BTX.11": {
+    "field_name": "BP Transfusion/Disposition Status",
+    "field_type": "CWE"
+  },
+  "BTX.12": {
+    "field_name": "BP Message Status",
+    "field_type": "ID"
+  },
+  "BTX.13": {
+    "field_name": "BP Date/Time of Status",
+    "field_type": "TS"
+  },
+  "BTX.14": {
+    "field_name": "BP Administrator",
+    "field_type": "XCN"
+  },
+  "BTX.15": {
+    "field_name": "BP Verifier",
+    "field_type": "XCN"
+  },
+  "BTX.16": {
+    "field_name": "BP Transfusion Start Date/Time of Status",
+    "field_type": "TS"
+  },
+  "BTX.17": {
+    "field_name": "BP Transfusion End Date/Time of Status",
+    "field_type": "TS"
+  },
+  "BTX.18": {
+    "field_name": "BP Adverse Reaction Type",
+    "field_type": "CWE"
+  },
+  "BTX.19": {
+    "field_name": "BP Transfusion Interrupted Reason",
+    "field_type": "CWE"
+  },
+  "CDM.1": {
+    "field_name": "Primary Key Value - CDM",
+    "field_type": "CE"
+  },
+  "CDM.2": {
+    "field_name": "Charge Code Alias",
+    "field_type": "CE"
+  },
+  "CDM.3": {
+    "field_name": "Charge Description Short",
+    "field_type": "ST"
+  },
+  "CDM.4": {
+    "field_name": "Charge Description Long",
+    "field_type": "ST"
+  },
+  "CDM.5": {
+    "field_name": "Description Override Indicator",
+    "field_type": "IS"
+  },
+  "CDM.6": {
+    "field_name": "Exploding Charges",
+    "field_type": "CE"
+  },
+  "CDM.7": {
+    "field_name": "Procedure Code",
+    "field_type": "CE"
+  },
+  "CDM.8": {
+    "field_name": "Active/Inactive Flag",
+    "field_type": "ID"
+  },
+  "CDM.9": {
+    "field_name": "Inventory Number",
+    "field_type": "CE"
+  },
+  "CDM.10": {
+    "field_name": "Resource Load",
+    "field_type": "NM"
+  },
+  "CDM.11": {
+    "field_name": "Contract Number",
+    "field_type": "CX"
+  },
+  "CDM.12": {
+    "field_name": "Contract Organization",
+    "field_type": "XON"
+  },
+  "CDM.13": {
+    "field_name": "Room Fee Indicator",
+    "field_type": "ID"
+  },
+  "CER.1": {
+    "field_name": "Set ID - CER",
+    "field_type": "SI"
+  },
+  "CER.2": {
+    "field_name": "Serial Number",
+    "field_type": "ST"
+  },
+  "CER.3": {
+    "field_name": "Version",
+    "field_type": "ST"
+  },
+  "CER.4": {
+    "field_name": "Granting Authority",
+    "field_type": "XON"
+  },
+  "CER.5": {
+    "field_name": "Issuing Authority",
+    "field_type": "XCN"
+  },
+  "CER.6": {
+    "field_name": "Signature of Issuing Authority",
+    "field_type": "ED"
+  },
+  "CER.7": {
+    "field_name": "Granting Country",
+    "field_type": "ID"
+  },
+  "CER.8": {
+    "field_name": "Granting State/Province",
+    "field_type": "CWE"
+  },
+  "CER.9": {
+    "field_name": "Granting County/Parish",
+    "field_type": "CWE"
+  },
+  "CER.10": {
+    "field_name": "Certificate Type",
+    "field_type": "CWE"
+  },
+  "CER.11": {
+    "field_name": "Certificate Domain",
+    "field_type": "CWE"
+  },
+  "CER.12": {
+    "field_name": "Subject ID",
+    "field_type": "ID"
+  },
+  "CER.13": {
+    "field_name": "Subject Name",
+    "field_type": "ST"
+  },
+  "CER.14": {
+    "field_name": "Subject Directory Attribute Extension (Health Professional Data)",
+    "field_type": "CWE"
+  },
+  "CER.15": {
+    "field_name": "Subject Public Key Info",
+    "field_type": "CWE"
+  },
+  "CER.16": {
+    "field_name": "Authority Key Identifier",
+    "field_type": "CWE"
+  },
+  "CER.17": {
+    "field_name": "Basic Constraint",
+    "field_type": "ID"
+  },
+  "CER.18": {
+    "field_name": "CRL Distribution Point",
+    "field_type": "CWE"
+  },
+  "CER.19": {
+    "field_name": "Jurisdiction Country",
+    "field_type": "ID"
+  },
+  "CER.20": {
+    "field_name": "Jurisdiction State/Province",
+    "field_type": "CWE"
+  },
+  "CER.21": {
+    "field_name": "Jurisdiction County/Parish",
+    "field_type": "CWE"
+  },
+  "CER.22": {
+    "field_name": "Jurisdiction Breadth",
+    "field_type": "CWE"
+  },
+  "CER.23": {
+    "field_name": "Granting Date",
+    "field_type": "TS"
+  },
+  "CER.24": {
+    "field_name": "Issuing Date",
+    "field_type": "TS"
+  },
+  "CER.25": {
+    "field_name": "Activation Date",
+    "field_type": "TS"
+  },
+  "CER.26": {
+    "field_name": "Inactivation Date",
+    "field_type": "TS"
+  },
+  "CER.27": {
+    "field_name": "Expiration Date",
+    "field_type": "TS"
+  },
+  "CER.28": {
+    "field_name": "Renewal Date",
+    "field_type": "TS"
+  },
+  "CER.29": {
+    "field_name": "Revocation Date",
+    "field_type": "TS"
+  },
+  "CER.30": {
+    "field_name": "Revocation Reason Code",
+    "field_type": "CE"
+  },
+  "CER.31": {
+    "field_name": "Certificate Status",
+    "field_type": "CWE"
+  },
+  "CM0.1": {
+    "field_name": "Set ID - CM0",
+    "field_type": "SI"
+  },
+  "CM0.2": {
+    "field_name": "Sponsor Study ID",
+    "field_type": "EI"
+  },
+  "CM0.3": {
+    "field_name": "Alternate Study ID",
+    "field_type": "EI"
+  },
+  "CM0.4": {
+    "field_name": "Title of Study",
+    "field_type": "ST"
+  },
+  "CM0.5": {
+    "field_name": "Chairman of Study",
+    "field_type": "XCN"
+  },
+  "CM0.6": {
+    "field_name": "Last IRB Approval Date",
+    "field_type": "DT"
+  },
+  "CM0.7": {
+    "field_name": "Total Accrual to Date",
+    "field_type": "NM"
+  },
+  "CM0.8": {
+    "field_name": "Last Accrual Date",
+    "field_type": "DT"
+  },
+  "CM0.9": {
+    "field_name": "Contact for Study",
+    "field_type": "XCN"
+  },
+  "CM0.10": {
+    "field_name": "Contact's Telephone Number",
+    "field_type": "XTN"
+  },
+  "CM0.11": {
+    "field_name": "Contact's Address",
+    "field_type": "XAD"
+  },
+  "CM1.1": {
+    "field_name": "Set ID - CM1",
+    "field_type": "SI"
+  },
+  "CM1.2": {
+    "field_name": "Study Phase Identifier",
+    "field_type": "CE"
+  },
+  "CM1.3": {
+    "field_name": "Description of Study Phase",
+    "field_type": "ST"
+  },
+  "CM2.1": {
+    "field_name": "Set ID - CM2",
+    "field_type": "SI"
+  },
+  "CM2.2": {
+    "field_name": "Scheduled Time Point",
+    "field_type": "CE"
+  },
+  "CM2.3": {
+    "field_name": "Description of Time Point",
+    "field_type": "ST"
+  },
+  "CM2.4": {
+    "field_name": "Events Scheduled This Time Point",
+    "field_type": "CE"
+  },
+  "CNS.1": {
+    "field_name": "Starting Notification Reference Number",
+    "field_type": "NM"
+  },
+  "CNS.2": {
+    "field_name": "Ending Notification Reference Number",
+    "field_type": "NM"
+  },
+  "CNS.3": {
+    "field_name": "Starting Notification Date/Time",
+    "field_type": "TS"
+  },
+  "CNS.4": {
+    "field_name": "Ending Notification Date/Time",
+    "field_type": "TS"
+  },
+  "CNS.5": {
+    "field_name": "Starting Notification Code",
+    "field_type": "CE"
+  },
+  "CNS.6": {
+    "field_name": "Ending Notification Code",
+    "field_type": "CE"
+  },
+  "CON.1": {
+    "field_name": "Set ID - CON",
+    "field_type": "SI"
+  },
+  "CON.2": {
+    "field_name": "Consent Type",
+    "field_type": "CWE"
+  },
+  "CON.3": {
+    "field_name": "Consent Form ID",
+    "field_type": "ST"
+  },
+  "CON.4": {
+    "field_name": "Consent Form Number",
+    "field_type": "EI"
+  },
+  "CON.5": {
+    "field_name": "Consent Text",
+    "field_type": "FT"
+  },
+  "CON.6": {
+    "field_name": "Subject-specific Consent Text",
+    "field_type": "FT"
+  },
+  "CON.7": {
+    "field_name": "Consent Background",
+    "field_type": "FT"
+  },
+  "CON.8": {
+    "field_name": "Subject-specific Consent Background",
+    "field_type": "FT"
+  },
+  "CON.9": {
+    "field_name": "Consenter-imposed limitations",
+    "field_type": "FT"
+  },
+  "CON.10": {
+    "field_name": "Consent Mode",
+    "field_type": "CNE"
+  },
+  "CON.11": {
+    "field_name": "Consent Status",
+    "field_type": "CNE"
+  },
+  "CON.12": {
+    "field_name": "Consent Discussion Date/Time",
+    "field_type": "TS"
+  },
+  "CON.13": {
+    "field_name": "Consent Decision Date/Time",
+    "field_type": "TS"
+  },
+  "CON.14": {
+    "field_name": "Consent Effective Date/Time",
+    "field_type": "TS"
+  },
+  "CON.15": {
+    "field_name": "Consent End Date/Time",
+    "field_type": "TS"
+  },
+  "CON.16": {
+    "field_name": "Subject Competence Indicator",
+    "field_type": "ID"
+  },
+  "CON.17": {
+    "field_name": "Translator Assistance Indicator",
+    "field_type": "ID"
+  },
+  "CON.18": {
+    "field_name": "Language Translated To",
+    "field_type": "ID"
+  },
+  "CON.19": {
+    "field_name": "Informational Material Supplied Indicator",
+    "field_type": "ID"
+  },
+  "CON.20": {
+    "field_name": "Consent Bypass Reason",
+    "field_type": "CWE"
+  },
+  "CON.21": {
+    "field_name": "Consent Disclosure Level",
+    "field_type": "ID"
+  },
+  "CON.22": {
+    "field_name": "Consent Non-disclosure Reason",
+    "field_type": "CWE"
+  },
+  "CON.23": {
+    "field_name": "Non-subject Consenter Reason",
+    "field_type": "CWE"
+  },
+  "CON.24": {
+    "field_name": "Consenter ID",
+    "field_type": "XPN"
+  },
+  "CON.25": {
+    "field_name": "Relationship to Subject Table",
+    "field_type": "IS"
+  },
+  "CSP.1": {
+    "field_name": "Study Phase Identifier",
+    "field_type": "CE"
+  },
+  "CSP.2": {
+    "field_name": "Date/time Study Phase Began",
+    "field_type": "TS"
+  },
+  "CSP.3": {
+    "field_name": "Date/time Study Phase Ended",
+    "field_type": "TS"
+  },
+  "CSP.4": {
+    "field_name": "Study Phase Evaluability",
+    "field_type": "CE"
+  },
+  "CSR.1": {
+    "field_name": "Sponsor Study ID",
+    "field_type": "EI"
+  },
+  "CSR.2": {
+    "field_name": "Alternate Study ID",
+    "field_type": "EI"
+  },
+  "CSR.3": {
+    "field_name": "Institution Registering the Patient",
+    "field_type": "CE"
+  },
+  "CSR.4": {
+    "field_name": "Sponsor Patient ID",
+    "field_type": "CX"
+  },
+  "CSR.5": {
+    "field_name": "Alternate Patient ID - CSR",
+    "field_type": "CX"
+  },
+  "CSR.6": {
+    "field_name": "Date/Time Of Patient Study Registration",
+    "field_type": "TS"
+  },
+  "CSR.7": {
+    "field_name": "Person Performing Study Registration",
+    "field_type": "XCN"
+  },
+  "CSR.8": {
+    "field_name": "Study Authorizing Provider",
+    "field_type": "XCN"
+  },
+  "CSR.9": {
+    "field_name": "Date/time Patient Study Consent Signed",
+    "field_type": "TS"
+  },
+  "CSR.10": {
+    "field_name": "Patient Study Eligibility Status",
+    "field_type": "CE"
+  },
+  "CSR.11": {
+    "field_name": "Study Randomization Date/time",
+    "field_type": "TS"
+  },
+  "CSR.12": {
+    "field_name": "Randomized Study Arm",
+    "field_type": "CE"
+  },
+  "CSR.13": {
+    "field_name": "Stratum for Study Randomization",
+    "field_type": "CE"
+  },
+  "CSR.14": {
+    "field_name": "Patient Evaluability Status",
+    "field_type": "CE"
+  },
+  "CSR.15": {
+    "field_name": "Date/time Ended Study",
+    "field_type": "TS"
+  },
+  "CSR.16": {
+    "field_name": "Reason Ended Study",
+    "field_type": "CE"
+  },
+  "CSS.1": {
+    "field_name": "Study Scheduled Time Point",
+    "field_type": "CE"
+  },
+  "CSS.2": {
+    "field_name": "Study Scheduled Patient Time Point",
+    "field_type": "TS"
+  },
+  "CSS.3": {
+    "field_name": "Study Quality Control Codes",
+    "field_type": "CE"
+  },
+  "CTD.1": {
+    "field_name": "Contact Role",
+    "field_type": "CE"
+  },
+  "CTD.2": {
+    "field_name": "Contact Name",
+    "field_type": "XPN"
+  },
+  "CTD.3": {
+    "field_name": "Contact Address",
+    "field_type": "XAD"
+  },
+  "CTD.4": {
+    "field_name": "Contact Location",
+    "field_type": "PL"
+  },
+  "CTD.5": {
+    "field_name": "Contact Communication Information",
+    "field_type": "XTN"
+  },
+  "CTD.6": {
+    "field_name": "Preferred Method of Contact",
+    "field_type": "CE"
+  },
+  "CTD.7": {
+    "field_name": "Contact Identifiers",
+    "field_type": "PLN"
+  },
+  "CTI.1": {
+    "field_name": "Sponsor Study ID",
+    "field_type": "EI"
+  },
+  "CTI.2": {
+    "field_name": "Study Phase Identifier",
+    "field_type": "CE"
+  },
+  "CTI.3": {
+    "field_name": "Study Scheduled Time Point",
+    "field_type": "CE"
+  },
+  "DB1.1": {
+    "field_name": "Set ID - DB1",
+    "field_type": "SI"
+  },
+  "DB1.2": {
+    "field_name": "Disabled Person Code",
+    "field_type": "IS"
+  },
+  "DB1.3": {
+    "field_name": "Disabled Person Identifier",
+    "field_type": "CX"
+  },
+  "DB1.4": {
+    "field_name": "Disabled Indicator",
+    "field_type": "ID"
+  },
+  "DB1.5": {
+    "field_name": "Disability Start Date",
+    "field_type": "DT"
+  },
+  "DB1.6": {
+    "field_name": "Disability End Date",
+    "field_type": "DT"
+  },
+  "DB1.7": {
+    "field_name": "Disability Return to Work Date",
+    "field_type": "DT"
+  },
+  "DB1.8": {
+    "field_name": "Disability Unable to Work Date",
+    "field_type": "DT"
+  },
+  "DG1.1": {
+    "field_name": "Set ID - DG1",
+    "field_type": "SI"
+  },
+  "DG1.2": {
+    "field_name": "Diagnosis Coding Method",
+    "field_type": "ID"
+  },
+  "DG1.3": {
+    "field_name": "Diagnosis Code - DG1",
+    "field_type": "CE"
+  },
+  "DG1.4": {
+    "field_name": "Diagnosis Description",
+    "field_type": "ST"
+  },
+  "DG1.5": {
+    "field_name": "Diagnosis Date/Time",
+    "field_type": "TS"
+  },
+  "DG1.6": {
+    "field_name": "Diagnosis Type",
+    "field_type": "IS"
+  },
+  "DG1.7": {
+    "field_name": "Major Diagnostic Category",
+    "field_type": "CE"
+  },
+  "DG1.8": {
+    "field_name": "Diagnostic Related Group",
+    "field_type": "CE"
+  },
+  "DG1.9": {
+    "field_name": "DRG Approval Indicator",
+    "field_type": "ID"
+  },
+  "DG1.10": {
+    "field_name": "DRG Grouper Review Code",
+    "field_type": "IS"
+  },
+  "DG1.11": {
+    "field_name": "Outlier Type",
+    "field_type": "CE"
+  },
+  "DG1.12": {
+    "field_name": "Outlier Days",
+    "field_type": "NM"
+  },
+  "DG1.13": {
+    "field_name": "Outlier Cost",
+    "field_type": "CP"
+  },
+  "DG1.14": {
+    "field_name": "Grouper Version And Type",
+    "field_type": "ST"
+  },
+  "DG1.15": {
+    "field_name": "Diagnosis Priority",
+    "field_type": "ID"
+  },
+  "DG1.16": {
+    "field_name": "Diagnosing Clinician",
+    "field_type": "XCN"
+  },
+  "DG1.17": {
+    "field_name": "Diagnosis Classification",
+    "field_type": "IS"
+  },
+  "DG1.18": {
+    "field_name": "Confidential Indicator",
+    "field_type": "ID"
+  },
+  "DG1.19": {
+    "field_name": "Attestation Date/Time",
+    "field_type": "TS"
+  },
+  "DG1.20": {
+    "field_name": "Diagnosis Identifier",
+    "field_type": "EI"
+  },
+  "DG1.21": {
+    "field_name": "Diagnosis Action Code",
+    "field_type": "ID"
+  },
+  "DRG.1": {
+    "field_name": "Diagnostic Related Group",
+    "field_type": "CE"
+  },
+  "DRG.2": {
+    "field_name": "DRG Assigned Date/Time",
+    "field_type": "TS"
+  },
+  "DRG.3": {
+    "field_name": "DRG Approval Indicator",
+    "field_type": "ID"
+  },
+  "DRG.4": {
+    "field_name": "DRG Grouper Review Code",
+    "field_type": "IS"
+  },
+  "DRG.5": {
+    "field_name": "Outlier Type",
+    "field_type": "CE"
+  },
+  "DRG.6": {
+    "field_name": "Outlier Days",
+    "field_type": "NM"
+  },
+  "DRG.7": {
+    "field_name": "Outlier Cost",
+    "field_type": "CP"
+  },
+  "DRG.8": {
+    "field_name": "DRG Payor",
+    "field_type": "IS"
+  },
+  "DRG.9": {
+    "field_name": "Outlier Reimbursement",
+    "field_type": "CP"
+  },
+  "DRG.10": {
+    "field_name": "Confidential Indicator",
+    "field_type": "ID"
+  },
+  "DRG.11": {
+    "field_name": "DRG Transfer Type",
+    "field_type": "IS"
+  },
+  "DSC.1": {
+    "field_name": "Continuation Pointer",
+    "field_type": "ST"
+  },
+  "DSC.2": {
+    "field_name": "Continuation Style",
+    "field_type": "ID"
+  },
+  "DSP.1": {
+    "field_name": "Set ID - DSP",
+    "field_type": "SI"
+  },
+  "DSP.2": {
+    "field_name": "Display Level",
+    "field_type": "SI"
+  },
+  "DSP.3": {
+    "field_name": "Data Line",
+    "field_type": "TX"
+  },
+  "DSP.4": {
+    "field_name": "Logical Break Point",
+    "field_type": "ST"
+  },
+  "DSP.5": {
+    "field_name": "Result ID",
+    "field_type": "TX"
+  },
+  "ECD.1": {
+    "field_name": "Reference Command Number",
+    "field_type": "NM"
+  },
+  "ECD.2": {
+    "field_name": "Remote Control Command",
+    "field_type": "CE"
+  },
+  "ECD.3": {
+    "field_name": "Response Required",
+    "field_type": "ID"
+  },
+  "ECD.4": {
+    "field_name": "Requested Completion Time",
+    "field_type": "TQ"
+  },
+  "ECD.5": {
+    "field_name": "Parameters",
+    "field_type": "TX"
+  },
+  "ECR.1": {
+    "field_name": "Command Response",
+    "field_type": "CE"
+  },
+  "ECR.2": {
+    "field_name": "Date/Time Completed",
+    "field_type": "TS"
+  },
+  "ECR.3": {
+    "field_name": "Command Response Parameters",
+    "field_type": "TX"
+  },
+  "EDU.1": {
+    "field_name": "Set ID - EDU",
+    "field_type": "SI"
+  },
+  "EDU.2": {
+    "field_name": "Academic Degree",
+    "field_type": "IS"
+  },
+  "EDU.3": {
+    "field_name": "Academic Degree Program Date Range",
+    "field_type": "DR"
+  },
+  "EDU.4": {
+    "field_name": "Academic Degree Program Participation Date Range",
+    "field_type": "DR"
+  },
+  "EDU.5": {
+    "field_name": "Academic Degree Granted Date",
+    "field_type": "DT"
+  },
+  "EDU.6": {
+    "field_name": "School",
+    "field_type": "XON"
+  },
+  "EDU.7": {
+    "field_name": "School Type Code",
+    "field_type": "CE"
+  },
+  "EDU.8": {
+    "field_name": "School Address",
+    "field_type": "XAD"
+  },
+  "EDU.9": {
+    "field_name": "Major Field of Study",
+    "field_type": "CWE"
+  },
+  "EQL.1": {
+    "field_name": "Query Tag",
+    "field_type": "ST"
+  },
+  "EQL.2": {
+    "field_name": "Query/Response Format Code",
+    "field_type": "ID"
+  },
+  "EQL.3": {
+    "field_name": "EQL Query Name",
+    "field_type": "CE"
+  },
+  "EQL.4": {
+    "field_name": "EQL Query Statement",
+    "field_type": "ST"
+  },
+  "EQP.1": {
+    "field_name": "Event type",
+    "field_type": "CE"
+  },
+  "EQP.2": {
+    "field_name": "File Name",
+    "field_type": "ST"
+  },
+  "EQP.3": {
+    "field_name": "Start Date/Time",
+    "field_type": "TS"
+  },
+  "EQP.4": {
+    "field_name": "End Date/Time",
+    "field_type": "TS"
+  },
+  "EQP.5": {
+    "field_name": "Transaction Data",
+    "field_type": "FT"
+  },
+  "EQU.1": {
+    "field_name": "Equipment Instance Identifier",
+    "field_type": "EI"
+  },
+  "EQU.2": {
+    "field_name": "Event Date/Time",
+    "field_type": "TS"
+  },
+  "EQU.3": {
+    "field_name": "Equipment State",
+    "field_type": "CE"
+  },
+  "EQU.4": {
+    "field_name": "Local/Remote Control State",
+    "field_type": "CE"
+  },
+  "EQU.5": {
+    "field_name": "Alert Level",
+    "field_type": "CE"
+  },
+  "ERQ.1": {
+    "field_name": "Query Tag",
+    "field_type": "ST"
+  },
+  "ERQ.2": {
+    "field_name": "Event Identifier",
+    "field_type": "CE"
+  },
+  "ERQ.3": {
+    "field_name": "Input Parameter List",
+    "field_type": "QIP"
+  },
+  "ERR.1": {
+    "field_name": "Error Code and Location",
+    "field_type": "ELD"
+  },
+  "ERR.2": {
+    "field_name": "Error Location",
+    "field_type": "ERL"
+  },
+  "ERR.3": {
+    "field_name": "HL7 Error Code",
+    "field_type": "CWE"
+  },
+  "ERR.4": {
+    "field_name": "Severity",
+    "field_type": "ID"
+  },
+  "ERR.5": {
+    "field_name": "Application Error Code",
+    "field_type": "CWE"
+  },
+  "ERR.6": {
+    "field_name": "Application Error Parameter",
+    "field_type": "ST"
+  },
+  "ERR.7": {
+    "field_name": "Diagnostic Information",
+    "field_type": "TX"
+  },
+  "ERR.8": {
+    "field_name": "User Message",
+    "field_type": "TX"
+  },
+  "ERR.9": {
+    "field_name": "Inform Person Indicator",
+    "field_type": "IS"
+  },
+  "ERR.10": {
+    "field_name": "Override Type",
+    "field_type": "CWE"
+  },
+  "ERR.11": {
+    "field_name": "Override Reason Code",
+    "field_type": "CWE"
+  },
+  "ERR.12": {
+    "field_name": "Help Desk Contact Point",
+    "field_type": "XTN"
+  },
+  "EVN.1": {
+    "field_name": "Event Type Code",
+    "field_type": "ID"
+  },
+  "EVN.2": {
+    "field_name": "Recorded Date/Time",
+    "field_type": "TS"
+  },
+  "EVN.3": {
+    "field_name": "Date/Time Planned Event",
+    "field_type": "TS"
+  },
+  "EVN.4": {
+    "field_name": "Event Reason Code",
+    "field_type": "IS"
+  },
+  "EVN.5": {
+    "field_name": "Operator ID",
+    "field_type": "XCN"
+  },
+  "EVN.6": {
+    "field_name": "Event Occurred",
+    "field_type": "TS"
+  },
+  "EVN.7": {
+    "field_name": "Event Facility",
+    "field_type": "HD"
+  },
+  "FAC.1": {
+    "field_name": "Facility ID-FAC",
+    "field_type": "EI"
+  },
+  "FAC.2": {
+    "field_name": "Facility Type",
+    "field_type": "ID"
+  },
+  "FAC.3": {
+    "field_name": "Facility Address",
+    "field_type": "XAD"
+  },
+  "FAC.4": {
+    "field_name": "Facility Telecommunication",
+    "field_type": "XTN"
+  },
+  "FAC.5": {
+    "field_name": "Contact Person",
+    "field_type": "XCN"
+  },
+  "FAC.6": {
+    "field_name": "Contact Title",
+    "field_type": "ST"
+  },
+  "FAC.7": {
+    "field_name": "Contact Address",
+    "field_type": "XAD"
+  },
+  "FAC.8": {
+    "field_name": "Contact Telecommunication",
+    "field_type": "XTN"
+  },
+  "FAC.9": {
+    "field_name": "Signature Authority",
+    "field_type": "XCN"
+  },
+  "FAC.10": {
+    "field_name": "Signature Authority Title",
+    "field_type": "ST"
+  },
+  "FAC.11": {
+    "field_name": "Signature Authority Address",
+    "field_type": "XAD"
+  },
+  "FAC.12": {
+    "field_name": "Signature Authority Telecommunication",
+    "field_type": "XTN"
+  },
+  "FHS.1": {
+    "field_name": "File Field Separator",
+    "field_type": "ST"
+  },
+  "FHS.2": {
+    "field_name": "File Encoding Characters",
+    "field_type": "ST"
+  },
+  "FHS.3": {
+    "field_name": "File Sending Application",
+    "field_type": "HD"
+  },
+  "FHS.4": {
+    "field_name": "File Sending Facility",
+    "field_type": "HD"
+  },
+  "FHS.5": {
+    "field_name": "File Receiving Application",
+    "field_type": "HD"
+  },
+  "FHS.6": {
+    "field_name": "File Receiving Facility",
+    "field_type": "HD"
+  },
+  "FHS.7": {
+    "field_name": "File Creation Date/Time",
+    "field_type": "TS"
+  },
+  "FHS.8": {
+    "field_name": "File Security",
+    "field_type": "ST"
+  },
+  "FHS.9": {
+    "field_name": "File Name/ID",
+    "field_type": "ST"
+  },
+  "FHS.10": {
+    "field_name": "File Header Comment",
+    "field_type": "ST"
+  },
+  "FHS.11": {
+    "field_name": "File Control ID",
+    "field_type": "ST"
+  },
+  "FHS.12": {
+    "field_name": "Reference File Control ID",
+    "field_type": "ST"
+  },
+  "FT1.1": {
+    "field_name": "Set ID - FT1",
+    "field_type": "SI"
+  },
+  "FT1.2": {
+    "field_name": "Transaction ID",
+    "field_type": "ST"
+  },
+  "FT1.3": {
+    "field_name": "Transaction Batch ID",
+    "field_type": "ST"
+  },
+  "FT1.4": {
+    "field_name": "Transaction Date",
+    "field_type": "DR"
+  },
+  "FT1.5": {
+    "field_name": "Transaction Posting Date",
+    "field_type": "TS"
+  },
+  "FT1.6": {
+    "field_name": "Transaction Type",
+    "field_type": "IS"
+  },
+  "FT1.7": {
+    "field_name": "Transaction Code",
+    "field_type": "CE"
+  },
+  "FT1.8": {
+    "field_name": "Transaction Description",
+    "field_type": "ST"
+  },
+  "FT1.9": {
+    "field_name": "Transaction Description - Alt",
+    "field_type": "ST"
+  },
+  "FT1.10": {
+    "field_name": "Transaction Quantity",
+    "field_type": "NM"
+  },
+  "FT1.11": {
+    "field_name": "Transaction Amount - Extended",
+    "field_type": "CP"
+  },
+  "FT1.12": {
+    "field_name": "Transaction Amount - Unit",
+    "field_type": "CP"
+  },
+  "FT1.13": {
+    "field_name": "Department Code",
+    "field_type": "CE"
+  },
+  "FT1.14": {
+    "field_name": "Insurance Plan ID",
+    "field_type": "CE"
+  },
+  "FT1.15": {
+    "field_name": "Insurance Amount",
+    "field_type": "CP"
+  },
+  "FT1.16": {
+    "field_name": "Assigned Patient Location",
+    "field_type": "PL"
+  },
+  "FT1.17": {
+    "field_name": "Fee Schedule",
+    "field_type": "IS"
+  },
+  "FT1.18": {
+    "field_name": "Patient Type",
+    "field_type": "IS"
+  },
+  "FT1.19": {
+    "field_name": "Diagnosis Code - FT1",
+    "field_type": "CE"
+  },
+  "FT1.20": {
+    "field_name": "Performed By Code",
+    "field_type": "XCN"
+  },
+  "FT1.21": {
+    "field_name": "Ordered By Code",
+    "field_type": "XCN"
+  },
+  "FT1.22": {
+    "field_name": "Unit Cost",
+    "field_type": "CP"
+  },
+  "FT1.23": {
+    "field_name": "Filler Order Number",
+    "field_type": "EI"
+  },
+  "FT1.24": {
+    "field_name": "Entered By Code",
+    "field_type": "XCN"
+  },
+  "FT1.25": {
+    "field_name": "Procedure Code",
+    "field_type": "CE"
+  },
+  "FT1.26": {
+    "field_name": "Procedure Code Modifier",
+    "field_type": "CE"
+  },
+  "FT1.27": {
+    "field_name": "Advanced Beneficiary Notice Code",
+    "field_type": "CE"
+  },
+  "FT1.28": {
+    "field_name": "Medically Necessary Duplicate Procedure Reason.",
+    "field_type": "CWE"
+  },
+  "FT1.29": {
+    "field_name": "NDC Code",
+    "field_type": "CNE"
+  },
+  "FT1.30": {
+    "field_name": "Payment Reference ID",
+    "field_type": "CX"
+  },
+  "FT1.31": {
+    "field_name": "Transaction Reference Key",
+    "field_type": "SI"
+  },
+  "FTS.1": {
+    "field_name": "File Batch Count",
+    "field_type": "NM"
+  },
+  "FTS.2": {
+    "field_name": "File Trailer Comment",
+    "field_type": "ST"
+  },
+  "GOL.1": {
+    "field_name": "Action Code",
+    "field_type": "ID"
+  },
+  "GOL.2": {
+    "field_name": "Action Date/Time",
+    "field_type": "TS"
+  },
+  "GOL.3": {
+    "field_name": "Goal ID",
+    "field_type": "CE"
+  },
+  "GOL.4": {
+    "field_name": "Goal Instance ID",
+    "field_type": "EI"
+  },
+  "GOL.5": {
+    "field_name": "Episode of Care ID",
+    "field_type": "EI"
+  },
+  "GOL.6": {
+    "field_name": "Goal List Priority",
+    "field_type": "NM"
+  },
+  "GOL.7": {
+    "field_name": "Goal Established Date/Time",
+    "field_type": "TS"
+  },
+  "GOL.8": {
+    "field_name": "Expected Goal Achieve Date/Time",
+    "field_type": "TS"
+  },
+  "GOL.9": {
+    "field_name": "Goal Classification",
+    "field_type": "CE"
+  },
+  "GOL.10": {
+    "field_name": "Goal Management Discipline",
+    "field_type": "CE"
+  },
+  "GOL.11": {
+    "field_name": "Current Goal Review Status",
+    "field_type": "CE"
+  },
+  "GOL.12": {
+    "field_name": "Current Goal Review Date/Time",
+    "field_type": "TS"
+  },
+  "GOL.13": {
+    "field_name": "Next Goal Review Date/Time",
+    "field_type": "TS"
+  },
+  "GOL.14": {
+    "field_name": "Previous Goal Review Date/Time",
+    "field_type": "TS"
+  },
+  "GOL.15": {
+    "field_name": "Goal Review Interval",
+    "field_type": "TQ"
+  },
+  "GOL.16": {
+    "field_name": "Goal Evaluation",
+    "field_type": "CE"
+  },
+  "GOL.17": {
+    "field_name": "Goal Evaluation Comment",
+    "field_type": "ST"
+  },
+  "GOL.18": {
+    "field_name": "Goal Life Cycle Status",
+    "field_type": "CE"
+  },
+  "GOL.19": {
+    "field_name": "Goal Life Cycle Status Date/Time",
+    "field_type": "TS"
+  },
+  "GOL.20": {
+    "field_name": "Goal Target Type",
+    "field_type": "CE"
+  },
+  "GOL.21": {
+    "field_name": "Goal Target Name",
+    "field_type": "XPN"
+  },
+  "GP1.1": {
+    "field_name": "Type of Bill Code",
+    "field_type": "IS"
+  },
+  "GP1.2": {
+    "field_name": "Revenue Code",
+    "field_type": "IS"
+  },
+  "GP1.3": {
+    "field_name": "Overall Claim Disposition Code",
+    "field_type": "IS"
+  },
+  "GP1.4": {
+    "field_name": "OCE Edits per Visit Code",
+    "field_type": "IS"
+  },
+  "GP1.5": {
+    "field_name": "Outlier Cost",
+    "field_type": "CP"
+  },
+  "GP2.1": {
+    "field_name": "Revenue Code",
+    "field_type": "IS"
+  },
+  "GP2.2": {
+    "field_name": "Number of Service Units",
+    "field_type": "NM"
+  },
+  "GP2.3": {
+    "field_name": "Charge",
+    "field_type": "CP"
+  },
+  "GP2.4": {
+    "field_name": "Reimbursement Action Code",
+    "field_type": "IS"
+  },
+  "GP2.5": {
+    "field_name": "Denial or Rejection Code",
+    "field_type": "IS"
+  },
+  "GP2.6": {
+    "field_name": "OCE Edit Code",
+    "field_type": "IS"
+  },
+  "GP2.7": {
+    "field_name": "Ambulatory Payment Classification Code",
+    "field_type": "CE"
+  },
+  "GP2.8": {
+    "field_name": "Modifier Edit Code",
+    "field_type": "IS"
+  },
+  "GP2.9": {
+    "field_name": "Payment Adjustment Code",
+    "field_type": "IS"
+  },
+  "GP2.10": {
+    "field_name": "Packaging Status Code",
+    "field_type": "IS"
+  },
+  "GP2.11": {
+    "field_name": "Expected CMS Payment Amount",
+    "field_type": "CP"
+  },
+  "GP2.12": {
+    "field_name": "Reimbursement Type Code",
+    "field_type": "IS"
+  },
+  "GP2.13": {
+    "field_name": "Co-Pay Amount",
+    "field_type": "CP"
+  },
+  "GP2.14": {
+    "field_name": "Pay Rate per Service Unit",
+    "field_type": "NM"
+  },
+  "GT1.1": {
+    "field_name": "Set ID - GT1",
+    "field_type": "SI"
+  },
+  "GT1.2": {
+    "field_name": "Guarantor Number",
+    "field_type": "CX"
+  },
+  "GT1.3": {
+    "field_name": "Guarantor Name",
+    "field_type": "XPN"
+  },
+  "GT1.4": {
+    "field_name": "Guarantor Spouse Name",
+    "field_type": "XPN"
+  },
+  "GT1.5": {
+    "field_name": "Guarantor Address",
+    "field_type": "XAD"
+  },
+  "GT1.6": {
+    "field_name": "Guarantor Ph Num - Home",
+    "field_type": "XTN"
+  },
+  "GT1.7": {
+    "field_name": "Guarantor Ph Num - Business",
+    "field_type": "XTN"
+  },
+  "GT1.8": {
+    "field_name": "Guarantor Date/Time Of Birth",
+    "field_type": "TS"
+  },
+  "GT1.9": {
+    "field_name": "Guarantor Administrative Sex",
+    "field_type": "IS"
+  },
+  "GT1.10": {
+    "field_name": "Guarantor Type",
+    "field_type": "IS"
+  },
+  "GT1.11": {
+    "field_name": "Guarantor Relationship",
+    "field_type": "CE"
+  },
+  "GT1.12": {
+    "field_name": "Guarantor SSN",
+    "field_type": "ST"
+  },
+  "GT1.13": {
+    "field_name": "Guarantor Date - Begin",
+    "field_type": "DT"
+  },
+  "GT1.14": {
+    "field_name": "Guarantor Date - End",
+    "field_type": "DT"
+  },
+  "GT1.15": {
+    "field_name": "Guarantor Priority",
+    "field_type": "NM"
+  },
+  "GT1.16": {
+    "field_name": "Guarantor Employer Name",
+    "field_type": "XPN"
+  },
+  "GT1.17": {
+    "field_name": "Guarantor Employer Address",
+    "field_type": "XAD"
+  },
+  "GT1.18": {
+    "field_name": "Guarantor Employer Phone Number",
+    "field_type": "XTN"
+  },
+  "GT1.19": {
+    "field_name": "Guarantor Employee ID Number",
+    "field_type": "CX"
+  },
+  "GT1.20": {
+    "field_name": "Guarantor Employment Status",
+    "field_type": "IS"
+  },
+  "GT1.21": {
+    "field_name": "Guarantor Organization Name",
+    "field_type": "XON"
+  },
+  "GT1.22": {
+    "field_name": "Guarantor Billing Hold Flag",
+    "field_type": "ID"
+  },
+  "GT1.23": {
+    "field_name": "Guarantor Credit Rating Code",
+    "field_type": "CE"
+  },
+  "GT1.24": {
+    "field_name": "Guarantor Death Date And Time",
+    "field_type": "TS"
+  },
+  "GT1.25": {
+    "field_name": "Guarantor Death Flag",
+    "field_type": "ID"
+  },
+  "GT1.26": {
+    "field_name": "Guarantor Charge Adjustment Code",
+    "field_type": "CE"
+  },
+  "GT1.27": {
+    "field_name": "Guarantor Household Annual Income",
+    "field_type": "CP"
+  },
+  "GT1.28": {
+    "field_name": "Guarantor Household Size",
+    "field_type": "NM"
+  },
+  "GT1.29": {
+    "field_name": "Guarantor Employer ID Number",
+    "field_type": "CX"
+  },
+  "GT1.30": {
+    "field_name": "Guarantor Marital Status Code",
+    "field_type": "CE"
+  },
+  "GT1.31": {
+    "field_name": "Guarantor Hire Effective Date",
+    "field_type": "DT"
+  },
+  "GT1.32": {
+    "field_name": "Employment Stop Date",
+    "field_type": "DT"
+  },
+  "GT1.33": {
+    "field_name": "Living Dependency",
+    "field_type": "IS"
+  },
+  "GT1.34": {
+    "field_name": "Ambulatory Status",
+    "field_type": "IS"
+  },
+  "GT1.35": {
+    "field_name": "Citizenship",
+    "field_type": "CE"
+  },
+  "GT1.36": {
+    "field_name": "Primary Language",
+    "field_type": "CE"
+  },
+  "GT1.37": {
+    "field_name": "Living Arrangement",
+    "field_type": "IS"
+  },
+  "GT1.38": {
+    "field_name": "Publicity Code",
+    "field_type": "CE"
+  },
+  "GT1.39": {
+    "field_name": "Protection Indicator",
+    "field_type": "ID"
+  },
+  "GT1.40": {
+    "field_name": "Student Indicator",
+    "field_type": "IS"
+  },
+  "GT1.41": {
+    "field_name": "Religion",
+    "field_type": "CE"
+  },
+  "GT1.42": {
+    "field_name": "Mother's Maiden Name",
+    "field_type": "XPN"
+  },
+  "GT1.43": {
+    "field_name": "Nationality",
+    "field_type": "CE"
+  },
+  "GT1.44": {
+    "field_name": "Ethnic Group",
+    "field_type": "CE"
+  },
+  "GT1.45": {
+    "field_name": "Contact Person's Name",
+    "field_type": "XPN"
+  },
+  "GT1.46": {
+    "field_name": "Contact Person's Telephone Number",
+    "field_type": "XTN"
+  },
+  "GT1.47": {
+    "field_name": "Contact Reason",
+    "field_type": "CE"
+  },
+  "GT1.48": {
+    "field_name": "Contact Relationship",
+    "field_type": "IS"
+  },
+  "GT1.49": {
+    "field_name": "Job Title",
+    "field_type": "ST"
+  },
+  "GT1.50": {
+    "field_name": "Job Code/Class",
+    "field_type": "JCC"
+  },
+  "GT1.51": {
+    "field_name": "Guarantor Employer's Organization Name",
+    "field_type": "XON"
+  },
+  "GT1.52": {
+    "field_name": "Handicap",
+    "field_type": "IS"
+  },
+  "GT1.53": {
+    "field_name": "Job Status",
+    "field_type": "IS"
+  },
+  "GT1.54": {
+    "field_name": "Guarantor Financial Class",
+    "field_type": "FC"
+  },
+  "GT1.55": {
+    "field_name": "Guarantor Race",
+    "field_type": "CE"
+  },
+  "GT1.56": {
+    "field_name": "Guarantor Birth Place",
+    "field_type": "ST"
+  },
+  "GT1.57": {
+    "field_name": "VIP Indicator",
+    "field_type": "IS"
+  },
+  "IAM.1": {
+    "field_name": "Set ID - IAM",
+    "field_type": "SI"
+  },
+  "IAM.2": {
+    "field_name": "Allergen Type Code",
+    "field_type": "CE"
+  },
+  "IAM.3": {
+    "field_name": "Allergen Code/Mnemonic/Description",
+    "field_type": "CE"
+  },
+  "IAM.4": {
+    "field_name": "Allergy Severity Code",
+    "field_type": "CE"
+  },
+  "IAM.5": {
+    "field_name": "Allergy Reaction Code",
+    "field_type": "ST"
+  },
+  "IAM.6": {
+    "field_name": "Allergy Action Code",
+    "field_type": "CNE"
+  },
+  "IAM.7": {
+    "field_name": "Allergy Unique Identifier",
+    "field_type": "EI"
+  },
+  "IAM.8": {
+    "field_name": "Action Reason",
+    "field_type": "ST"
+  },
+  "IAM.9": {
+    "field_name": "Sensitivity to Causative Agent Code",
+    "field_type": "CE"
+  },
+  "IAM.10": {
+    "field_name": "Allergen Group Code/Mnemonic/Description",
+    "field_type": "CE"
+  },
+  "IAM.11": {
+    "field_name": "Onset Date",
+    "field_type": "DT"
+  },
+  "IAM.12": {
+    "field_name": "Onset Date Text",
+    "field_type": "ST"
+  },
+  "IAM.13": {
+    "field_name": "Reported Date/Time",
+    "field_type": "TS"
+  },
+  "IAM.14": {
+    "field_name": "Reported By",
+    "field_type": "XPN"
+  },
+  "IAM.15": {
+    "field_name": "Relationship to Patient Code",
+    "field_type": "CE"
+  },
+  "IAM.16": {
+    "field_name": "Alert Device Code",
+    "field_type": "CE"
+  },
+  "IAM.17": {
+    "field_name": "Allergy Clinical Status Code",
+    "field_type": "CE"
+  },
+  "IAM.18": {
+    "field_name": "Statused by Person",
+    "field_type": "XCN"
+  },
+  "IAM.19": {
+    "field_name": "Statused by Organization",
+    "field_type": "XON"
+  },
+  "IAM.20": {
+    "field_name": "Statused at Date/Time",
+    "field_type": "TS"
+  },
+  "IIM.1": {
+    "field_name": "Primary Key Value - IIM",
+    "field_type": "CWE"
+  },
+  "IIM.2": {
+    "field_name": "Service Item Code",
+    "field_type": "CWE"
+  },
+  "IIM.3": {
+    "field_name": "Inventory Lot Number",
+    "field_type": "ST"
+  },
+  "IIM.4": {
+    "field_name": "Inventory Expiration Date",
+    "field_type": "TS"
+  },
+  "IIM.5": {
+    "field_name": "Inventory Manufacturer Name",
+    "field_type": "CWE"
+  },
+  "IIM.6": {
+    "field_name": "Inventory Location",
+    "field_type": "CWE"
+  },
+  "IIM.7": {
+    "field_name": "Inventory Received Date",
+    "field_type": "TS"
+  },
+  "IIM.8": {
+    "field_name": "Inventory Received Quantity",
+    "field_type": "NM"
+  },
+  "IIM.9": {
+    "field_name": "Inventory Received Quantity Unit",
+    "field_type": "CWE"
+  },
+  "IIM.10": {
+    "field_name": "Inventory Received Item Cost",
+    "field_type": "MO"
+  },
+  "IIM.11": {
+    "field_name": "Inventory On Hand Date",
+    "field_type": "TS"
+  },
+  "IIM.12": {
+    "field_name": "Inventory On Hand Quantity",
+    "field_type": "NM"
+  },
+  "IIM.13": {
+    "field_name": "Inventory On Hand Quantity Unit",
+    "field_type": "CWE"
+  },
+  "IIM.14": {
+    "field_name": "Procedure Code",
+    "field_type": "CE"
+  },
+  "IIM.15": {
+    "field_name": "Procedure Code Modifier",
+    "field_type": "CE"
+  },
+  "IN1.1": {
+    "field_name": "Set ID - IN1",
+    "field_type": "SI"
+  },
+  "IN1.2": {
+    "field_name": "Insurance Plan ID",
+    "field_type": "CE"
+  },
+  "IN1.3": {
+    "field_name": "Insurance Company ID",
+    "field_type": "CX"
+  },
+  "IN1.4": {
+    "field_name": "Insurance Company Name",
+    "field_type": "XON"
+  },
+  "IN1.5": {
+    "field_name": "Insurance Company Address",
+    "field_type": "XAD"
+  },
+  "IN1.6": {
+    "field_name": "Insurance Co Contact Person",
+    "field_type": "XPN"
+  },
+  "IN1.7": {
+    "field_name": "Insurance Co Phone Number",
+    "field_type": "XTN"
+  },
+  "IN1.8": {
+    "field_name": "Group Number",
+    "field_type": "ST"
+  },
+  "IN1.9": {
+    "field_name": "Group Name",
+    "field_type": "XON"
+  },
+  "IN1.10": {
+    "field_name": "Insured's Group Emp ID",
+    "field_type": "CX"
+  },
+  "IN1.11": {
+    "field_name": "Insured's Group Emp Name",
+    "field_type": "XON"
+  },
+  "IN1.12": {
+    "field_name": "Plan Effective Date",
+    "field_type": "DT"
+  },
+  "IN1.13": {
+    "field_name": "Plan Expiration Date",
+    "field_type": "DT"
+  },
+  "IN1.14": {
+    "field_name": "Authorization Information",
+    "field_type": "AUI"
+  },
+  "IN1.15": {
+    "field_name": "Plan Type",
+    "field_type": "IS"
+  },
+  "IN1.16": {
+    "field_name": "Name Of Insured",
+    "field_type": "XPN"
+  },
+  "IN1.17": {
+    "field_name": "Insured's Relationship To Patient",
+    "field_type": "CE"
+  },
+  "IN1.18": {
+    "field_name": "Insured's Date Of Birth",
+    "field_type": "TS"
+  },
+  "IN1.19": {
+    "field_name": "Insured's Address",
+    "field_type": "XAD"
+  },
+  "IN1.20": {
+    "field_name": "Assignment Of Benefits",
+    "field_type": "IS"
+  },
+  "IN1.21": {
+    "field_name": "Coordination Of Benefits",
+    "field_type": "IS"
+  },
+  "IN1.22": {
+    "field_name": "Coord Of Ben. Priority",
+    "field_type": "ST"
+  },
+  "IN1.23": {
+    "field_name": "Notice Of Admission Flag",
+    "field_type": "ID"
+  },
+  "IN1.24": {
+    "field_name": "Notice Of Admission Date",
+    "field_type": "DT"
+  },
+  "IN1.25": {
+    "field_name": "Report Of Eligibility Flag",
+    "field_type": "ID"
+  },
+  "IN1.26": {
+    "field_name": "Report Of Eligibility Date",
+    "field_type": "DT"
+  },
+  "IN1.27": {
+    "field_name": "Release Information Code",
+    "field_type": "IS"
+  },
+  "IN1.28": {
+    "field_name": "Pre-Admit Cert (PAC)",
+    "field_type": "ST"
+  },
+  "IN1.29": {
+    "field_name": "Verification Date/Time",
+    "field_type": "TS"
+  },
+  "IN1.30": {
+    "field_name": "Verification By",
+    "field_type": "XCN"
+  },
+  "IN1.31": {
+    "field_name": "Type Of Agreement Code",
+    "field_type": "IS"
+  },
+  "IN1.32": {
+    "field_name": "Billing Status",
+    "field_type": "IS"
+  },
+  "IN1.33": {
+    "field_name": "Lifetime Reserve Days",
+    "field_type": "NM"
+  },
+  "IN1.34": {
+    "field_name": "Delay Before L.R. Day",
+    "field_type": "NM"
+  },
+  "IN1.35": {
+    "field_name": "Company Plan Code",
+    "field_type": "IS"
+  },
+  "IN1.36": {
+    "field_name": "Policy Number",
+    "field_type": "ST"
+  },
+  "IN1.37": {
+    "field_name": "Policy Deductible",
+    "field_type": "CP"
+  },
+  "IN1.38": {
+    "field_name": "Policy Limit - Amount",
+    "field_type": "CP"
+  },
+  "IN1.39": {
+    "field_name": "Policy Limit - Days",
+    "field_type": "NM"
+  },
+  "IN1.40": {
+    "field_name": "Room Rate - Semi-Private",
+    "field_type": "CP"
+  },
+  "IN1.41": {
+    "field_name": "Room Rate - Private",
+    "field_type": "CP"
+  },
+  "IN1.42": {
+    "field_name": "Insured's Employment Status",
+    "field_type": "CE"
+  },
+  "IN1.43": {
+    "field_name": "Insured's Administrative Sex",
+    "field_type": "IS"
+  },
+  "IN1.44": {
+    "field_name": "Insured's Employer's Address",
+    "field_type": "XAD"
+  },
+  "IN1.45": {
+    "field_name": "Verification Status",
+    "field_type": "ST"
+  },
+  "IN1.46": {
+    "field_name": "Prior Insurance Plan ID",
+    "field_type": "IS"
+  },
+  "IN1.47": {
+    "field_name": "Coverage Type",
+    "field_type": "IS"
+  },
+  "IN1.48": {
+    "field_name": "Handicap",
+    "field_type": "IS"
+  },
+  "IN1.49": {
+    "field_name": "Insured's ID Number",
+    "field_type": "CX"
+  },
+  "IN1.50": {
+    "field_name": "Signature Code",
+    "field_type": "IS"
+  },
+  "IN1.51": {
+    "field_name": "Signature Code Date",
+    "field_type": "DT"
+  },
+  "IN1.52": {
+    "field_name": "Insured's Birth Place",
+    "field_type": "ST"
+  },
+  "IN1.53": {
+    "field_name": "VIP Indicator",
+    "field_type": "IS"
+  },
+  "IN2.1": {
+    "field_name": "Insured's Employee ID",
+    "field_type": "CX"
+  },
+  "IN2.2": {
+    "field_name": "Insured's Social Security Number",
+    "field_type": "ST"
+  },
+  "IN2.3": {
+    "field_name": "Insured's Employer's Name and ID",
+    "field_type": "XCN"
+  },
+  "IN2.4": {
+    "field_name": "Employer Information Data",
+    "field_type": "IS"
+  },
+  "IN2.5": {
+    "field_name": "Mail Claim Party",
+    "field_type": "IS"
+  },
+  "IN2.6": {
+    "field_name": "Medicare Health Ins Card Number",
+    "field_type": "ST"
+  },
+  "IN2.7": {
+    "field_name": "Medicaid Case Name",
+    "field_type": "XPN"
+  },
+  "IN2.8": {
+    "field_name": "Medicaid Case Number",
+    "field_type": "ST"
+  },
+  "IN2.9": {
+    "field_name": "Military Sponsor Name",
+    "field_type": "XPN"
+  },
+  "IN2.10": {
+    "field_name": "Military ID Number",
+    "field_type": "ST"
+  },
+  "IN2.11": {
+    "field_name": "Dependent Of Military Recipient",
+    "field_type": "CE"
+  },
+  "IN2.12": {
+    "field_name": "Military Organization",
+    "field_type": "ST"
+  },
+  "IN2.13": {
+    "field_name": "Military Station",
+    "field_type": "ST"
+  },
+  "IN2.14": {
+    "field_name": "Military Service",
+    "field_type": "IS"
+  },
+  "IN2.15": {
+    "field_name": "Military Rank/Grade",
+    "field_type": "IS"
+  },
+  "IN2.16": {
+    "field_name": "Military Status",
+    "field_type": "IS"
+  },
+  "IN2.17": {
+    "field_name": "Military Retire Date",
+    "field_type": "DT"
+  },
+  "IN2.18": {
+    "field_name": "Military Non-Avail Cert On File",
+    "field_type": "ID"
+  },
+  "IN2.19": {
+    "field_name": "Baby Coverage",
+    "field_type": "ID"
+  },
+  "IN2.20": {
+    "field_name": "Combine Baby Bill",
+    "field_type": "ID"
+  },
+  "IN2.21": {
+    "field_name": "Blood Deductible",
+    "field_type": "ST"
+  },
+  "IN2.22": {
+    "field_name": "Special Coverage Approval Name",
+    "field_type": "XPN"
+  },
+  "IN2.23": {
+    "field_name": "Special Coverage Approval Title",
+    "field_type": "ST"
+  },
+  "IN2.24": {
+    "field_name": "Non-Covered Insurance Code",
+    "field_type": "IS"
+  },
+  "IN2.25": {
+    "field_name": "Payor ID",
+    "field_type": "CX"
+  },
+  "IN2.26": {
+    "field_name": "Payor Subscriber ID",
+    "field_type": "CX"
+  },
+  "IN2.27": {
+    "field_name": "Eligibility Source",
+    "field_type": "IS"
+  },
+  "IN2.28": {
+    "field_name": "Room Coverage Type/Amount",
+    "field_type": "RMC"
+  },
+  "IN2.29": {
+    "field_name": "Policy Type/Amount",
+    "field_type": "PTA"
+  },
+  "IN2.30": {
+    "field_name": "Daily Deductible",
+    "field_type": "DDI"
+  },
+  "IN2.31": {
+    "field_name": "Living Dependency",
+    "field_type": "IS"
+  },
+  "IN2.32": {
+    "field_name": "Ambulatory Status",
+    "field_type": "IS"
+  },
+  "IN2.33": {
+    "field_name": "Citizenship",
+    "field_type": "CE"
+  },
+  "IN2.34": {
+    "field_name": "Primary Language",
+    "field_type": "CE"
+  },
+  "IN2.35": {
+    "field_name": "Living Arrangement",
+    "field_type": "IS"
+  },
+  "IN2.36": {
+    "field_name": "Publicity Code",
+    "field_type": "CE"
+  },
+  "IN2.37": {
+    "field_name": "Protection Indicator",
+    "field_type": "ID"
+  },
+  "IN2.38": {
+    "field_name": "Student Indicator",
+    "field_type": "IS"
+  },
+  "IN2.39": {
+    "field_name": "Religion",
+    "field_type": "CE"
+  },
+  "IN2.40": {
+    "field_name": "Mother's Maiden Name",
+    "field_type": "XPN"
+  },
+  "IN2.41": {
+    "field_name": "Nationality",
+    "field_type": "CE"
+  },
+  "IN2.42": {
+    "field_name": "Ethnic Group",
+    "field_type": "CE"
+  },
+  "IN2.43": {
+    "field_name": "Marital Status",
+    "field_type": "CE"
+  },
+  "IN2.44": {
+    "field_name": "Insured's Employment Start Date",
+    "field_type": "DT"
+  },
+  "IN2.45": {
+    "field_name": "Employment Stop Date",
+    "field_type": "DT"
+  },
+  "IN2.46": {
+    "field_name": "Job Title",
+    "field_type": "ST"
+  },
+  "IN2.47": {
+    "field_name": "Job Code/Class",
+    "field_type": "JCC"
+  },
+  "IN2.48": {
+    "field_name": "Job Status",
+    "field_type": "IS"
+  },
+  "IN2.49": {
+    "field_name": "Employer Contact Person Name",
+    "field_type": "XPN"
+  },
+  "IN2.50": {
+    "field_name": "Employer Contact Person Phone Number",
+    "field_type": "XTN"
+  },
+  "IN2.51": {
+    "field_name": "Employer Contact Reason",
+    "field_type": "IS"
+  },
+  "IN2.52": {
+    "field_name": "Insured's Contact Person's Name",
+    "field_type": "XPN"
+  },
+  "IN2.53": {
+    "field_name": "Insured's Contact Person Phone Number",
+    "field_type": "XTN"
+  },
+  "IN2.54": {
+    "field_name": "Insured's Contact Person Reason",
+    "field_type": "IS"
+  },
+  "IN2.55": {
+    "field_name": "Relationship to the Patient Start Date",
+    "field_type": "DT"
+  },
+  "IN2.56": {
+    "field_name": "Relationship to the Patient Stop Date",
+    "field_type": "DT"
+  },
+  "IN2.57": {
+    "field_name": "Insurance Co. Contact Reason",
+    "field_type": "IS"
+  },
+  "IN2.58": {
+    "field_name": "Insurance Co Contact Phone Number",
+    "field_type": "XTN"
+  },
+  "IN2.59": {
+    "field_name": "Policy Scope",
+    "field_type": "IS"
+  },
+  "IN2.60": {
+    "field_name": "Policy Source",
+    "field_type": "IS"
+  },
+  "IN2.61": {
+    "field_name": "Patient Member Number",
+    "field_type": "CX"
+  },
+  "IN2.62": {
+    "field_name": "Guarantor's Relationship to Insured",
+    "field_type": "CE"
+  },
+  "IN2.63": {
+    "field_name": "Insured's Phone Number - Home",
+    "field_type": "XTN"
+  },
+  "IN2.64": {
+    "field_name": "Insured's Employer Phone Number",
+    "field_type": "XTN"
+  },
+  "IN2.65": {
+    "field_name": "Military Handicapped Program",
+    "field_type": "CE"
+  },
+  "IN2.66": {
+    "field_name": "Suspend Flag",
+    "field_type": "ID"
+  },
+  "IN2.67": {
+    "field_name": "Copay Limit Flag",
+    "field_type": "ID"
+  },
+  "IN2.68": {
+    "field_name": "Stoploss Limit Flag",
+    "field_type": "ID"
+  },
+  "IN2.69": {
+    "field_name": "Insured Organization Name and ID",
+    "field_type": "XON"
+  },
+  "IN2.70": {
+    "field_name": "Insured Employer Organization Name and ID",
+    "field_type": "XON"
+  },
+  "IN2.71": {
+    "field_name": "Race",
+    "field_type": "CE"
+  },
+  "IN2.72": {
+    "field_name": "CMS Patient's Relationship to Insured",
+    "field_type": "CE"
+  },
+  "IN3.1": {
+    "field_name": "Set ID - IN3",
+    "field_type": "SI"
+  },
+  "IN3.2": {
+    "field_name": "Certification Number",
+    "field_type": "CX"
+  },
+  "IN3.3": {
+    "field_name": "Certified By",
+    "field_type": "XCN"
+  },
+  "IN3.4": {
+    "field_name": "Certification Required",
+    "field_type": "ID"
+  },
+  "IN3.5": {
+    "field_name": "Penalty",
+    "field_type": "MOP"
+  },
+  "IN3.6": {
+    "field_name": "Certification Date/Time",
+    "field_type": "TS"
+  },
+  "IN3.7": {
+    "field_name": "Certification Modify Date/Time",
+    "field_type": "TS"
+  },
+  "IN3.8": {
+    "field_name": "Operator",
+    "field_type": "XCN"
+  },
+  "IN3.9": {
+    "field_name": "Certification Begin Date",
+    "field_type": "DT"
+  },
+  "IN3.10": {
+    "field_name": "Certification End Date",
+    "field_type": "DT"
+  },
+  "IN3.11": {
+    "field_name": "Days",
+    "field_type": "DTN"
+  },
+  "IN3.12": {
+    "field_name": "Non-Concur Code/Description",
+    "field_type": "CE"
+  },
+  "IN3.13": {
+    "field_name": "Non-Concur Effective Date/Time",
+    "field_type": "TS"
+  },
+  "IN3.14": {
+    "field_name": "Physician Reviewer",
+    "field_type": "XCN"
+  },
+  "IN3.15": {
+    "field_name": "Certification Contact",
+    "field_type": "ST"
+  },
+  "IN3.16": {
+    "field_name": "Certification Contact Phone Number",
+    "field_type": "XTN"
+  },
+  "IN3.17": {
+    "field_name": "Appeal Reason",
+    "field_type": "CE"
+  },
+  "IN3.18": {
+    "field_name": "Certification Agency",
+    "field_type": "CE"
+  },
+  "IN3.19": {
+    "field_name": "Certification Agency Phone Number",
+    "field_type": "XTN"
+  },
+  "IN3.20": {
+    "field_name": "Pre-Certification Requirement",
+    "field_type": "ICD"
+  },
+  "IN3.21": {
+    "field_name": "Case Manager",
+    "field_type": "ST"
+  },
+  "IN3.22": {
+    "field_name": "Second Opinion Date",
+    "field_type": "DT"
+  },
+  "IN3.23": {
+    "field_name": "Second Opinion Status",
+    "field_type": "IS"
+  },
+  "IN3.24": {
+    "field_name": "Second Opinion Documentation Received",
+    "field_type": "IS"
+  },
+  "IN3.25": {
+    "field_name": "Second Opinion Physician",
+    "field_type": "XCN"
+  },
+  "INV.1": {
+    "field_name": "Substance Identifier",
+    "field_type": "CE"
+  },
+  "INV.2": {
+    "field_name": "Substance Status",
+    "field_type": "CE"
+  },
+  "INV.3": {
+    "field_name": "Substance Type",
+    "field_type": "CE"
+  },
+  "INV.4": {
+    "field_name": "Inventory Container Identifier",
+    "field_type": "CE"
+  },
+  "INV.5": {
+    "field_name": "Container Carrier Identifier",
+    "field_type": "CE"
+  },
+  "INV.6": {
+    "field_name": "Position on Carrier",
+    "field_type": "CE"
+  },
+  "INV.7": {
+    "field_name": "Initial Quantity",
+    "field_type": "NM"
+  },
+  "INV.8": {
+    "field_name": "Current Quantity",
+    "field_type": "NM"
+  },
+  "INV.9": {
+    "field_name": "Available Quantity",
+    "field_type": "NM"
+  },
+  "INV.10": {
+    "field_name": "Consumption Quantity",
+    "field_type": "NM"
+  },
+  "INV.11": {
+    "field_name": "Quantity Units",
+    "field_type": "CE"
+  },
+  "INV.12": {
+    "field_name": "Expiration Date/Time",
+    "field_type": "TS"
+  },
+  "INV.13": {
+    "field_name": "First Used Date/Time",
+    "field_type": "TS"
+  },
+  "INV.14": {
+    "field_name": "On Board Stability Duration",
+    "field_type": "TQ"
+  },
+  "INV.15": {
+    "field_name": "Test/Fluid Identifier(s)",
+    "field_type": "CE"
+  },
+  "INV.16": {
+    "field_name": "Manufacturer Lot Number",
+    "field_type": "ST"
+  },
+  "INV.17": {
+    "field_name": "Manufacturer Identifier",
+    "field_type": "CE"
+  },
+  "INV.18": {
+    "field_name": "Supplier Identifier",
+    "field_type": "CE"
+  },
+  "INV.19": {
+    "field_name": "On Board Stability Time",
+    "field_type": "CQ"
+  },
+  "INV.20": {
+    "field_name": "Target Value",
+    "field_type": "CQ"
+  },
+  "IPC.1": {
+    "field_name": "Accession Identifier",
+    "field_type": "EI"
+  },
+  "IPC.2": {
+    "field_name": "Requested Procedure ID",
+    "field_type": "EI"
+  },
+  "IPC.3": {
+    "field_name": "Study Instance UID",
+    "field_type": "EI"
+  },
+  "IPC.4": {
+    "field_name": "Scheduled Procedure Step ID",
+    "field_type": "EI"
+  },
+  "IPC.5": {
+    "field_name": "Modality",
+    "field_type": "CE"
+  },
+  "IPC.6": {
+    "field_name": "Protocol Code",
+    "field_type": "CE"
+  },
+  "IPC.7": {
+    "field_name": "Scheduled Station Name",
+    "field_type": "EI"
+  },
+  "IPC.8": {
+    "field_name": "Scheduled Procedure Step Location",
+    "field_type": "CE"
+  },
+  "IPC.9": {
+    "field_name": "Scheduled AE Title",
+    "field_type": "ST"
+  },
+  "ISD.1": {
+    "field_name": "Reference Interaction Number (unique identifier)",
+    "field_type": "NM"
+  },
+  "ISD.2": {
+    "field_name": "Interaction Type Identifier",
+    "field_type": "CE"
+  },
+  "ISD.3": {
+    "field_name": "Interaction Active State",
+    "field_type": "CE"
+  },
+  "LAN.1": {
+    "field_name": "Set ID - LAN",
+    "field_type": "SI"
+  },
+  "LAN.2": {
+    "field_name": "Language Code",
+    "field_type": "CE"
+  },
+  "LAN.3": {
+    "field_name": "Language Ability Code",
+    "field_type": "CE"
+  },
+  "LAN.4": {
+    "field_name": "Language Proficiency Code",
+    "field_type": "CE"
+  },
+  "LCC.1": {
+    "field_name": "Primary Key Value - LCC",
+    "field_type": "PL"
+  },
+  "LCC.2": {
+    "field_name": "Location Department",
+    "field_type": "CE"
+  },
+  "LCC.3": {
+    "field_name": "Accommodation Type",
+    "field_type": "CE"
+  },
+  "LCC.4": {
+    "field_name": "Charge Code",
+    "field_type": "CE"
+  },
+  "LCH.1": {
+    "field_name": "Primary Key Value - LCH",
+    "field_type": "PL"
+  },
+  "LCH.2": {
+    "field_name": "Segment Action Code",
+    "field_type": "ID"
+  },
+  "LCH.3": {
+    "field_name": "Segment Unique Key",
+    "field_type": "EI"
+  },
+  "LCH.4": {
+    "field_name": "Location Characteristic ID",
+    "field_type": "CE"
+  },
+  "LCH.5": {
+    "field_name": "Location Characteristic Value-LCH",
+    "field_type": "CE"
+  },
+  "LDP.1": {
+    "field_name": "Primary Key Value - LDP",
+    "field_type": "PL"
+  },
+  "LDP.2": {
+    "field_name": "Location Department",
+    "field_type": "CE"
+  },
+  "LDP.3": {
+    "field_name": "Location Service",
+    "field_type": "IS"
+  },
+  "LDP.4": {
+    "field_name": "Specialty Type",
+    "field_type": "CE"
+  },
+  "LDP.5": {
+    "field_name": "Valid Patient Classes",
+    "field_type": "IS"
+  },
+  "LDP.6": {
+    "field_name": "Active/Inactive Flag",
+    "field_type": "ID"
+  },
+  "LDP.7": {
+    "field_name": "Activation Date  LDP",
+    "field_type": "TS"
+  },
+  "LDP.8": {
+    "field_name": "Inactivation Date - LDP",
+    "field_type": "TS"
+  },
+  "LDP.9": {
+    "field_name": "Inactivated Reason",
+    "field_type": "ST"
+  },
+  "LDP.10": {
+    "field_name": "Visiting Hours",
+    "field_type": "VH"
+  },
+  "LDP.11": {
+    "field_name": "Contact Phone",
+    "field_type": "XTN"
+  },
+  "LDP.12": {
+    "field_name": "Location Cost Center",
+    "field_type": "CE"
+  },
+  "LOC.1": {
+    "field_name": "Primary Key Value - LOC",
+    "field_type": "PL"
+  },
+  "LOC.2": {
+    "field_name": "Location Description",
+    "field_type": "ST"
+  },
+  "LOC.3": {
+    "field_name": "Location Type - LOC",
+    "field_type": "IS"
+  },
+  "LOC.4": {
+    "field_name": "Organization Name - LOC",
+    "field_type": "XON"
+  },
+  "LOC.5": {
+    "field_name": "Location Address",
+    "field_type": "XAD"
+  },
+  "LOC.6": {
+    "field_name": "Location Phone",
+    "field_type": "XTN"
+  },
+  "LOC.7": {
+    "field_name": "License Number",
+    "field_type": "CE"
+  },
+  "LOC.8": {
+    "field_name": "Location Equipment",
+    "field_type": "IS"
+  },
+  "LOC.9": {
+    "field_name": "Location Service Code",
+    "field_type": "IS"
+  },
+  "LRL.1": {
+    "field_name": "Primary Key Value - LRL",
+    "field_type": "PL"
+  },
+  "LRL.2": {
+    "field_name": "Segment Action Code",
+    "field_type": "ID"
+  },
+  "LRL.3": {
+    "field_name": "Segment Unique Key",
+    "field_type": "EI"
+  },
+  "LRL.4": {
+    "field_name": "Location Relationship ID",
+    "field_type": "CE"
+  },
+  "LRL.5": {
+    "field_name": "Organizational Location Relationship Value",
+    "field_type": "XON"
+  },
+  "LRL.6": {
+    "field_name": "Patient Location Relationship Value",
+    "field_type": "PL"
+  },
+  "MFA.1": {
+    "field_name": "Record-Level Event Code",
+    "field_type": "ID"
+  },
+  "MFA.2": {
+    "field_name": "MFN Control ID",
+    "field_type": "ST"
+  },
+  "MFA.3": {
+    "field_name": "Event Completion Date/Time",
+    "field_type": "TS"
+  },
+  "MFA.4": {
+    "field_name": "MFN Record Level Error Return",
+    "field_type": "CE"
+  },
+  "MFA.5": {
+    "field_name": "Primary Key Value - MFA",
+    "field_type": "varies"
+  },
+  "MFA.6": {
+    "field_name": "Primary Key Value Type - MFA",
+    "field_type": "ID"
+  },
+  "MFE.1": {
+    "field_name": "Record-Level Event Code",
+    "field_type": "ID"
+  },
+  "MFE.2": {
+    "field_name": "MFN Control ID",
+    "field_type": "ST"
+  },
+  "MFE.3": {
+    "field_name": "Effective Date/Time",
+    "field_type": "TS"
+  },
+  "MFE.4": {
+    "field_name": "Primary Key Value - MFE",
+    "field_type": "varies"
+  },
+  "MFE.5": {
+    "field_name": "Primary Key Value Type",
+    "field_type": "ID"
+  },
+  "MFI.1": {
+    "field_name": "Master File Identifier",
+    "field_type": "CE"
+  },
+  "MFI.2": {
+    "field_name": "Master File Application Identifier",
+    "field_type": "HD"
+  },
+  "MFI.3": {
+    "field_name": "File-Level Event Code",
+    "field_type": "ID"
+  },
+  "MFI.4": {
+    "field_name": "Entered Date/Time",
+    "field_type": "TS"
+  },
+  "MFI.5": {
+    "field_name": "Effective Date/Time",
+    "field_type": "TS"
+  },
+  "MFI.6": {
+    "field_name": "Response Level Code",
+    "field_type": "ID"
+  },
+  "MRG.1": {
+    "field_name": "Prior Patient Identifier List",
+    "field_type": "CX"
+  },
+  "MRG.2": {
+    "field_name": "Prior Alternate Patient ID",
+    "field_type": "CX"
+  },
+  "MRG.3": {
+    "field_name": "Prior Patient Account Number",
+    "field_type": "CX"
+  },
+  "MRG.4": {
+    "field_name": "Prior Patient ID",
+    "field_type": "CX"
+  },
+  "MRG.5": {
+    "field_name": "Prior Visit Number",
+    "field_type": "CX"
+  },
+  "MRG.6": {
+    "field_name": "Prior Alternate Visit ID",
+    "field_type": "CX"
+  },
+  "MRG.7": {
+    "field_name": "Prior Patient Name",
+    "field_type": "XPN"
+  },
+  "MSA.1": {
+    "field_name": "Acknowledgment Code",
+    "field_type": "ID"
+  },
+  "MSA.2": {
+    "field_name": "Message Control ID",
+    "field_type": "ST"
+  },
+  "MSA.3": {
+    "field_name": "Text Message",
+    "field_type": "ST"
+  },
+  "MSA.4": {
+    "field_name": "Expected Sequence Number",
+    "field_type": "NM"
+  },
+  "MSA.6": {
+    "field_name": "Error Condition",
+    "field_type": "CE"
+  },
+  "MSH.1": {
+    "field_name": "Field Separator",
+    "field_type": "ST"
+  },
+  "MSH.2": {
+    "field_name": "Encoding Characters",
+    "field_type": "ST"
+  },
+  "MSH.3": {
+    "field_name": "Sending Application",
+    "field_type": "HD"
+  },
+  "MSH.4": {
+    "field_name": "Sending Facility",
+    "field_type": "HD"
+  },
+  "MSH.5": {
+    "field_name": "Receiving Application",
+    "field_type": "HD"
+  },
+  "MSH.6": {
+    "field_name": "Receiving Facility",
+    "field_type": "HD"
+  },
+  "MSH.7": {
+    "field_name": "Date/Time Of Message",
+    "field_type": "TS"
+  },
+  "MSH.8": {
+    "field_name": "Security",
+    "field_type": "ST"
+  },
+  "MSH.9": {
+    "field_name": "Message Type",
+    "field_type": "MSG"
+  },
+  "MSH.10": {
+    "field_name": "Message Control ID",
+    "field_type": "ST"
+  },
+  "MSH.11": {
+    "field_name": "Processing ID",
+    "field_type": "PT"
+  },
+  "MSH.12": {
+    "field_name": "Version ID",
+    "field_type": "VID"
+  },
+  "MSH.13": {
+    "field_name": "Sequence Number",
+    "field_type": "NM"
+  },
+  "MSH.14": {
+    "field_name": "Continuation Pointer",
+    "field_type": "ST"
+  },
+  "MSH.15": {
+    "field_name": "Accept Acknowledgment Type",
+    "field_type": "ID"
+  },
+  "MSH.16": {
+    "field_name": "Application Acknowledgment Type",
+    "field_type": "ID"
+  },
+  "MSH.17": {
+    "field_name": "Country Code",
+    "field_type": "ID"
+  },
+  "MSH.18": {
+    "field_name": "Character Set",
+    "field_type": "ID"
+  },
+  "MSH.19": {
+    "field_name": "Principal Language Of Message",
+    "field_type": "CE"
+  },
+  "MSH.20": {
+    "field_name": "Alternate Character Set Handling Scheme",
+    "field_type": "ID"
+  },
+  "MSH.21": {
+    "field_name": "Message Profile Identifier",
+    "field_type": "EI"
+  },
+  "NCK.1": {
+    "field_name": "System Date/Time",
+    "field_type": "TS"
+  },
+  "NDS.1": {
+    "field_name": "Notification Reference Number",
+    "field_type": "NM"
+  },
+  "NDS.2": {
+    "field_name": "Notification Date/Time",
+    "field_type": "TS"
+  },
+  "NDS.3": {
+    "field_name": "Notification Alert Severity",
+    "field_type": "CE"
+  },
+  "NDS.4": {
+    "field_name": "Notification Code",
+    "field_type": "CE"
+  },
+  "NK1.1": {
+    "field_name": "Set ID - NK1",
+    "field_type": "SI"
+  },
+  "NK1.2": {
+    "field_name": "Name",
+    "field_type": "XPN"
+  },
+  "NK1.3": {
+    "field_name": "Relationship",
+    "field_type": "CE"
+  },
+  "NK1.4": {
+    "field_name": "Address",
+    "field_type": "XAD"
+  },
+  "NK1.5": {
+    "field_name": "Phone Number",
+    "field_type": "XTN"
+  },
+  "NK1.6": {
+    "field_name": "Business Phone Number",
+    "field_type": "XTN"
+  },
+  "NK1.7": {
+    "field_name": "Contact Role",
+    "field_type": "CE"
+  },
+  "NK1.8": {
+    "field_name": "Start Date",
+    "field_type": "DT"
+  },
+  "NK1.9": {
+    "field_name": "End Date",
+    "field_type": "DT"
+  },
+  "NK1.10": {
+    "field_name": "Next of Kin / Associated Parties Job Title",
+    "field_type": "ST"
+  },
+  "NK1.11": {
+    "field_name": "Next of Kin / Associated Parties Job Code/Class",
+    "field_type": "JCC"
+  },
+  "NK1.12": {
+    "field_name": "Next of Kin / Associated Parties Employee Number",
+    "field_type": "CX"
+  },
+  "NK1.13": {
+    "field_name": "Organization Name - NK1",
+    "field_type": "XON"
+  },
+  "NK1.14": {
+    "field_name": "Marital Status",
+    "field_type": "CE"
+  },
+  "NK1.15": {
+    "field_name": "Administrative Sex",
+    "field_type": "IS"
+  },
+  "NK1.16": {
+    "field_name": "Date/Time of Birth",
+    "field_type": "TS"
+  },
+  "NK1.17": {
+    "field_name": "Living Dependency",
+    "field_type": "IS"
+  },
+  "NK1.18": {
+    "field_name": "Ambulatory Status",
+    "field_type": "IS"
+  },
+  "NK1.19": {
+    "field_name": "Citizenship",
+    "field_type": "CE"
+  },
+  "NK1.20": {
+    "field_name": "Primary Language",
+    "field_type": "CE"
+  },
+  "NK1.21": {
+    "field_name": "Living Arrangement",
+    "field_type": "IS"
+  },
+  "NK1.22": {
+    "field_name": "Publicity Code",
+    "field_type": "CE"
+  },
+  "NK1.23": {
+    "field_name": "Protection Indicator",
+    "field_type": "ID"
+  },
+  "NK1.24": {
+    "field_name": "Student Indicator",
+    "field_type": "IS"
+  },
+  "NK1.25": {
+    "field_name": "Religion",
+    "field_type": "CE"
+  },
+  "NK1.26": {
+    "field_name": "Mother's Maiden Name",
+    "field_type": "XPN"
+  },
+  "NK1.27": {
+    "field_name": "Nationality",
+    "field_type": "CE"
+  },
+  "NK1.28": {
+    "field_name": "Ethnic Group",
+    "field_type": "CE"
+  },
+  "NK1.29": {
+    "field_name": "Contact Reason",
+    "field_type": "CE"
+  },
+  "NK1.30": {
+    "field_name": "Contact Person's Name",
+    "field_type": "XPN"
+  },
+  "NK1.31": {
+    "field_name": "Contact Person's Telephone Number",
+    "field_type": "XTN"
+  },
+  "NK1.32": {
+    "field_name": "Contact Person's Address",
+    "field_type": "XAD"
+  },
+  "NK1.33": {
+    "field_name": "Next of Kin/Associated Party's Identifiers",
+    "field_type": "CX"
+  },
+  "NK1.34": {
+    "field_name": "Job Status",
+    "field_type": "IS"
+  },
+  "NK1.35": {
+    "field_name": "Race",
+    "field_type": "CE"
+  },
+  "NK1.36": {
+    "field_name": "Handicap",
+    "field_type": "IS"
+  },
+  "NK1.37": {
+    "field_name": "Contact Person Social Security Number",
+    "field_type": "ST"
+  },
+  "NK1.38": {
+    "field_name": "Next of Kin Birth Place",
+    "field_type": "ST"
+  },
+  "NK1.39": {
+    "field_name": "VIP Indicator",
+    "field_type": "IS"
+  },
+  "NPU.1": {
+    "field_name": "Bed Location",
+    "field_type": "PL"
+  },
+  "NPU.2": {
+    "field_name": "Bed Status",
+    "field_type": "IS"
+  },
+  "NSC.1": {
+    "field_name": "Application Change Type",
+    "field_type": "IS"
+  },
+  "NSC.2": {
+    "field_name": "Current CPU",
+    "field_type": "ST"
+  },
+  "NSC.3": {
+    "field_name": "Current Fileserver",
+    "field_type": "ST"
+  },
+  "NSC.4": {
+    "field_name": "Current Application",
+    "field_type": "HD"
+  },
+  "NSC.5": {
+    "field_name": "Current Facility",
+    "field_type": "HD"
+  },
+  "NSC.6": {
+    "field_name": "New CPU",
+    "field_type": "ST"
+  },
+  "NSC.7": {
+    "field_name": "New Fileserver",
+    "field_type": "ST"
+  },
+  "NSC.8": {
+    "field_name": "New Application",
+    "field_type": "HD"
+  },
+  "NSC.9": {
+    "field_name": "New Facility",
+    "field_type": "HD"
+  },
+  "NST.1": {
+    "field_name": "Statistics Available",
+    "field_type": "ID"
+  },
+  "NST.2": {
+    "field_name": "Source Identifier",
+    "field_type": "ST"
+  },
+  "NST.3": {
+    "field_name": "Source Type",
+    "field_type": "ID"
+  },
+  "NST.4": {
+    "field_name": "Statistics Start",
+    "field_type": "TS"
+  },
+  "NST.5": {
+    "field_name": "Statistics End",
+    "field_type": "TS"
+  },
+  "NST.6": {
+    "field_name": "Receive Character Count",
+    "field_type": "NM"
+  },
+  "NST.7": {
+    "field_name": "Send Character Count",
+    "field_type": "NM"
+  },
+  "NST.8": {
+    "field_name": "Messages Received",
+    "field_type": "NM"
+  },
+  "NST.9": {
+    "field_name": "Messages Sent",
+    "field_type": "NM"
+  },
+  "NST.10": {
+    "field_name": "Checksum Errors Received",
+    "field_type": "NM"
+  },
+  "NST.11": {
+    "field_name": "Length Errors Received",
+    "field_type": "NM"
+  },
+  "NST.12": {
+    "field_name": "Other Errors Received",
+    "field_type": "NM"
+  },
+  "NST.13": {
+    "field_name": "Connect Timeouts",
+    "field_type": "NM"
+  },
+  "NST.14": {
+    "field_name": "Receive Timeouts",
+    "field_type": "NM"
+  },
+  "NST.15": {
+    "field_name": "Application control-level Errors",
+    "field_type": "NM"
+  },
+  "NTE.1": {
+    "field_name": "Set ID - NTE",
+    "field_type": "SI"
+  },
+  "NTE.2": {
+    "field_name": "Source of Comment",
+    "field_type": "ID"
+  },
+  "NTE.3": {
+    "field_name": "Comment",
+    "field_type": "FT"
+  },
+  "NTE.4": {
+    "field_name": "Comment Type",
+    "field_type": "CE"
+  },
+  "OBR.1": {
+    "field_name": "Set ID - OBR",
+    "field_type": "SI"
+  },
+  "OBR.2": {
+    "field_name": "Placer Order Number",
+    "field_type": "EI"
+  },
+  "OBR.3": {
+    "field_name": "Filler Order Number",
+    "field_type": "EI"
+  },
+  "OBR.4": {
+    "field_name": "Universal Service Identifier",
+    "field_type": "CE"
+  },
+  "OBR.5": {
+    "field_name": "Priority - OBR",
+    "field_type": "ID"
+  },
+  "OBR.6": {
+    "field_name": "Requested Date/Time",
+    "field_type": "TS"
+  },
+  "OBR.7": {
+    "field_name": "Observation Date/Time",
+    "field_type": "TS"
+  },
+  "OBR.8": {
+    "field_name": "Observation End Date/Time",
+    "field_type": "TS"
+  },
+  "OBR.9": {
+    "field_name": "Collection Volume",
+    "field_type": "CQ"
+  },
+  "OBR.10": {
+    "field_name": "Collector Identifier",
+    "field_type": "XCN"
+  },
+  "OBR.11": {
+    "field_name": "Specimen Action Code",
+    "field_type": "ID"
+  },
+  "OBR.12": {
+    "field_name": "Danger Code",
+    "field_type": "CE"
+  },
+  "OBR.13": {
+    "field_name": "Relevant Clinical Information",
+    "field_type": "ST"
+  },
+  "OBR.14": {
+    "field_name": "Specimen Received Date/Time",
+    "field_type": "TS"
+  },
+  "OBR.15": {
+    "field_name": "Specimen Source",
+    "field_type": "SPS"
+  },
+  "OBR.16": {
+    "field_name": "Ordering Provider",
+    "field_type": "XCN"
+  },
+  "OBR.17": {
+    "field_name": "Order Callback Phone Number",
+    "field_type": "XTN"
+  },
+  "OBR.18": {
+    "field_name": "Placer Field 1",
+    "field_type": "ST"
+  },
+  "OBR.19": {
+    "field_name": "Placer Field 2",
+    "field_type": "ST"
+  },
+  "OBR.20": {
+    "field_name": "Filler Field 1",
+    "field_type": "ST"
+  },
+  "OBR.21": {
+    "field_name": "Filler Field 2",
+    "field_type": "ST"
+  },
+  "OBR.22": {
+    "field_name": "Results Rpt/Status Chng - Date/Time",
+    "field_type": "TS"
+  },
+  "OBR.23": {
+    "field_name": "Charge to Practice",
+    "field_type": "MOC"
+  },
+  "OBR.24": {
+    "field_name": "Diagnostic Serv Sect ID",
+    "field_type": "ID"
+  },
+  "OBR.25": {
+    "field_name": "Result Status",
+    "field_type": "ID"
+  },
+  "OBR.26": {
+    "field_name": "Parent Result",
+    "field_type": "PRL"
+  },
+  "OBR.27": {
+    "field_name": "Quantity/Timing",
+    "field_type": "TQ"
+  },
+  "OBR.28": {
+    "field_name": "Result Copies To",
+    "field_type": "XCN"
+  },
+  "OBR.29": {
+    "field_name": "Parent",
+    "field_type": "EIP"
+  },
+  "OBR.30": {
+    "field_name": "Transportation Mode",
+    "field_type": "ID"
+  },
+  "OBR.31": {
+    "field_name": "Reason for Study",
+    "field_type": "CE"
+  },
+  "OBR.32": {
+    "field_name": "Principal Result Interpreter",
+    "field_type": "NDL"
+  },
+  "OBR.33": {
+    "field_name": "Assistant Result Interpreter",
+    "field_type": "NDL"
+  },
+  "OBR.34": {
+    "field_name": "Technician",
+    "field_type": "NDL"
+  },
+  "OBR.35": {
+    "field_name": "Transcriptionist",
+    "field_type": "NDL"
+  },
+  "OBR.36": {
+    "field_name": "Scheduled Date/Time",
+    "field_type": "TS"
+  },
+  "OBR.37": {
+    "field_name": "Number of Sample Containers *",
+    "field_type": "NM"
+  },
+  "OBR.38": {
+    "field_name": "Transport Logistics of Collected Sample",
+    "field_type": "CE"
+  },
+  "OBR.39": {
+    "field_name": "Collector's Comment *",
+    "field_type": "CE"
+  },
+  "OBR.40": {
+    "field_name": "Transport Arrangement Responsibility",
+    "field_type": "CE"
+  },
+  "OBR.41": {
+    "field_name": "Transport Arranged",
+    "field_type": "ID"
+  },
+  "OBR.42": {
+    "field_name": "Escort Required",
+    "field_type": "ID"
+  },
+  "OBR.43": {
+    "field_name": "Planned Patient Transport Comment",
+    "field_type": "CE"
+  },
+  "OBR.44": {
+    "field_name": "Procedure Code",
+    "field_type": "CE"
+  },
+  "OBR.45": {
+    "field_name": "Procedure Code Modifier",
+    "field_type": "CE"
+  },
+  "OBR.46": {
+    "field_name": "Placer Supplemental Service Information",
+    "field_type": "CE"
+  },
+  "OBR.47": {
+    "field_name": "Filler Supplemental Service Information",
+    "field_type": "CE"
+  },
+  "OBR.48": {
+    "field_name": "Medically Necessary Duplicate Procedure Reason.",
+    "field_type": "CWE"
+  },
+  "OBR.49": {
+    "field_name": "Result Handling",
+    "field_type": "IS"
+  },
+  "OBR.50": {
+    "field_name": "Parent Universal Service Identifier",
+    "field_type": "CWE"
+  },
+  "OBX.1": {
+    "field_name": "Set ID - OBX",
+    "field_type": "SI"
+  },
+  "OBX.2": {
+    "field_name": "Value Type",
+    "field_type": "ID"
+  },
+  "OBX.3": {
+    "field_name": "Observation Identifier",
+    "field_type": "CE"
+  },
+  "OBX.4": {
+    "field_name": "Observation Sub-ID",
+    "field_type": "ST"
+  },
+  "OBX.5": {
+    "field_name": "Observation Value",
+    "field_type": "varies"
+  },
+  "OBX.6": {
+    "field_name": "Units",
+    "field_type": "CE"
+  },
+  "OBX.7": {
+    "field_name": "References Range",
+    "field_type": "ST"
+  },
+  "OBX.8": {
+    "field_name": "Abnormal Flags",
+    "field_type": "IS"
+  },
+  "OBX.9": {
+    "field_name": "Probability",
+    "field_type": "NM"
+  },
+  "OBX.10": {
+    "field_name": "Nature of Abnormal Test",
+    "field_type": "ID"
+  },
+  "OBX.11": {
+    "field_name": "Observation Result Status",
+    "field_type": "ID"
+  },
+  "OBX.12": {
+    "field_name": "Effective Date of Reference Range Values",
+    "field_type": "TS"
+  },
+  "OBX.13": {
+    "field_name": "User Defined Access Checks",
+    "field_type": "ST"
+  },
+  "OBX.14": {
+    "field_name": "Date/Time of the Observation",
+    "field_type": "TS"
+  },
+  "OBX.15": {
+    "field_name": "Producer's Reference",
+    "field_type": "CE"
+  },
+  "OBX.16": {
+    "field_name": "Responsible Observer",
+    "field_type": "XCN"
+  },
+  "OBX.17": {
+    "field_name": "Observation Method",
+    "field_type": "CE"
+  },
+  "OBX.18": {
+    "field_name": "Equipment Instance Identifier",
+    "field_type": "EI"
+  },
+  "OBX.19": {
+    "field_name": "Date/Time of the Analysis",
+    "field_type": "TS"
+  },
+  "OBX.20": {
+    "field_name": "Reserved for harmonization with V2.6",
+    "field_type": "varies"
+  },
+  "OBX.21": {
+    "field_name": "Reserved for harmonization with V2.6",
+    "field_type": "varies"
+  },
+  "OBX.22": {
+    "field_name": "Reserved for harmonization with V2.6",
+    "field_type": "varies"
+  },
+  "OBX.23": {
+    "field_name": "Performing Organization Name",
+    "field_type": "XON"
+  },
+  "OBX.24": {
+    "field_name": "Performing Organization Address",
+    "field_type": "XAD"
+  },
+  "OBX.25": {
+    "field_name": "Performing Organization Medical Director",
+    "field_type": "XCN"
+  },
+  "ODS.1": {
+    "field_name": "Type",
+    "field_type": "ID"
+  },
+  "ODS.2": {
+    "field_name": "Service Period",
+    "field_type": "CE"
+  },
+  "ODS.3": {
+    "field_name": "Diet, Supplement, or Preference Code",
+    "field_type": "CE"
+  },
+  "ODS.4": {
+    "field_name": "Text Instruction",
+    "field_type": "ST"
+  },
+  "ODT.1": {
+    "field_name": "Tray Type",
+    "field_type": "CE"
+  },
+  "ODT.2": {
+    "field_name": "Service Period",
+    "field_type": "CE"
+  },
+  "ODT.3": {
+    "field_name": "Text Instruction",
+    "field_type": "ST"
+  },
+  "OM1.1": {
+    "field_name": "Sequence Number - Test/Observation Master File",
+    "field_type": "NM"
+  },
+  "OM1.2": {
+    "field_name": "Producer's Service/Test/Observation ID",
+    "field_type": "CE"
+  },
+  "OM1.3": {
+    "field_name": "Permitted Data Types",
+    "field_type": "ID"
+  },
+  "OM1.4": {
+    "field_name": "Specimen Required",
+    "field_type": "ID"
+  },
+  "OM1.5": {
+    "field_name": "Producer ID",
+    "field_type": "CE"
+  },
+  "OM1.6": {
+    "field_name": "Observation Description",
+    "field_type": "TX"
+  },
+  "OM1.7": {
+    "field_name": "Other Service/Test/Observation IDs for the Observation",
+    "field_type": "CE"
+  },
+  "OM1.8": {
+    "field_name": "Other Names",
+    "field_type": "ST"
+  },
+  "OM1.9": {
+    "field_name": "Preferred Report Name for the Observation",
+    "field_type": "ST"
+  },
+  "OM1.10": {
+    "field_name": "Preferred Short Name or Mnemonic for Observation",
+    "field_type": "ST"
+  },
+  "OM1.11": {
+    "field_name": "Preferred Long Name for the Observation",
+    "field_type": "ST"
+  },
+  "OM1.12": {
+    "field_name": "Orderability",
+    "field_type": "ID"
+  },
+  "OM1.13": {
+    "field_name": "Identity of Instrument Used to Perform this Study",
+    "field_type": "CE"
+  },
+  "OM1.14": {
+    "field_name": "Coded Representation of Method",
+    "field_type": "CE"
+  },
+  "OM1.15": {
+    "field_name": "Portable Device Indicator",
+    "field_type": "ID"
+  },
+  "OM1.16": {
+    "field_name": "Observation Producing Department/Section",
+    "field_type": "CE"
+  },
+  "OM1.17": {
+    "field_name": "Telephone Number of Section",
+    "field_type": "XTN"
+  },
+  "OM1.18": {
+    "field_name": "Nature of Service/Test/Observation",
+    "field_type": "IS"
+  },
+  "OM1.19": {
+    "field_name": "Report Subheader",
+    "field_type": "CE"
+  },
+  "OM1.20": {
+    "field_name": "Report Display Order",
+    "field_type": "ST"
+  },
+  "OM1.21": {
+    "field_name": "Date/Time Stamp for any change in Definition for the Observation",
+    "field_type": "TS"
+  },
+  "OM1.22": {
+    "field_name": "Effective Date/Time of Change",
+    "field_type": "TS"
+  },
+  "OM1.23": {
+    "field_name": "Typical Turn-Around Time",
+    "field_type": "NM"
+  },
+  "OM1.24": {
+    "field_name": "Processing Time",
+    "field_type": "NM"
+  },
+  "OM1.25": {
+    "field_name": "Processing Priority",
+    "field_type": "ID"
+  },
+  "OM1.26": {
+    "field_name": "Reporting Priority",
+    "field_type": "ID"
+  },
+  "OM1.27": {
+    "field_name": "Outside Site(s) Where Observation may be Performed",
+    "field_type": "CE"
+  },
+  "OM1.28": {
+    "field_name": "Address of Outside Site(s)",
+    "field_type": "XAD"
+  },
+  "OM1.29": {
+    "field_name": "Phone Number of Outside Site",
+    "field_type": "XTN"
+  },
+  "OM1.30": {
+    "field_name": "Confidentiality Code",
+    "field_type": "CWE"
+  },
+  "OM1.31": {
+    "field_name": "Observations Required to Interpret the Observation",
+    "field_type": "CE"
+  },
+  "OM1.32": {
+    "field_name": "Interpretation of Observations",
+    "field_type": "TX"
+  },
+  "OM1.33": {
+    "field_name": "Contraindications to Observations",
+    "field_type": "CE"
+  },
+  "OM1.34": {
+    "field_name": "Reflex Tests/Observations",
+    "field_type": "CE"
+  },
+  "OM1.35": {
+    "field_name": "Rules that Trigger Reflex Testing",
+    "field_type": "TX"
+  },
+  "OM1.36": {
+    "field_name": "Fixed Canned Message",
+    "field_type": "CE"
+  },
+  "OM1.37": {
+    "field_name": "Patient Preparation",
+    "field_type": "TX"
+  },
+  "OM1.38": {
+    "field_name": "Procedure Medication",
+    "field_type": "CE"
+  },
+  "OM1.39": {
+    "field_name": "Factors that may Affect the Observation",
+    "field_type": "TX"
+  },
+  "OM1.40": {
+    "field_name": "Service/Test/Observation Performance Schedule",
+    "field_type": "ST"
+  },
+  "OM1.41": {
+    "field_name": "Description of Test Methods",
+    "field_type": "TX"
+  },
+  "OM1.42": {
+    "field_name": "Kind of Quantity Observed",
+    "field_type": "CE"
+  },
+  "OM1.43": {
+    "field_name": "Point Versus Interval",
+    "field_type": "CE"
+  },
+  "OM1.44": {
+    "field_name": "Challenge Information",
+    "field_type": "TX"
+  },
+  "OM1.45": {
+    "field_name": "Relationship Modifier",
+    "field_type": "CE"
+  },
+  "OM1.46": {
+    "field_name": "Target Anatomic Site Of Test",
+    "field_type": "CE"
+  },
+  "OM1.47": {
+    "field_name": "Modality Of Imaging Measurement",
+    "field_type": "CE"
+  },
+  "OM2.1": {
+    "field_name": "Sequence Number - Test/Observation Master File",
+    "field_type": "NM"
+  },
+  "OM2.2": {
+    "field_name": "Units of Measure",
+    "field_type": "CE"
+  },
+  "OM2.3": {
+    "field_name": "Range of Decimal Precision",
+    "field_type": "NM"
+  },
+  "OM2.4": {
+    "field_name": "Corresponding SI Units of Measure",
+    "field_type": "CE"
+  },
+  "OM2.5": {
+    "field_name": "SI Conversion Factor",
+    "field_type": "TX"
+  },
+  "OM2.6": {
+    "field_name": "Reference (Normal) Range - Ordinal and Continuous Observations",
+    "field_type": "RFR"
+  },
+  "OM2.7": {
+    "field_name": "Critical Range for Ordinal and Continuous Observations",
+    "field_type": "RFR"
+  },
+  "OM2.8": {
+    "field_name": "Absolute Range for Ordinal and Continuous Observations",
+    "field_type": "RFR"
+  },
+  "OM2.9": {
+    "field_name": "Delta Check Criteria",
+    "field_type": "DLT"
+  },
+  "OM2.10": {
+    "field_name": "Minimum Meaningful Increments",
+    "field_type": "NM"
+  },
+  "OM3.1": {
+    "field_name": "Sequence Number - Test/Observation Master File",
+    "field_type": "NM"
+  },
+  "OM3.2": {
+    "field_name": "Preferred Coding System",
+    "field_type": "CE"
+  },
+  "OM3.3": {
+    "field_name": "Valid Coded \"Answers\"",
+    "field_type": "CE"
+  },
+  "OM3.4": {
+    "field_name": "Normal Text/Codes for Categorical Observations",
+    "field_type": "CE"
+  },
+  "OM3.5": {
+    "field_name": "Abnormal Text/Codes for Categorical Observations",
+    "field_type": "CE"
+  },
+  "OM3.6": {
+    "field_name": "Critical Text/Codes for Categorical Observations",
+    "field_type": "CE"
+  },
+  "OM3.7": {
+    "field_name": "Value Type",
+    "field_type": "ID"
+  },
+  "OM4.1": {
+    "field_name": "Sequence Number - Test/Observation Master File",
+    "field_type": "NM"
+  },
+  "OM4.2": {
+    "field_name": "Derived Specimen",
+    "field_type": "ID"
+  },
+  "OM4.3": {
+    "field_name": "Container Description",
+    "field_type": "TX"
+  },
+  "OM4.4": {
+    "field_name": "Container Volume",
+    "field_type": "NM"
+  },
+  "OM4.5": {
+    "field_name": "Container Units",
+    "field_type": "CE"
+  },
+  "OM4.6": {
+    "field_name": "Specimen",
+    "field_type": "CE"
+  },
+  "OM4.7": {
+    "field_name": "Additive",
+    "field_type": "CWE"
+  },
+  "OM4.8": {
+    "field_name": "Preparation",
+    "field_type": "TX"
+  },
+  "OM4.9": {
+    "field_name": "Special Handling Requirements",
+    "field_type": "TX"
+  },
+  "OM4.10": {
+    "field_name": "Normal Collection Volume",
+    "field_type": "CQ"
+  },
+  "OM4.11": {
+    "field_name": "Minimum Collection Volume",
+    "field_type": "CQ"
+  },
+  "OM4.12": {
+    "field_name": "Specimen Requirements",
+    "field_type": "TX"
+  },
+  "OM4.13": {
+    "field_name": "Specimen Priorities",
+    "field_type": "ID"
+  },
+  "OM4.14": {
+    "field_name": "Specimen Retention Time",
+    "field_type": "CQ"
+  },
+  "OM5.1": {
+    "field_name": "Sequence Number - Test/Observation Master File",
+    "field_type": "NM"
+  },
+  "OM5.2": {
+    "field_name": "Test/Observations Included within an Ordered Test Battery",
+    "field_type": "CE"
+  },
+  "OM5.3": {
+    "field_name": "Observation ID Suffixes",
+    "field_type": "ST"
+  },
+  "OM6.1": {
+    "field_name": "Sequence Number - Test/Observation Master File",
+    "field_type": "NM"
+  },
+  "OM6.2": {
+    "field_name": "Derivation Rule",
+    "field_type": "TX"
+  },
+  "OM7.1": {
+    "field_name": "Sequence Number - Test/Observation Master File",
+    "field_type": "NM"
+  },
+  "OM7.2": {
+    "field_name": "Universal Service Identifier",
+    "field_type": "CE"
+  },
+  "OM7.3": {
+    "field_name": "Category Identifier",
+    "field_type": "CE"
+  },
+  "OM7.4": {
+    "field_name": "Category Description",
+    "field_type": "TX"
+  },
+  "OM7.5": {
+    "field_name": "Category Synonym",
+    "field_type": "ST"
+  },
+  "OM7.6": {
+    "field_name": "Effective Test/Service Start Date/Time",
+    "field_type": "TS"
+  },
+  "OM7.7": {
+    "field_name": "Effective Test/Service End Date/Time",
+    "field_type": "TS"
+  },
+  "OM7.8": {
+    "field_name": "Test/Service Default Duration Quantity",
+    "field_type": "NM"
+  },
+  "OM7.9": {
+    "field_name": "Test/Service Default Duration Units",
+    "field_type": "CE"
+  },
+  "OM7.10": {
+    "field_name": "Test/Service Default Frequency",
+    "field_type": "IS"
+  },
+  "OM7.11": {
+    "field_name": "Consent Indicator",
+    "field_type": "ID"
+  },
+  "OM7.12": {
+    "field_name": "Consent Identifier",
+    "field_type": "CE"
+  },
+  "OM7.13": {
+    "field_name": "Consent Effective Start Date/Time",
+    "field_type": "TS"
+  },
+  "OM7.14": {
+    "field_name": "Consent Effective End Date/Time",
+    "field_type": "TS"
+  },
+  "OM7.15": {
+    "field_name": "Consent Interval Quantity",
+    "field_type": "NM"
+  },
+  "OM7.16": {
+    "field_name": "Consent Interval Units",
+    "field_type": "CE"
+  },
+  "OM7.17": {
+    "field_name": "Consent Waiting Period Quantity",
+    "field_type": "NM"
+  },
+  "OM7.18": {
+    "field_name": "Consent Waiting Period Units",
+    "field_type": "CE"
+  },
+  "OM7.19": {
+    "field_name": "Effective Date/Time of Change",
+    "field_type": "TS"
+  },
+  "OM7.20": {
+    "field_name": "Entered By",
+    "field_type": "XCN"
+  },
+  "OM7.21": {
+    "field_name": "Orderable-at Location",
+    "field_type": "PL"
+  },
+  "OM7.22": {
+    "field_name": "Formulary Status",
+    "field_type": "IS"
+  },
+  "OM7.23": {
+    "field_name": "Special Order Indicator",
+    "field_type": "ID"
+  },
+  "OM7.24": {
+    "field_name": "Primary Key Value - CDM",
+    "field_type": "CE"
+  },
+  "ORC.1": {
+    "field_name": "Order Control",
+    "field_type": "ID"
+  },
+  "ORC.2": {
+    "field_name": "Placer Order Number",
+    "field_type": "EI"
+  },
+  "ORC.3": {
+    "field_name": "Filler Order Number",
+    "field_type": "EI"
+  },
+  "ORC.4": {
+    "field_name": "Placer Group Number",
+    "field_type": "EI"
+  },
+  "ORC.5": {
+    "field_name": "Order Status",
+    "field_type": "ID"
+  },
+  "ORC.6": {
+    "field_name": "Response Flag",
+    "field_type": "ID"
+  },
+  "ORC.7": {
+    "field_name": "Quantity/Timing",
+    "field_type": "TQ"
+  },
+  "ORC.8": {
+    "field_name": "Parent",
+    "field_type": "EIP"
+  },
+  "ORC.9": {
+    "field_name": "Date/Time of Transaction",
+    "field_type": "TS"
+  },
+  "ORC.10": {
+    "field_name": "Entered By",
+    "field_type": "XCN"
+  },
+  "ORC.11": {
+    "field_name": "Verified By",
+    "field_type": "XCN"
+  },
+  "ORC.12": {
+    "field_name": "Ordering Provider",
+    "field_type": "XCN"
+  },
+  "ORC.13": {
+    "field_name": "Enterer's Location",
+    "field_type": "PL"
+  },
+  "ORC.14": {
+    "field_name": "Call Back Phone Number",
+    "field_type": "XTN"
+  },
+  "ORC.15": {
+    "field_name": "Order Effective Date/Time",
+    "field_type": "TS"
+  },
+  "ORC.16": {
+    "field_name": "Order Control Code Reason",
+    "field_type": "CE"
+  },
+  "ORC.17": {
+    "field_name": "Entering Organization",
+    "field_type": "CE"
+  },
+  "ORC.18": {
+    "field_name": "Entering Device",
+    "field_type": "CE"
+  },
+  "ORC.19": {
+    "field_name": "Action By",
+    "field_type": "XCN"
+  },
+  "ORC.20": {
+    "field_name": "Advanced Beneficiary Notice Code",
+    "field_type": "CE"
+  },
+  "ORC.21": {
+    "field_name": "Ordering Facility Name",
+    "field_type": "XON"
+  },
+  "ORC.22": {
+    "field_name": "Ordering Facility Address",
+    "field_type": "XAD"
+  },
+  "ORC.23": {
+    "field_name": "Ordering Facility Phone Number",
+    "field_type": "XTN"
+  },
+  "ORC.24": {
+    "field_name": "Ordering Provider Address",
+    "field_type": "XAD"
+  },
+  "ORC.25": {
+    "field_name": "Order Status Modifier",
+    "field_type": "CWE"
+  },
+  "ORC.26": {
+    "field_name": "Advanced Beneficiary Notice Override Reason",
+    "field_type": "CWE"
+  },
+  "ORC.27": {
+    "field_name": "Filler's Expected Availability Date/Time",
+    "field_type": "TS"
+  },
+  "ORC.28": {
+    "field_name": "Confidentiality Code",
+    "field_type": "CWE"
+  },
+  "ORC.29": {
+    "field_name": "Order Type",
+    "field_type": "CWE"
+  },
+  "ORC.30": {
+    "field_name": "Enterer Authorization Mode",
+    "field_type": "CNE"
+  },
+  "ORC.31": {
+    "field_name": "Parent Universal Service Identifier",
+    "field_type": "CWE"
+  },
+  "ORG.1": {
+    "field_name": "Set ID - ORG",
+    "field_type": "SI"
+  },
+  "ORG.2": {
+    "field_name": "Organization Unit Code",
+    "field_type": "CE"
+  },
+  "ORG.3": {
+    "field_name": "Organization Unit Type Code",
+    "field_type": "CE"
+  },
+  "ORG.4": {
+    "field_name": "Primary Org Unit Indicator",
+    "field_type": "ID"
+  },
+  "ORG.5": {
+    "field_name": "Practitioner Org Unit Identifier",
+    "field_type": "CX"
+  },
+  "ORG.6": {
+    "field_name": "Health Care Provider Type Code",
+    "field_type": "CE"
+  },
+  "ORG.7": {
+    "field_name": "Health Care Provider Classification Code",
+    "field_type": "CE"
+  },
+  "ORG.8": {
+    "field_name": "Health Care Provider Area of Specialization Code",
+    "field_type": "CE"
+  },
+  "ORG.9": {
+    "field_name": "Effective Date Range",
+    "field_type": "DR"
+  },
+  "ORG.10": {
+    "field_name": "Employment Status Code",
+    "field_type": "CE"
+  },
+  "ORG.11": {
+    "field_name": "Board Approval Indicator",
+    "field_type": "ID"
+  },
+  "ORG.12": {
+    "field_name": "Primary Care Physician Indicator",
+    "field_type": "ID"
+  },
+  "OVR.1": {
+    "field_name": "Business Rule Override Type",
+    "field_type": "CWE"
+  },
+  "OVR.2": {
+    "field_name": "Business Rule Override Code",
+    "field_type": "CWE"
+  },
+  "OVR.3": {
+    "field_name": "Override Comments",
+    "field_type": "TX"
+  },
+  "OVR.4": {
+    "field_name": "Override Entered By",
+    "field_type": "XCN"
+  },
+  "OVR.5": {
+    "field_name": "Override Authorized By",
+    "field_type": "XCN"
+  },
+  "PCR.1": {
+    "field_name": "Implicated Product",
+    "field_type": "CE"
+  },
+  "PCR.2": {
+    "field_name": "Generic Product",
+    "field_type": "IS"
+  },
+  "PCR.3": {
+    "field_name": "Product Class",
+    "field_type": "CE"
+  },
+  "PCR.4": {
+    "field_name": "Total Duration Of Therapy",
+    "field_type": "CQ"
+  },
+  "PCR.5": {
+    "field_name": "Product Manufacture Date",
+    "field_type": "TS"
+  },
+  "PCR.6": {
+    "field_name": "Product Expiration Date",
+    "field_type": "TS"
+  },
+  "PCR.7": {
+    "field_name": "Product Implantation Date",
+    "field_type": "TS"
+  },
+  "PCR.8": {
+    "field_name": "Product Explantation Date",
+    "field_type": "TS"
+  },
+  "PCR.9": {
+    "field_name": "Single Use Device",
+    "field_type": "IS"
+  },
+  "PCR.10": {
+    "field_name": "Indication For Product Use",
+    "field_type": "CE"
+  },
+  "PCR.11": {
+    "field_name": "Product Problem",
+    "field_type": "IS"
+  },
+  "PCR.12": {
+    "field_name": "Product Serial/Lot Number",
+    "field_type": "ST"
+  },
+  "PCR.13": {
+    "field_name": "Product Available For Inspection",
+    "field_type": "IS"
+  },
+  "PCR.14": {
+    "field_name": "Product Evaluation Performed",
+    "field_type": "CE"
+  },
+  "PCR.15": {
+    "field_name": "Product Evaluation Status",
+    "field_type": "CE"
+  },
+  "PCR.16": {
+    "field_name": "Product Evaluation Results",
+    "field_type": "CE"
+  },
+  "PCR.17": {
+    "field_name": "Evaluated Product Source",
+    "field_type": "ID"
+  },
+  "PCR.18": {
+    "field_name": "Date Product Returned To Manufacturer",
+    "field_type": "TS"
+  },
+  "PCR.19": {
+    "field_name": "Device Operator Qualifications",
+    "field_type": "ID"
+  },
+  "PCR.20": {
+    "field_name": "Relatedness Assessment",
+    "field_type": "ID"
+  },
+  "PCR.21": {
+    "field_name": "Action Taken In Response To The Event",
+    "field_type": "ID"
+  },
+  "PCR.22": {
+    "field_name": "Event Causality Observations",
+    "field_type": "ID"
+  },
+  "PCR.23": {
+    "field_name": "Indirect Exposure Mechanism",
+    "field_type": "ID"
+  },
+  "PD1.1": {
+    "field_name": "Living Dependency",
+    "field_type": "IS"
+  },
+  "PD1.2": {
+    "field_name": "Living Arrangement",
+    "field_type": "IS"
+  },
+  "PD1.3": {
+    "field_name": "Patient Primary Facility",
+    "field_type": "XON"
+  },
+  "PD1.4": {
+    "field_name": "Patient Primary Care Provider Name & ID No.",
+    "field_type": "XCN"
+  },
+  "PD1.5": {
+    "field_name": "Student Indicator",
+    "field_type": "IS"
+  },
+  "PD1.6": {
+    "field_name": "Handicap",
+    "field_type": "IS"
+  },
+  "PD1.7": {
+    "field_name": "Living Will Code",
+    "field_type": "IS"
+  },
+  "PD1.8": {
+    "field_name": "Organ Donor Code",
+    "field_type": "IS"
+  },
+  "PD1.9": {
+    "field_name": "Separate Bill",
+    "field_type": "ID"
+  },
+  "PD1.10": {
+    "field_name": "Duplicate Patient",
+    "field_type": "CX"
+  },
+  "PD1.11": {
+    "field_name": "Publicity Code",
+    "field_type": "CE"
+  },
+  "PD1.12": {
+    "field_name": "Protection Indicator",
+    "field_type": "ID"
+  },
+  "PD1.13": {
+    "field_name": "Protection Indicator Effective Date",
+    "field_type": "DT"
+  },
+  "PD1.14": {
+    "field_name": "Place of Worship",
+    "field_type": "XON"
+  },
+  "PD1.15": {
+    "field_name": "Advance Directive Code",
+    "field_type": "CE"
+  },
+  "PD1.16": {
+    "field_name": "Immunization Registry Status",
+    "field_type": "IS"
+  },
+  "PD1.17": {
+    "field_name": "Immunization Registry Status Effective Date",
+    "field_type": "DT"
+  },
+  "PD1.18": {
+    "field_name": "Publicity Code Effective Date",
+    "field_type": "DT"
+  },
+  "PD1.19": {
+    "field_name": "Military Branch",
+    "field_type": "IS"
+  },
+  "PD1.20": {
+    "field_name": "Military Rank/Grade",
+    "field_type": "IS"
+  },
+  "PD1.21": {
+    "field_name": "Military Status",
+    "field_type": "IS"
+  },
+  "PDA.1": {
+    "field_name": "Death Cause Code",
+    "field_type": "CE"
+  },
+  "PDA.2": {
+    "field_name": "Death Location",
+    "field_type": "PL"
+  },
+  "PDA.3": {
+    "field_name": "Death Certified Indicator",
+    "field_type": "ID"
+  },
+  "PDA.4": {
+    "field_name": "Death Certificate Signed Date/Time",
+    "field_type": "TS"
+  },
+  "PDA.5": {
+    "field_name": "Death Certified By",
+    "field_type": "XCN"
+  },
+  "PDA.6": {
+    "field_name": "Autopsy Indicator",
+    "field_type": "ID"
+  },
+  "PDA.7": {
+    "field_name": "Autopsy Start and End Date/Time",
+    "field_type": "DR"
+  },
+  "PDA.8": {
+    "field_name": "Autopsy Performed By",
+    "field_type": "XCN"
+  },
+  "PDA.9": {
+    "field_name": "Coroner Indicator",
+    "field_type": "ID"
+  },
+  "PDC.1": {
+    "field_name": "Manufacturer/Distributor",
+    "field_type": "XON"
+  },
+  "PDC.2": {
+    "field_name": "Country",
+    "field_type": "CE"
+  },
+  "PDC.3": {
+    "field_name": "Brand Name",
+    "field_type": "ST"
+  },
+  "PDC.4": {
+    "field_name": "Device Family Name",
+    "field_type": "ST"
+  },
+  "PDC.5": {
+    "field_name": "Generic Name",
+    "field_type": "CE"
+  },
+  "PDC.6": {
+    "field_name": "Model Identifier",
+    "field_type": "ST"
+  },
+  "PDC.7": {
+    "field_name": "Catalogue Identifier",
+    "field_type": "ST"
+  },
+  "PDC.8": {
+    "field_name": "Other Identifier",
+    "field_type": "ST"
+  },
+  "PDC.9": {
+    "field_name": "Product Code",
+    "field_type": "CE"
+  },
+  "PDC.10": {
+    "field_name": "Marketing Basis",
+    "field_type": "ID"
+  },
+  "PDC.11": {
+    "field_name": "Marketing Approval ID",
+    "field_type": "ST"
+  },
+  "PDC.12": {
+    "field_name": "Labeled Shelf Life",
+    "field_type": "CQ"
+  },
+  "PDC.13": {
+    "field_name": "Expected Shelf Life",
+    "field_type": "CQ"
+  },
+  "PDC.14": {
+    "field_name": "Date First Marketed",
+    "field_type": "TS"
+  },
+  "PDC.15": {
+    "field_name": "Date Last Marketed",
+    "field_type": "TS"
+  },
+  "PEO.1": {
+    "field_name": "Event Identifiers Used",
+    "field_type": "CE"
+  },
+  "PEO.2": {
+    "field_name": "Event Symptom/Diagnosis Code",
+    "field_type": "CE"
+  },
+  "PEO.3": {
+    "field_name": "Event Onset Date/Time",
+    "field_type": "TS"
+  },
+  "PEO.4": {
+    "field_name": "Event Exacerbation Date/Time",
+    "field_type": "TS"
+  },
+  "PEO.5": {
+    "field_name": "Event Improved Date/Time",
+    "field_type": "TS"
+  },
+  "PEO.6": {
+    "field_name": "Event Ended Data/Time",
+    "field_type": "TS"
+  },
+  "PEO.7": {
+    "field_name": "Event Location Occurred Address",
+    "field_type": "XAD"
+  },
+  "PEO.8": {
+    "field_name": "Event Qualification",
+    "field_type": "ID"
+  },
+  "PEO.9": {
+    "field_name": "Event Serious",
+    "field_type": "ID"
+  },
+  "PEO.10": {
+    "field_name": "Event Expected",
+    "field_type": "ID"
+  },
+  "PEO.11": {
+    "field_name": "Event Outcome",
+    "field_type": "ID"
+  },
+  "PEO.12": {
+    "field_name": "Patient Outcome",
+    "field_type": "ID"
+  },
+  "PEO.13": {
+    "field_name": "Event Description From Others",
+    "field_type": "FT"
+  },
+  "PEO.14": {
+    "field_name": "Event From Original Reporter",
+    "field_type": "FT"
+  },
+  "PEO.15": {
+    "field_name": "Event Description From Patient",
+    "field_type": "FT"
+  },
+  "PEO.16": {
+    "field_name": "Event Description From Practitioner",
+    "field_type": "FT"
+  },
+  "PEO.17": {
+    "field_name": "Event Description From Autopsy",
+    "field_type": "FT"
+  },
+  "PEO.18": {
+    "field_name": "Cause Of Death",
+    "field_type": "CE"
+  },
+  "PEO.19": {
+    "field_name": "Primary Observer Name",
+    "field_type": "XPN"
+  },
+  "PEO.20": {
+    "field_name": "Primary Observer Address",
+    "field_type": "XAD"
+  },
+  "PEO.21": {
+    "field_name": "Primary Observer Telephone",
+    "field_type": "XTN"
+  },
+  "PEO.22": {
+    "field_name": "Primary Observer's Qualification",
+    "field_type": "ID"
+  },
+  "PEO.23": {
+    "field_name": "Confirmation Provided By",
+    "field_type": "ID"
+  },
+  "PEO.24": {
+    "field_name": "Primary Observer Aware Date/Time",
+    "field_type": "TS"
+  },
+  "PEO.25": {
+    "field_name": "Primary Observer's identity May Be Divulged",
+    "field_type": "ID"
+  },
+  "PES.1": {
+    "field_name": "Sender Organization Name",
+    "field_type": "XON"
+  },
+  "PES.2": {
+    "field_name": "Sender Individual Name",
+    "field_type": "XCN"
+  },
+  "PES.3": {
+    "field_name": "Sender Address",
+    "field_type": "XAD"
+  },
+  "PES.4": {
+    "field_name": "Sender Telephone",
+    "field_type": "XTN"
+  },
+  "PES.5": {
+    "field_name": "Sender Event Identifier",
+    "field_type": "EI"
+  },
+  "PES.6": {
+    "field_name": "Sender Sequence Number",
+    "field_type": "NM"
+  },
+  "PES.7": {
+    "field_name": "Sender Event Description",
+    "field_type": "FT"
+  },
+  "PES.8": {
+    "field_name": "Sender Comment",
+    "field_type": "FT"
+  },
+  "PES.9": {
+    "field_name": "Sender Aware Date/Time",
+    "field_type": "TS"
+  },
+  "PES.10": {
+    "field_name": "Event Report Date",
+    "field_type": "TS"
+  },
+  "PES.11": {
+    "field_name": "Event Report Timing/Type",
+    "field_type": "ID"
+  },
+  "PES.12": {
+    "field_name": "Event Report Source",
+    "field_type": "ID"
+  },
+  "PES.13": {
+    "field_name": "Event Reported To",
+    "field_type": "ID"
+  },
+  "PID.1": {
+    "field_name": "Set ID - PID",
+    "field_type": "SI"
+  },
+  "PID.2": {
+    "field_name": "Patient ID",
+    "field_type": "CX"
+  },
+  "PID.3": {
+    "field_name": "Patient Identifier List",
+    "field_type": "CX"
+  },
+  "PID.4": {
+    "field_name": "Alternate Patient ID - PID",
+    "field_type": "CX"
+  },
+  "PID.5": {
+    "field_name": "Patient Name",
+    "field_type": "XPN"
+  },
+  "PID.6": {
+    "field_name": "Mother's Maiden Name",
+    "field_type": "XPN"
+  },
+  "PID.7": {
+    "field_name": "Date/Time of Birth",
+    "field_type": "TS"
+  },
+  "PID.8": {
+    "field_name": "Administrative Sex",
+    "field_type": "IS"
+  },
+  "PID.9": {
+    "field_name": "Patient Alias",
+    "field_type": "XPN"
+  },
+  "PID.10": {
+    "field_name": "Race",
+    "field_type": "CE"
+  },
+  "PID.11": {
+    "field_name": "Patient Address",
+    "field_type": "XAD"
+  },
+  "PID.12": {
+    "field_name": "County Code",
+    "field_type": "IS"
+  },
+  "PID.13": {
+    "field_name": "Phone Number - Home",
+    "field_type": "XTN"
+  },
+  "PID.14": {
+    "field_name": "Phone Number - Business",
+    "field_type": "XTN"
+  },
+  "PID.15": {
+    "field_name": "Primary Language",
+    "field_type": "CE"
+  },
+  "PID.16": {
+    "field_name": "Marital Status",
+    "field_type": "CE"
+  },
+  "PID.17": {
+    "field_name": "Religion",
+    "field_type": "CE"
+  },
+  "PID.18": {
+    "field_name": "Patient Account Number",
+    "field_type": "CX"
+  },
+  "PID.19": {
+    "field_name": "SSN Number - Patient",
+    "field_type": "ST"
+  },
+  "PID.20": {
+    "field_name": "Driver's License Number - Patient",
+    "field_type": "DLN"
+  },
+  "PID.21": {
+    "field_name": "Mother's Identifier",
+    "field_type": "CX"
+  },
+  "PID.22": {
+    "field_name": "Ethnic Group",
+    "field_type": "CE"
+  },
+  "PID.23": {
+    "field_name": "Birth Place",
+    "field_type": "ST"
+  },
+  "PID.24": {
+    "field_name": "Multiple Birth Indicator",
+    "field_type": "ID"
+  },
+  "PID.25": {
+    "field_name": "Birth Order",
+    "field_type": "NM"
+  },
+  "PID.26": {
+    "field_name": "Citizenship",
+    "field_type": "CE"
+  },
+  "PID.27": {
+    "field_name": "Veterans Military Status",
+    "field_type": "CE"
+  },
+  "PID.28": {
+    "field_name": "Nationality",
+    "field_type": "CE"
+  },
+  "PID.29": {
+    "field_name": "Patient Death Date and Time",
+    "field_type": "TS"
+  },
+  "PID.30": {
+    "field_name": "Patient Death Indicator",
+    "field_type": "ID"
+  },
+  "PID.31": {
+    "field_name": "Identity Unknown Indicator",
+    "field_type": "ID"
+  },
+  "PID.32": {
+    "field_name": "Identity Reliability Code",
+    "field_type": "IS"
+  },
+  "PID.33": {
+    "field_name": "Last Update Date/Time",
+    "field_type": "TS"
+  },
+  "PID.34": {
+    "field_name": "Last Update Facility",
+    "field_type": "HD"
+  },
+  "PID.35": {
+    "field_name": "Species Code",
+    "field_type": "CE"
+  },
+  "PID.36": {
+    "field_name": "Breed Code",
+    "field_type": "CE"
+  },
+  "PID.37": {
+    "field_name": "Strain",
+    "field_type": "ST"
+  },
+  "PID.38": {
+    "field_name": "Production Class Code",
+    "field_type": "CE"
+  },
+  "PID.39": {
+    "field_name": "Tribal Citizenship",
+    "field_type": "CWE"
+  },
+  "PR1.1": {
+    "field_name": "Set ID - PR1",
+    "field_type": "SI"
+  },
+  "PR1.2": {
+    "field_name": "Procedure Coding Method",
+    "field_type": "IS"
+  },
+  "PR1.3": {
+    "field_name": "Procedure Code",
+    "field_type": "CE"
+  },
+  "PR1.4": {
+    "field_name": "Procedure Description",
+    "field_type": "ST"
+  },
+  "PR1.5": {
+    "field_name": "Procedure Date/Time",
+    "field_type": "TS"
+  },
+  "PR1.6": {
+    "field_name": "Procedure Functional Type",
+    "field_type": "IS"
+  },
+  "PR1.7": {
+    "field_name": "Procedure Minutes",
+    "field_type": "NM"
+  },
+  "PR1.8": {
+    "field_name": "Anesthesiologist",
+    "field_type": "XCN"
+  },
+  "PR1.9": {
+    "field_name": "Anesthesia Code",
+    "field_type": "IS"
+  },
+  "PR1.10": {
+    "field_name": "Anesthesia Minutes",
+    "field_type": "NM"
+  },
+  "PR1.11": {
+    "field_name": "Surgeon",
+    "field_type": "XCN"
+  },
+  "PR1.12": {
+    "field_name": "Procedure Practitioner",
+    "field_type": "XCN"
+  },
+  "PR1.13": {
+    "field_name": "Consent Code",
+    "field_type": "CE"
+  },
+  "PR1.14": {
+    "field_name": "Procedure Priority",
+    "field_type": "ID"
+  },
+  "PR1.15": {
+    "field_name": "Associated Diagnosis Code",
+    "field_type": "CE"
+  },
+  "PR1.16": {
+    "field_name": "Procedure Code Modifier",
+    "field_type": "CE"
+  },
+  "PR1.17": {
+    "field_name": "Procedure DRG Type",
+    "field_type": "IS"
+  },
+  "PR1.18": {
+    "field_name": "Tissue Type Code",
+    "field_type": "CE"
+  },
+  "PR1.19": {
+    "field_name": "Procedure Identifier",
+    "field_type": "EI"
+  },
+  "PR1.20": {
+    "field_name": "Procedure Action Code",
+    "field_type": "ID"
+  },
+  "PRA.1": {
+    "field_name": "Primary Key Value - PRA",
+    "field_type": "CE"
+  },
+  "PRA.2": {
+    "field_name": "Practitioner Group",
+    "field_type": "CE"
+  },
+  "PRA.3": {
+    "field_name": "Practitioner Category",
+    "field_type": "IS"
+  },
+  "PRA.4": {
+    "field_name": "Provider Billing",
+    "field_type": "ID"
+  },
+  "PRA.5": {
+    "field_name": "Specialty",
+    "field_type": "SPD"
+  },
+  "PRA.6": {
+    "field_name": "Practitioner ID Numbers",
+    "field_type": "PLN"
+  },
+  "PRA.7": {
+    "field_name": "Privileges",
+    "field_type": "PIP"
+  },
+  "PRA.8": {
+    "field_name": "Date Entered Practice",
+    "field_type": "DT"
+  },
+  "PRA.9": {
+    "field_name": "Institution",
+    "field_type": "CE"
+  },
+  "PRA.10": {
+    "field_name": "Date Left Practice",
+    "field_type": "DT"
+  },
+  "PRA.11": {
+    "field_name": "Government Reimbursement Billing Eligibility",
+    "field_type": "CE"
+  },
+  "PRA.12": {
+    "field_name": "Set ID - PRA",
+    "field_type": "SI"
+  },
+  "PRB.1": {
+    "field_name": "Action Code",
+    "field_type": "ID"
+  },
+  "PRB.2": {
+    "field_name": "Action Date/Time",
+    "field_type": "TS"
+  },
+  "PRB.3": {
+    "field_name": "Problem ID",
+    "field_type": "CE"
+  },
+  "PRB.4": {
+    "field_name": "Problem Instance ID",
+    "field_type": "EI"
+  },
+  "PRB.5": {
+    "field_name": "Episode of Care ID",
+    "field_type": "EI"
+  },
+  "PRB.6": {
+    "field_name": "Problem List Priority",
+    "field_type": "NM"
+  },
+  "PRB.7": {
+    "field_name": "Problem Established Date/Time",
+    "field_type": "TS"
+  },
+  "PRB.8": {
+    "field_name": "Anticipated Problem Resolution Date/Time",
+    "field_type": "TS"
+  },
+  "PRB.9": {
+    "field_name": "Actual Problem Resolution Date/Time",
+    "field_type": "TS"
+  },
+  "PRB.10": {
+    "field_name": "Problem Classification",
+    "field_type": "CE"
+  },
+  "PRB.11": {
+    "field_name": "Problem Management Discipline",
+    "field_type": "CE"
+  },
+  "PRB.12": {
+    "field_name": "Problem Persistence",
+    "field_type": "CE"
+  },
+  "PRB.13": {
+    "field_name": "Problem Confirmation Status",
+    "field_type": "CE"
+  },
+  "PRB.14": {
+    "field_name": "Problem Life Cycle Status",
+    "field_type": "CE"
+  },
+  "PRB.15": {
+    "field_name": "Problem Life Cycle Status Date/Time",
+    "field_type": "TS"
+  },
+  "PRB.16": {
+    "field_name": "Problem Date of Onset",
+    "field_type": "TS"
+  },
+  "PRB.17": {
+    "field_name": "Problem Onset Text",
+    "field_type": "ST"
+  },
+  "PRB.18": {
+    "field_name": "Problem Ranking",
+    "field_type": "CE"
+  },
+  "PRB.19": {
+    "field_name": "Certainty of Problem",
+    "field_type": "CE"
+  },
+  "PRB.20": {
+    "field_name": "Probability of Problem (0-1)",
+    "field_type": "NM"
+  },
+  "PRB.21": {
+    "field_name": "Individual Awareness of Problem",
+    "field_type": "CE"
+  },
+  "PRB.22": {
+    "field_name": "Problem Prognosis",
+    "field_type": "CE"
+  },
+  "PRB.23": {
+    "field_name": "Individual Awareness of Prognosis",
+    "field_type": "CE"
+  },
+  "PRB.24": {
+    "field_name": "Family/Significant Other Awareness of Problem/Prognosis",
+    "field_type": "ST"
+  },
+  "PRB.25": {
+    "field_name": "Security/Sensitivity",
+    "field_type": "CE"
+  },
+  "PRC.1": {
+    "field_name": "Primary Key Value - PRC",
+    "field_type": "CE"
+  },
+  "PRC.2": {
+    "field_name": "Facility ID - PRC",
+    "field_type": "CE"
+  },
+  "PRC.3": {
+    "field_name": "Department",
+    "field_type": "CE"
+  },
+  "PRC.4": {
+    "field_name": "Valid Patient Classes",
+    "field_type": "IS"
+  },
+  "PRC.5": {
+    "field_name": "Price",
+    "field_type": "CP"
+  },
+  "PRC.6": {
+    "field_name": "Formula",
+    "field_type": "ST"
+  },
+  "PRC.7": {
+    "field_name": "Minimum Quantity",
+    "field_type": "NM"
+  },
+  "PRC.8": {
+    "field_name": "Maximum Quantity",
+    "field_type": "NM"
+  },
+  "PRC.9": {
+    "field_name": "Minimum Price",
+    "field_type": "MO"
+  },
+  "PRC.10": {
+    "field_name": "Maximum Price",
+    "field_type": "MO"
+  },
+  "PRC.11": {
+    "field_name": "Effective Start Date",
+    "field_type": "TS"
+  },
+  "PRC.12": {
+    "field_name": "Effective End Date",
+    "field_type": "TS"
+  },
+  "PRC.13": {
+    "field_name": "Price Override Flag",
+    "field_type": "IS"
+  },
+  "PRC.14": {
+    "field_name": "Billing Category",
+    "field_type": "CE"
+  },
+  "PRC.15": {
+    "field_name": "Chargeable Flag",
+    "field_type": "ID"
+  },
+  "PRC.16": {
+    "field_name": "Active/Inactive Flag",
+    "field_type": "ID"
+  },
+  "PRC.17": {
+    "field_name": "Cost",
+    "field_type": "MO"
+  },
+  "PRC.18": {
+    "field_name": "Charge On Indicator",
+    "field_type": "IS"
+  },
+  "PRD.1": {
+    "field_name": "Provider Role",
+    "field_type": "CE"
+  },
+  "PRD.2": {
+    "field_name": "Provider Name",
+    "field_type": "XPN"
+  },
+  "PRD.3": {
+    "field_name": "Provider Address",
+    "field_type": "XAD"
+  },
+  "PRD.4": {
+    "field_name": "Provider Location",
+    "field_type": "PL"
+  },
+  "PRD.5": {
+    "field_name": "Provider Communication Information",
+    "field_type": "XTN"
+  },
+  "PRD.6": {
+    "field_name": "Preferred Method of Contact",
+    "field_type": "CE"
+  },
+  "PRD.7": {
+    "field_name": "Provider Identifiers",
+    "field_type": "PLN"
+  },
+  "PRD.8": {
+    "field_name": "Effective Start Date of Provider Role",
+    "field_type": "TS"
+  },
+  "PRD.9": {
+    "field_name": "Effective End Date of Provider Role",
+    "field_type": "TS"
+  },
+  "PSH.1": {
+    "field_name": "Report Type",
+    "field_type": "ST"
+  },
+  "PSH.2": {
+    "field_name": "Report Form Identifier",
+    "field_type": "ST"
+  },
+  "PSH.3": {
+    "field_name": "Report Date",
+    "field_type": "TS"
+  },
+  "PSH.4": {
+    "field_name": "Report Interval Start Date",
+    "field_type": "TS"
+  },
+  "PSH.5": {
+    "field_name": "Report Interval End Date",
+    "field_type": "TS"
+  },
+  "PSH.6": {
+    "field_name": "Quantity Manufactured",
+    "field_type": "CQ"
+  },
+  "PSH.7": {
+    "field_name": "Quantity Distributed",
+    "field_type": "CQ"
+  },
+  "PSH.8": {
+    "field_name": "Quantity Distributed Method",
+    "field_type": "ID"
+  },
+  "PSH.9": {
+    "field_name": "Quantity Distributed Comment",
+    "field_type": "FT"
+  },
+  "PSH.10": {
+    "field_name": "Quantity in Use",
+    "field_type": "CQ"
+  },
+  "PSH.11": {
+    "field_name": "Quantity in Use Method",
+    "field_type": "ID"
+  },
+  "PSH.12": {
+    "field_name": "Quantity in Use Comment",
+    "field_type": "FT"
+  },
+  "PSH.13": {
+    "field_name": "Number of Product Experience Reports Filed by Facility",
+    "field_type": "NM"
+  },
+  "PSH.14": {
+    "field_name": "Number of Product Experience Reports Filed by Distributor",
+    "field_type": "NM"
+  },
+  "PTH.1": {
+    "field_name": "Action Code",
+    "field_type": "ID"
+  },
+  "PTH.2": {
+    "field_name": "Pathway ID",
+    "field_type": "CE"
+  },
+  "PTH.3": {
+    "field_name": "Pathway Instance ID",
+    "field_type": "EI"
+  },
+  "PTH.4": {
+    "field_name": "Pathway Established Date/Time",
+    "field_type": "TS"
+  },
+  "PTH.5": {
+    "field_name": "Pathway Life Cycle Status",
+    "field_type": "CE"
+  },
+  "PTH.6": {
+    "field_name": "Change Pathway Life Cycle Status Date/Time",
+    "field_type": "TS"
+  },
+  "PV1.1": {
+    "field_name": "Set ID - PV1",
+    "field_type": "SI"
+  },
+  "PV1.2": {
+    "field_name": "Patient Class",
+    "field_type": "IS"
+  },
+  "PV1.3": {
+    "field_name": "Assigned Patient Location",
+    "field_type": "PL"
+  },
+  "PV1.4": {
+    "field_name": "Admission Type",
+    "field_type": "IS"
+  },
+  "PV1.5": {
+    "field_name": "Preadmit Number",
+    "field_type": "CX"
+  },
+  "PV1.6": {
+    "field_name": "Prior Patient Location",
+    "field_type": "PL"
+  },
+  "PV1.7": {
+    "field_name": "Attending Doctor",
+    "field_type": "XCN"
+  },
+  "PV1.8": {
+    "field_name": "Referring Doctor",
+    "field_type": "XCN"
+  },
+  "PV1.9": {
+    "field_name": "Consulting Doctor",
+    "field_type": "XCN"
+  },
+  "PV1.10": {
+    "field_name": "Hospital Service",
+    "field_type": "IS"
+  },
+  "PV1.11": {
+    "field_name": "Temporary Location",
+    "field_type": "PL"
+  },
+  "PV1.12": {
+    "field_name": "Preadmit Test Indicator",
+    "field_type": "IS"
+  },
+  "PV1.13": {
+    "field_name": "Re-admission Indicator",
+    "field_type": "IS"
+  },
+  "PV1.14": {
+    "field_name": "Admit Source",
+    "field_type": "IS"
+  },
+  "PV1.15": {
+    "field_name": "Ambulatory Status",
+    "field_type": "IS"
+  },
+  "PV1.16": {
+    "field_name": "VIP Indicator",
+    "field_type": "IS"
+  },
+  "PV1.17": {
+    "field_name": "Admitting Doctor",
+    "field_type": "XCN"
+  },
+  "PV1.18": {
+    "field_name": "Patient Type",
+    "field_type": "IS"
+  },
+  "PV1.19": {
+    "field_name": "Visit Number",
+    "field_type": "CX"
+  },
+  "PV1.20": {
+    "field_name": "Financial Class",
+    "field_type": "FC"
+  },
+  "PV1.21": {
+    "field_name": "Charge Price Indicator",
+    "field_type": "IS"
+  },
+  "PV1.22": {
+    "field_name": "Courtesy Code",
+    "field_type": "IS"
+  },
+  "PV1.23": {
+    "field_name": "Credit Rating",
+    "field_type": "IS"
+  },
+  "PV1.24": {
+    "field_name": "Contract Code",
+    "field_type": "IS"
+  },
+  "PV1.25": {
+    "field_name": "Contract Effective Date",
+    "field_type": "DT"
+  },
+  "PV1.26": {
+    "field_name": "Contract Amount",
+    "field_type": "NM"
+  },
+  "PV1.27": {
+    "field_name": "Contract Period",
+    "field_type": "NM"
+  },
+  "PV1.28": {
+    "field_name": "Interest Code",
+    "field_type": "IS"
+  },
+  "PV1.29": {
+    "field_name": "Transfer to Bad Debt Code",
+    "field_type": "IS"
+  },
+  "PV1.30": {
+    "field_name": "Transfer to Bad Debt Date",
+    "field_type": "DT"
+  },
+  "PV1.31": {
+    "field_name": "Bad Debt Agency Code",
+    "field_type": "IS"
+  },
+  "PV1.32": {
+    "field_name": "Bad Debt Transfer Amount",
+    "field_type": "NM"
+  },
+  "PV1.33": {
+    "field_name": "Bad Debt Recovery Amount",
+    "field_type": "NM"
+  },
+  "PV1.34": {
+    "field_name": "Delete Account Indicator",
+    "field_type": "IS"
+  },
+  "PV1.35": {
+    "field_name": "Delete Account Date",
+    "field_type": "DT"
+  },
+  "PV1.36": {
+    "field_name": "Discharge Disposition",
+    "field_type": "IS"
+  },
+  "PV1.37": {
+    "field_name": "Discharged to Location",
+    "field_type": "DLD"
+  },
+  "PV1.38": {
+    "field_name": "Diet Type",
+    "field_type": "CE"
+  },
+  "PV1.39": {
+    "field_name": "Servicing Facility",
+    "field_type": "IS"
+  },
+  "PV1.40": {
+    "field_name": "Bed Status",
+    "field_type": "IS"
+  },
+  "PV1.41": {
+    "field_name": "Account Status",
+    "field_type": "IS"
+  },
+  "PV1.42": {
+    "field_name": "Pending Location",
+    "field_type": "PL"
+  },
+  "PV1.43": {
+    "field_name": "Prior Temporary Location",
+    "field_type": "PL"
+  },
+  "PV1.44": {
+    "field_name": "Admit Date/Time",
+    "field_type": "TS"
+  },
+  "PV1.45": {
+    "field_name": "Discharge Date/Time",
+    "field_type": "TS"
+  },
+  "PV1.46": {
+    "field_name": "Current Patient Balance",
+    "field_type": "NM"
+  },
+  "PV1.47": {
+    "field_name": "Total Charges",
+    "field_type": "NM"
+  },
+  "PV1.48": {
+    "field_name": "Total Adjustments",
+    "field_type": "NM"
+  },
+  "PV1.49": {
+    "field_name": "Total Payments",
+    "field_type": "NM"
+  },
+  "PV1.50": {
+    "field_name": "Alternate Visit ID",
+    "field_type": "CX"
+  },
+  "PV1.51": {
+    "field_name": "Visit Indicator",
+    "field_type": "IS"
+  },
+  "PV1.52": {
+    "field_name": "Other Healthcare Provider",
+    "field_type": "XCN"
+  },
+  "PV2.1": {
+    "field_name": "Prior Pending Location",
+    "field_type": "PL"
+  },
+  "PV2.2": {
+    "field_name": "Accommodation Code",
+    "field_type": "CE"
+  },
+  "PV2.3": {
+    "field_name": "Admit Reason",
+    "field_type": "CE"
+  },
+  "PV2.4": {
+    "field_name": "Transfer Reason",
+    "field_type": "CE"
+  },
+  "PV2.5": {
+    "field_name": "Patient Valuables",
+    "field_type": "ST"
+  },
+  "PV2.6": {
+    "field_name": "Patient Valuables Location",
+    "field_type": "ST"
+  },
+  "PV2.7": {
+    "field_name": "Visit User Code",
+    "field_type": "IS"
+  },
+  "PV2.8": {
+    "field_name": "Expected Admit Date/Time",
+    "field_type": "TS"
+  },
+  "PV2.9": {
+    "field_name": "Expected Discharge Date/Time",
+    "field_type": "TS"
+  },
+  "PV2.10": {
+    "field_name": "Estimated Length of Inpatient Stay",
+    "field_type": "NM"
+  },
+  "PV2.11": {
+    "field_name": "Actual Length of Inpatient Stay",
+    "field_type": "NM"
+  },
+  "PV2.12": {
+    "field_name": "Visit Description",
+    "field_type": "ST"
+  },
+  "PV2.13": {
+    "field_name": "Referral Source Code",
+    "field_type": "XCN"
+  },
+  "PV2.14": {
+    "field_name": "Previous Service Date",
+    "field_type": "DT"
+  },
+  "PV2.15": {
+    "field_name": "Employment Illness Related Indicator",
+    "field_type": "ID"
+  },
+  "PV2.16": {
+    "field_name": "Purge Status Code",
+    "field_type": "IS"
+  },
+  "PV2.17": {
+    "field_name": "Purge Status Date",
+    "field_type": "DT"
+  },
+  "PV2.18": {
+    "field_name": "Special Program Code",
+    "field_type": "IS"
+  },
+  "PV2.19": {
+    "field_name": "Retention Indicator",
+    "field_type": "ID"
+  },
+  "PV2.20": {
+    "field_name": "Expected Number of Insurance Plans",
+    "field_type": "NM"
+  },
+  "PV2.21": {
+    "field_name": "Visit Publicity Code",
+    "field_type": "IS"
+  },
+  "PV2.22": {
+    "field_name": "Visit Protection Indicator",
+    "field_type": "ID"
+  },
+  "PV2.23": {
+    "field_name": "Clinic Organization Name",
+    "field_type": "XON"
+  },
+  "PV2.24": {
+    "field_name": "Patient Status Code",
+    "field_type": "IS"
+  },
+  "PV2.25": {
+    "field_name": "Visit Priority Code",
+    "field_type": "IS"
+  },
+  "PV2.26": {
+    "field_name": "Previous Treatment Date",
+    "field_type": "DT"
+  },
+  "PV2.27": {
+    "field_name": "Expected Discharge Disposition",
+    "field_type": "IS"
+  },
+  "PV2.28": {
+    "field_name": "Signature on File Date",
+    "field_type": "DT"
+  },
+  "PV2.29": {
+    "field_name": "First Similar Illness Date",
+    "field_type": "DT"
+  },
+  "PV2.30": {
+    "field_name": "Patient Charge Adjustment Code",
+    "field_type": "CE"
+  },
+  "PV2.31": {
+    "field_name": "Recurring Service Code",
+    "field_type": "IS"
+  },
+  "PV2.32": {
+    "field_name": "Billing Media Code",
+    "field_type": "ID"
+  },
+  "PV2.33": {
+    "field_name": "Expected Surgery Date and Time",
+    "field_type": "TS"
+  },
+  "PV2.34": {
+    "field_name": "Military Partnership Code",
+    "field_type": "ID"
+  },
+  "PV2.35": {
+    "field_name": "Military Non-Availability Code",
+    "field_type": "ID"
+  },
+  "PV2.36": {
+    "field_name": "Newborn Baby Indicator",
+    "field_type": "ID"
+  },
+  "PV2.37": {
+    "field_name": "Baby Detained Indicator",
+    "field_type": "ID"
+  },
+  "PV2.38": {
+    "field_name": "Mode of Arrival Code",
+    "field_type": "CE"
+  },
+  "PV2.39": {
+    "field_name": "Recreational Drug Use Code",
+    "field_type": "CE"
+  },
+  "PV2.40": {
+    "field_name": "Admission Level of Care Code",
+    "field_type": "CE"
+  },
+  "PV2.41": {
+    "field_name": "Precaution Code",
+    "field_type": "CE"
+  },
+  "PV2.42": {
+    "field_name": "Patient Condition Code",
+    "field_type": "CE"
+  },
+  "PV2.43": {
+    "field_name": "Living Will Code",
+    "field_type": "IS"
+  },
+  "PV2.44": {
+    "field_name": "Organ Donor Code",
+    "field_type": "IS"
+  },
+  "PV2.45": {
+    "field_name": "Advance Directive Code",
+    "field_type": "CE"
+  },
+  "PV2.46": {
+    "field_name": "Patient Status Effective Date",
+    "field_type": "DT"
+  },
+  "PV2.47": {
+    "field_name": "Expected LOA Return Date/Time",
+    "field_type": "TS"
+  },
+  "PV2.48": {
+    "field_name": "Expected Pre-admission Testing Date/Time",
+    "field_type": "TS"
+  },
+  "PV2.49": {
+    "field_name": "Notify Clergy Code",
+    "field_type": "IS"
+  },
+  "QAK.1": {
+    "field_name": "Query Tag",
+    "field_type": "ST"
+  },
+  "QAK.2": {
+    "field_name": "Query Response Status",
+    "field_type": "ID"
+  },
+  "QAK.3": {
+    "field_name": "Message Query Name",
+    "field_type": "CE"
+  },
+  "QAK.4": {
+    "field_name": "Hit Count",
+    "field_type": "NM"
+  },
+  "QAK.5": {
+    "field_name": "This payload",
+    "field_type": "NM"
+  },
+  "QAK.6": {
+    "field_name": "Hits remaining",
+    "field_type": "NM"
+  },
+  "QID.1": {
+    "field_name": "Query Tag",
+    "field_type": "ST"
+  },
+  "QID.2": {
+    "field_name": "Message Query Name",
+    "field_type": "CE"
+  },
+  "QPD.1": {
+    "field_name": "Message Query Name",
+    "field_type": "CE"
+  },
+  "QPD.2": {
+    "field_name": "Query Tag",
+    "field_type": "ST"
+  },
+  "QPD.3": {
+    "field_name": "User Parameters (in successive fields)",
+    "field_type": "varies"
+  },
+  "QRD.1": {
+    "field_name": "Query Date/Time",
+    "field_type": "TS"
+  },
+  "QRD.2": {
+    "field_name": "Query Format Code",
+    "field_type": "ID"
+  },
+  "QRD.3": {
+    "field_name": "Query Priority",
+    "field_type": "ID"
+  },
+  "QRD.4": {
+    "field_name": "Query ID",
+    "field_type": "ST"
+  },
+  "QRD.5": {
+    "field_name": "Deferred Response Type",
+    "field_type": "ID"
+  },
+  "QRD.6": {
+    "field_name": "Deferred Response Date/Time",
+    "field_type": "TS"
+  },
+  "QRD.7": {
+    "field_name": "Quantity Limited Request",
+    "field_type": "CQ"
+  },
+  "QRD.8": {
+    "field_name": "Who Subject Filter",
+    "field_type": "XCN"
+  },
+  "QRD.9": {
+    "field_name": "What Subject Filter",
+    "field_type": "CE"
+  },
+  "QRD.10": {
+    "field_name": "What Department Data Code",
+    "field_type": "CE"
+  },
+  "QRD.11": {
+    "field_name": "What Data Code Value Qual.",
+    "field_type": "VR"
+  },
+  "QRD.12": {
+    "field_name": "Query Results Level",
+    "field_type": "ID"
+  },
+  "QRF.1": {
+    "field_name": "Where Subject Filter",
+    "field_type": "ST"
+  },
+  "QRF.2": {
+    "field_name": "When Data Start Date/Time",
+    "field_type": "TS"
+  },
+  "QRF.3": {
+    "field_name": "When Data End Date/Time",
+    "field_type": "TS"
+  },
+  "QRF.4": {
+    "field_name": "What User Qualifier",
+    "field_type": "ST"
+  },
+  "QRF.5": {
+    "field_name": "Other QRY Subject Filter",
+    "field_type": "ST"
+  },
+  "QRF.6": {
+    "field_name": "Which Date/Time Qualifier",
+    "field_type": "ID"
+  },
+  "QRF.7": {
+    "field_name": "Which Date/Time Status Qualifier",
+    "field_type": "ID"
+  },
+  "QRF.8": {
+    "field_name": "Date/Time Selection Qualifier",
+    "field_type": "ID"
+  },
+  "QRF.9": {
+    "field_name": "When Quantity/Timing Qualifier",
+    "field_type": "TQ"
+  },
+  "QRF.10": {
+    "field_name": "Search Confidence Threshold",
+    "field_type": "NM"
+  },
+  "QRI.1": {
+    "field_name": "Candidate Confidence",
+    "field_type": "NM"
+  },
+  "QRI.2": {
+    "field_name": "Match Reason Code",
+    "field_type": "IS"
+  },
+  "QRI.3": {
+    "field_name": "Algorithm Descriptor",
+    "field_type": "CE"
+  },
+  "RCP.1": {
+    "field_name": "Query Priority",
+    "field_type": "ID"
+  },
+  "RCP.2": {
+    "field_name": "Quantity Limited Request",
+    "field_type": "CQ"
+  },
+  "RCP.3": {
+    "field_name": "Response Modality",
+    "field_type": "CE"
+  },
+  "RCP.4": {
+    "field_name": "Execution and Delivery Time",
+    "field_type": "TS"
+  },
+  "RCP.5": {
+    "field_name": "Modify Indicator",
+    "field_type": "ID"
+  },
+  "RCP.6": {
+    "field_name": "Sort-by Field",
+    "field_type": "SRT"
+  },
+  "RCP.7": {
+    "field_name": "Segment group inclusion",
+    "field_type": "ID"
+  },
+  "RDF.1": {
+    "field_name": "Number of Columns per Row",
+    "field_type": "NM"
+  },
+  "RDF.2": {
+    "field_name": "Column Description",
+    "field_type": "RCD"
+  },
+  "RDT.1": {
+    "field_name": "Column Value",
+    "field_type": "varies"
+  },
+  "RF1.1": {
+    "field_name": "Referral Status",
+    "field_type": "CE"
+  },
+  "RF1.2": {
+    "field_name": "Referral Priority",
+    "field_type": "CE"
+  },
+  "RF1.3": {
+    "field_name": "Referral Type",
+    "field_type": "CE"
+  },
+  "RF1.4": {
+    "field_name": "Referral Disposition",
+    "field_type": "CE"
+  },
+  "RF1.5": {
+    "field_name": "Referral Category",
+    "field_type": "CE"
+  },
+  "RF1.6": {
+    "field_name": "Originating Referral Identifier",
+    "field_type": "EI"
+  },
+  "RF1.7": {
+    "field_name": "Effective Date",
+    "field_type": "TS"
+  },
+  "RF1.8": {
+    "field_name": "Expiration Date",
+    "field_type": "TS"
+  },
+  "RF1.9": {
+    "field_name": "Process Date",
+    "field_type": "TS"
+  },
+  "RF1.10": {
+    "field_name": "Referral Reason",
+    "field_type": "CE"
+  },
+  "RF1.11": {
+    "field_name": "External Referral Identifier",
+    "field_type": "EI"
+  },
+  "RGS.1": {
+    "field_name": "Set ID - RGS",
+    "field_type": "SI"
+  },
+  "RGS.2": {
+    "field_name": "Segment Action Code",
+    "field_type": "ID"
+  },
+  "RGS.3": {
+    "field_name": "Resource Group ID",
+    "field_type": "CE"
+  },
+  "RMI.1": {
+    "field_name": "Risk Management Incident Code",
+    "field_type": "CE"
+  },
+  "RMI.2": {
+    "field_name": "Date/Time Incident",
+    "field_type": "TS"
+  },
+  "RMI.3": {
+    "field_name": "Incident Type Code",
+    "field_type": "CE"
+  },
+  "ROL.1": {
+    "field_name": "Role Instance ID",
+    "field_type": "EI"
+  },
+  "ROL.2": {
+    "field_name": "Action Code",
+    "field_type": "ID"
+  },
+  "ROL.3": {
+    "field_name": "Role-ROL",
+    "field_type": "CE"
+  },
+  "ROL.4": {
+    "field_name": "Role Person",
+    "field_type": "XCN"
+  },
+  "ROL.5": {
+    "field_name": "Role Begin Date/Time",
+    "field_type": "TS"
+  },
+  "ROL.6": {
+    "field_name": "Role End Date/Time",
+    "field_type": "TS"
+  },
+  "ROL.7": {
+    "field_name": "Role Duration",
+    "field_type": "CE"
+  },
+  "ROL.8": {
+    "field_name": "Role Action Reason",
+    "field_type": "CE"
+  },
+  "ROL.9": {
+    "field_name": "Provider Type",
+    "field_type": "CE"
+  },
+  "ROL.10": {
+    "field_name": "Organization Unit Type",
+    "field_type": "CE"
+  },
+  "ROL.11": {
+    "field_name": "Office/Home Address/Birthplace",
+    "field_type": "XAD"
+  },
+  "ROL.12": {
+    "field_name": "Phone",
+    "field_type": "XTN"
+  },
+  "RQ1.1": {
+    "field_name": "Anticipated Price",
+    "field_type": "ST"
+  },
+  "RQ1.2": {
+    "field_name": "Manufacturer Identifier",
+    "field_type": "CE"
+  },
+  "RQ1.3": {
+    "field_name": "Manufacturer's Catalog",
+    "field_type": "ST"
+  },
+  "RQ1.4": {
+    "field_name": "Vendor ID",
+    "field_type": "CE"
+  },
+  "RQ1.5": {
+    "field_name": "Vendor Catalog",
+    "field_type": "ST"
+  },
+  "RQ1.6": {
+    "field_name": "Taxable",
+    "field_type": "ID"
+  },
+  "RQ1.7": {
+    "field_name": "Substitute Allowed",
+    "field_type": "ID"
+  },
+  "RQD.1": {
+    "field_name": "Requisition Line Number",
+    "field_type": "SI"
+  },
+  "RQD.2": {
+    "field_name": "Item Code - Internal",
+    "field_type": "CE"
+  },
+  "RQD.3": {
+    "field_name": "Item Code - External",
+    "field_type": "CE"
+  },
+  "RQD.4": {
+    "field_name": "Hospital Item Code",
+    "field_type": "CE"
+  },
+  "RQD.5": {
+    "field_name": "Requisition Quantity",
+    "field_type": "NM"
+  },
+  "RQD.6": {
+    "field_name": "Requisition Unit of Measure",
+    "field_type": "CE"
+  },
+  "RQD.7": {
+    "field_name": "Dept. Cost Center",
+    "field_type": "IS"
+  },
+  "RQD.8": {
+    "field_name": "Item Natural Account Code",
+    "field_type": "IS"
+  },
+  "RQD.9": {
+    "field_name": "Deliver To ID",
+    "field_type": "CE"
+  },
+  "RQD.10": {
+    "field_name": "Date Needed",
+    "field_type": "DT"
+  },
+  "RXA.1": {
+    "field_name": "Give Sub-ID Counter",
+    "field_type": "NM"
+  },
+  "RXA.2": {
+    "field_name": "Administration Sub-ID Counter",
+    "field_type": "NM"
+  },
+  "RXA.3": {
+    "field_name": "Date/Time Start of Administration",
+    "field_type": "TS"
+  },
+  "RXA.4": {
+    "field_name": "Date/Time End of Administration",
+    "field_type": "TS"
+  },
+  "RXA.5": {
+    "field_name": "Administered Code",
+    "field_type": "CE"
+  },
+  "RXA.6": {
+    "field_name": "Administered Amount",
+    "field_type": "NM"
+  },
+  "RXA.7": {
+    "field_name": "Administered Units",
+    "field_type": "CE"
+  },
+  "RXA.8": {
+    "field_name": "Administered Dosage Form",
+    "field_type": "CE"
+  },
+  "RXA.9": {
+    "field_name": "Administration Notes",
+    "field_type": "CE"
+  },
+  "RXA.10": {
+    "field_name": "Administering Provider",
+    "field_type": "XCN"
+  },
+  "RXA.11": {
+    "field_name": "Administered-at Location",
+    "field_type": "LA2"
+  },
+  "RXA.12": {
+    "field_name": "Administered Per (Time Unit)",
+    "field_type": "ST"
+  },
+  "RXA.13": {
+    "field_name": "Administered Strength",
+    "field_type": "NM"
+  },
+  "RXA.14": {
+    "field_name": "Administered Strength Units",
+    "field_type": "CE"
+  },
+  "RXA.15": {
+    "field_name": "Substance Lot Number",
+    "field_type": "ST"
+  },
+  "RXA.16": {
+    "field_name": "Substance Expiration Date",
+    "field_type": "TS"
+  },
+  "RXA.17": {
+    "field_name": "Substance Manufacturer Name",
+    "field_type": "CE"
+  },
+  "RXA.18": {
+    "field_name": "Substance/Treatment Refusal Reason",
+    "field_type": "CE"
+  },
+  "RXA.19": {
+    "field_name": "Indication",
+    "field_type": "CE"
+  },
+  "RXA.20": {
+    "field_name": "Completion Status",
+    "field_type": "ID"
+  },
+  "RXA.21": {
+    "field_name": "Action Code - RXA",
+    "field_type": "ID"
+  },
+  "RXA.22": {
+    "field_name": "System Entry Date/Time",
+    "field_type": "TS"
+  },
+  "RXA.23": {
+    "field_name": "Administered Drug Strength Volume",
+    "field_type": "NM"
+  },
+  "RXA.24": {
+    "field_name": "Administered Drug Strength Volume Units",
+    "field_type": "CWE"
+  },
+  "RXA.25": {
+    "field_name": "Administered Barcode Identifier",
+    "field_type": "CWE"
+  },
+  "RXA.26": {
+    "field_name": "Pharmacy Order Type",
+    "field_type": "ID"
+  },
+  "RXC.1": {
+    "field_name": "RX Component Type",
+    "field_type": "ID"
+  },
+  "RXC.2": {
+    "field_name": "Component Code",
+    "field_type": "CE"
+  },
+  "RXC.3": {
+    "field_name": "Component Amount",
+    "field_type": "NM"
+  },
+  "RXC.4": {
+    "field_name": "Component Units",
+    "field_type": "CE"
+  },
+  "RXC.5": {
+    "field_name": "Component Strength",
+    "field_type": "NM"
+  },
+  "RXC.6": {
+    "field_name": "Component Strength Units",
+    "field_type": "CE"
+  },
+  "RXC.7": {
+    "field_name": "Supplementary Code",
+    "field_type": "CE"
+  },
+  "RXC.8": {
+    "field_name": "Component Drug Strength Volume",
+    "field_type": "NM"
+  },
+  "RXC.9": {
+    "field_name": "Component Drug Strength Volume Units",
+    "field_type": "CWE"
+  },
+  "RXD.1": {
+    "field_name": "Dispense Sub-ID Counter",
+    "field_type": "NM"
+  },
+  "RXD.2": {
+    "field_name": "Dispense/Give Code",
+    "field_type": "CE"
+  },
+  "RXD.3": {
+    "field_name": "Date/Time Dispensed",
+    "field_type": "TS"
+  },
+  "RXD.4": {
+    "field_name": "Actual Dispense Amount",
+    "field_type": "NM"
+  },
+  "RXD.5": {
+    "field_name": "Actual Dispense Units",
+    "field_type": "CE"
+  },
+  "RXD.6": {
+    "field_name": "Actual Dosage Form",
+    "field_type": "CE"
+  },
+  "RXD.7": {
+    "field_name": "Prescription Number",
+    "field_type": "ST"
+  },
+  "RXD.8": {
+    "field_name": "Number of Refills Remaining",
+    "field_type": "NM"
+  },
+  "RXD.9": {
+    "field_name": "Dispense Notes",
+    "field_type": "ST"
+  },
+  "RXD.10": {
+    "field_name": "Dispensing Provider",
+    "field_type": "XCN"
+  },
+  "RXD.11": {
+    "field_name": "Substitution Status",
+    "field_type": "ID"
+  },
+  "RXD.12": {
+    "field_name": "Total Daily Dose",
+    "field_type": "CQ"
+  },
+  "RXD.13": {
+    "field_name": "Dispense-to Location",
+    "field_type": "LA2"
+  },
+  "RXD.14": {
+    "field_name": "Needs Human Review",
+    "field_type": "ID"
+  },
+  "RXD.15": {
+    "field_name": "Pharmacy/Treatment Supplier's Special Dispensing Instructions",
+    "field_type": "CE"
+  },
+  "RXD.16": {
+    "field_name": "Actual Strength",
+    "field_type": "NM"
+  },
+  "RXD.17": {
+    "field_name": "Actual Strength Unit",
+    "field_type": "CE"
+  },
+  "RXD.18": {
+    "field_name": "Substance Lot Number",
+    "field_type": "ST"
+  },
+  "RXD.19": {
+    "field_name": "Substance Expiration Date",
+    "field_type": "TS"
+  },
+  "RXD.20": {
+    "field_name": "Substance Manufacturer Name",
+    "field_type": "CE"
+  },
+  "RXD.21": {
+    "field_name": "Indication",
+    "field_type": "CE"
+  },
+  "RXD.22": {
+    "field_name": "Dispense Package Size",
+    "field_type": "NM"
+  },
+  "RXD.23": {
+    "field_name": "Dispense Package Size Unit",
+    "field_type": "CE"
+  },
+  "RXD.24": {
+    "field_name": "Dispense Package Method",
+    "field_type": "ID"
+  },
+  "RXD.25": {
+    "field_name": "Supplementary Code",
+    "field_type": "CE"
+  },
+  "RXD.26": {
+    "field_name": "Initiating Location",
+    "field_type": "CE"
+  },
+  "RXD.27": {
+    "field_name": "Packaging/Assembly Location",
+    "field_type": "CE"
+  },
+  "RXD.28": {
+    "field_name": "Actual Drug Strength Volume",
+    "field_type": "NM"
+  },
+  "RXD.29": {
+    "field_name": "Actual Drug Strength Volume Units",
+    "field_type": "CWE"
+  },
+  "RXD.30": {
+    "field_name": "Dispense to Pharmacy",
+    "field_type": "CWE"
+  },
+  "RXD.31": {
+    "field_name": "Dispense to Pharmacy Address",
+    "field_type": "XAD"
+  },
+  "RXD.32": {
+    "field_name": "Pharmacy Order Type",
+    "field_type": "ID"
+  },
+  "RXD.33": {
+    "field_name": "Dispense Type",
+    "field_type": "CWE"
+  },
+  "RXE.1": {
+    "field_name": "Quantity/Timing",
+    "field_type": "TQ"
+  },
+  "RXE.2": {
+    "field_name": "Give Code",
+    "field_type": "CE"
+  },
+  "RXE.3": {
+    "field_name": "Give Amount - Minimum",
+    "field_type": "NM"
+  },
+  "RXE.4": {
+    "field_name": "Give Amount - Maximum",
+    "field_type": "NM"
+  },
+  "RXE.5": {
+    "field_name": "Give Units",
+    "field_type": "CE"
+  },
+  "RXE.6": {
+    "field_name": "Give Dosage Form",
+    "field_type": "CE"
+  },
+  "RXE.7": {
+    "field_name": "Provider's Administration Instructions",
+    "field_type": "CE"
+  },
+  "RXE.8": {
+    "field_name": "Deliver-To Location",
+    "field_type": "LA1"
+  },
+  "RXE.9": {
+    "field_name": "Substitution Status",
+    "field_type": "ID"
+  },
+  "RXE.10": {
+    "field_name": "Dispense Amount",
+    "field_type": "NM"
+  },
+  "RXE.11": {
+    "field_name": "Dispense Units",
+    "field_type": "CE"
+  },
+  "RXE.12": {
+    "field_name": "Number Of Refills",
+    "field_type": "NM"
+  },
+  "RXE.13": {
+    "field_name": "Ordering Provider's DEA Number",
+    "field_type": "XCN"
+  },
+  "RXE.14": {
+    "field_name": "Pharmacist/Treatment Supplier's Verifier ID",
+    "field_type": "XCN"
+  },
+  "RXE.15": {
+    "field_name": "Prescription Number",
+    "field_type": "ST"
+  },
+  "RXE.16": {
+    "field_name": "Number of Refills Remaining",
+    "field_type": "NM"
+  },
+  "RXE.17": {
+    "field_name": "Number of Refills/Doses Dispensed",
+    "field_type": "NM"
+  },
+  "RXE.18": {
+    "field_name": "D/T of Most Recent Refill or Dose Dispensed",
+    "field_type": "TS"
+  },
+  "RXE.19": {
+    "field_name": "Total Daily Dose",
+    "field_type": "CQ"
+  },
+  "RXE.20": {
+    "field_name": "Needs Human Review",
+    "field_type": "ID"
+  },
+  "RXE.21": {
+    "field_name": "Pharmacy/Treatment Supplier's Special Dispensing Instructions",
+    "field_type": "CE"
+  },
+  "RXE.22": {
+    "field_name": "Give Per (Time Unit)",
+    "field_type": "ST"
+  },
+  "RXE.23": {
+    "field_name": "Give Rate Amount",
+    "field_type": "ST"
+  },
+  "RXE.24": {
+    "field_name": "Give Rate Units",
+    "field_type": "CE"
+  },
+  "RXE.25": {
+    "field_name": "Give Strength",
+    "field_type": "NM"
+  },
+  "RXE.26": {
+    "field_name": "Give Strength Units",
+    "field_type": "CE"
+  },
+  "RXE.27": {
+    "field_name": "Give Indication",
+    "field_type": "CE"
+  },
+  "RXE.28": {
+    "field_name": "Dispense Package Size",
+    "field_type": "NM"
+  },
+  "RXE.29": {
+    "field_name": "Dispense Package Size Unit",
+    "field_type": "CE"
+  },
+  "RXE.30": {
+    "field_name": "Dispense Package Method",
+    "field_type": "ID"
+  },
+  "RXE.31": {
+    "field_name": "Supplementary Code",
+    "field_type": "CE"
+  },
+  "RXE.32": {
+    "field_name": "Original Order Date/Time",
+    "field_type": "TS"
+  },
+  "RXE.33": {
+    "field_name": "Give Drug Strength Volume",
+    "field_type": "NM"
+  },
+  "RXE.34": {
+    "field_name": "Give Drug Strength Volume Units",
+    "field_type": "CWE"
+  },
+  "RXE.35": {
+    "field_name": "Controlled Substance Schedule",
+    "field_type": "CWE"
+  },
+  "RXE.36": {
+    "field_name": "Formulary Status",
+    "field_type": "ID"
+  },
+  "RXE.37": {
+    "field_name": "Pharmaceutical Substance Alternative",
+    "field_type": "CWE"
+  },
+  "RXE.38": {
+    "field_name": "Pharmacy of Most Recent Fill",
+    "field_type": "CWE"
+  },
+  "RXE.39": {
+    "field_name": "Initial Dispense Amount",
+    "field_type": "NM"
+  },
+  "RXE.40": {
+    "field_name": "Dispensing Pharmacy",
+    "field_type": "CWE"
+  },
+  "RXE.41": {
+    "field_name": "Dispensing Pharmacy Address",
+    "field_type": "XAD"
+  },
+  "RXE.42": {
+    "field_name": "Deliver-to Patient Location",
+    "field_type": "PL"
+  },
+  "RXE.43": {
+    "field_name": "Deliver-to Address",
+    "field_type": "XAD"
+  },
+  "RXE.44": {
+    "field_name": "Pharmacy Order Type",
+    "field_type": "ID"
+  },
+  "RXG.1": {
+    "field_name": "Give Sub-ID Counter",
+    "field_type": "NM"
+  },
+  "RXG.2": {
+    "field_name": "Dispense Sub-ID Counter",
+    "field_type": "NM"
+  },
+  "RXG.3": {
+    "field_name": "Quantity/Timing",
+    "field_type": "TQ"
+  },
+  "RXG.4": {
+    "field_name": "Give Code",
+    "field_type": "CE"
+  },
+  "RXG.5": {
+    "field_name": "Give Amount - Minimum",
+    "field_type": "NM"
+  },
+  "RXG.6": {
+    "field_name": "Give Amount - Maximum",
+    "field_type": "NM"
+  },
+  "RXG.7": {
+    "field_name": "Give Units",
+    "field_type": "CE"
+  },
+  "RXG.8": {
+    "field_name": "Give Dosage Form",
+    "field_type": "CE"
+  },
+  "RXG.9": {
+    "field_name": "Administration Notes",
+    "field_type": "CE"
+  },
+  "RXG.10": {
+    "field_name": "Substitution Status",
+    "field_type": "ID"
+  },
+  "RXG.11": {
+    "field_name": "Dispense-to Location",
+    "field_type": "LA2"
+  },
+  "RXG.12": {
+    "field_name": "Needs Human Review",
+    "field_type": "ID"
+  },
+  "RXG.13": {
+    "field_name": "Pharmacy/Treatment Supplier's Special Administration Instructions",
+    "field_type": "CE"
+  },
+  "RXG.14": {
+    "field_name": "Give Per (Time Unit)",
+    "field_type": "ST"
+  },
+  "RXG.15": {
+    "field_name": "Give Rate Amount",
+    "field_type": "ST"
+  },
+  "RXG.16": {
+    "field_name": "Give Rate Units",
+    "field_type": "CE"
+  },
+  "RXG.17": {
+    "field_name": "Give Strength",
+    "field_type": "NM"
+  },
+  "RXG.18": {
+    "field_name": "Give Strength Units",
+    "field_type": "CE"
+  },
+  "RXG.19": {
+    "field_name": "Substance Lot Number",
+    "field_type": "ST"
+  },
+  "RXG.20": {
+    "field_name": "Substance Expiration Date",
+    "field_type": "TS"
+  },
+  "RXG.21": {
+    "field_name": "Substance Manufacturer Name",
+    "field_type": "CE"
+  },
+  "RXG.22": {
+    "field_name": "Indication",
+    "field_type": "CE"
+  },
+  "RXG.23": {
+    "field_name": "Give Drug Strength Volume",
+    "field_type": "NM"
+  },
+  "RXG.24": {
+    "field_name": "Give Drug Strength Volume Units",
+    "field_type": "CWE"
+  },
+  "RXG.25": {
+    "field_name": "Give Barcode Identifier",
+    "field_type": "CWE"
+  },
+  "RXG.26": {
+    "field_name": "Pharmacy Order Type",
+    "field_type": "ID"
+  },
+  "RXO.1": {
+    "field_name": "Requested Give Code",
+    "field_type": "CE"
+  },
+  "RXO.2": {
+    "field_name": "Requested Give Amount - Minimum",
+    "field_type": "NM"
+  },
+  "RXO.3": {
+    "field_name": "Requested Give Amount - Maximum",
+    "field_type": "NM"
+  },
+  "RXO.4": {
+    "field_name": "Requested Give Units",
+    "field_type": "CE"
+  },
+  "RXO.5": {
+    "field_name": "Requested Dosage Form",
+    "field_type": "CE"
+  },
+  "RXO.6": {
+    "field_name": "Provider's Pharmacy/Treatment Instructions",
+    "field_type": "CE"
+  },
+  "RXO.7": {
+    "field_name": "Provider's Administration Instructions",
+    "field_type": "CE"
+  },
+  "RXO.8": {
+    "field_name": "Deliver-To Location",
+    "field_type": "LA1"
+  },
+  "RXO.9": {
+    "field_name": "Allow Substitutions",
+    "field_type": "ID"
+  },
+  "RXO.10": {
+    "field_name": "Requested Dispense Code",
+    "field_type": "CE"
+  },
+  "RXO.11": {
+    "field_name": "Requested Dispense Amount",
+    "field_type": "NM"
+  },
+  "RXO.12": {
+    "field_name": "Requested Dispense Units",
+    "field_type": "CE"
+  },
+  "RXO.13": {
+    "field_name": "Number Of Refills",
+    "field_type": "NM"
+  },
+  "RXO.14": {
+    "field_name": "Ordering Provider's DEA Number",
+    "field_type": "XCN"
+  },
+  "RXO.15": {
+    "field_name": "Pharmacist/Treatment Supplier's Verifier ID",
+    "field_type": "XCN"
+  },
+  "RXO.16": {
+    "field_name": "Needs Human Review",
+    "field_type": "ID"
+  },
+  "RXO.17": {
+    "field_name": "Requested Give Per (Time Unit)",
+    "field_type": "ST"
+  },
+  "RXO.18": {
+    "field_name": "Requested Give Strength",
+    "field_type": "NM"
+  },
+  "RXO.19": {
+    "field_name": "Requested Give Strength Units",
+    "field_type": "CE"
+  },
+  "RXO.20": {
+    "field_name": "Indication",
+    "field_type": "CE"
+  },
+  "RXO.21": {
+    "field_name": "Requested Give Rate Amount",
+    "field_type": "ST"
+  },
+  "RXO.22": {
+    "field_name": "Requested Give Rate Units",
+    "field_type": "CE"
+  },
+  "RXO.23": {
+    "field_name": "Total Daily Dose",
+    "field_type": "CQ"
+  },
+  "RXO.24": {
+    "field_name": "Supplementary Code",
+    "field_type": "CE"
+  },
+  "RXO.25": {
+    "field_name": "Requested Drug Strength Volume",
+    "field_type": "NM"
+  },
+  "RXO.26": {
+    "field_name": "Requested Drug Strength Volume Units",
+    "field_type": "CWE"
+  },
+  "RXO.27": {
+    "field_name": "Pharmacy Order Type",
+    "field_type": "ID"
+  },
+  "RXO.28": {
+    "field_name": "Dispensing Interval",
+    "field_type": "NM"
+  },
+  "RXR.1": {
+    "field_name": "Route",
+    "field_type": "CE"
+  },
+  "RXR.2": {
+    "field_name": "Administration Site",
+    "field_type": "CWE"
+  },
+  "RXR.3": {
+    "field_name": "Administration Device",
+    "field_type": "CE"
+  },
+  "RXR.4": {
+    "field_name": "Administration Method",
+    "field_type": "CWE"
+  },
+  "RXR.5": {
+    "field_name": "Routing Instruction",
+    "field_type": "CE"
+  },
+  "RXR.6": {
+    "field_name": "Administration Site Modifier",
+    "field_type": "CWE"
+  },
+  "SAC.1": {
+    "field_name": "External Accession Identifier",
+    "field_type": "EI"
+  },
+  "SAC.2": {
+    "field_name": "Accession Identifier",
+    "field_type": "EI"
+  },
+  "SAC.3": {
+    "field_name": "Container Identifier",
+    "field_type": "EI"
+  },
+  "SAC.4": {
+    "field_name": "Primary (parent) Container Identifier",
+    "field_type": "EI"
+  },
+  "SAC.5": {
+    "field_name": "Equipment Container Identifier",
+    "field_type": "EI"
+  },
+  "SAC.6": {
+    "field_name": "Specimen Source",
+    "field_type": "SPS"
+  },
+  "SAC.7": {
+    "field_name": "Registration Date/Time",
+    "field_type": "TS"
+  },
+  "SAC.8": {
+    "field_name": "Container Status",
+    "field_type": "CE"
+  },
+  "SAC.9": {
+    "field_name": "Carrier Type",
+    "field_type": "CE"
+  },
+  "SAC.10": {
+    "field_name": "Carrier Identifier",
+    "field_type": "EI"
+  },
+  "SAC.11": {
+    "field_name": "Position in Carrier",
+    "field_type": "NA"
+  },
+  "SAC.12": {
+    "field_name": "Tray Type - SAC",
+    "field_type": "CE"
+  },
+  "SAC.13": {
+    "field_name": "Tray Identifier",
+    "field_type": "EI"
+  },
+  "SAC.14": {
+    "field_name": "Position in Tray",
+    "field_type": "NA"
+  },
+  "SAC.15": {
+    "field_name": "Location",
+    "field_type": "CE"
+  },
+  "SAC.16": {
+    "field_name": "Container Height",
+    "field_type": "NM"
+  },
+  "SAC.17": {
+    "field_name": "Container Diameter",
+    "field_type": "NM"
+  },
+  "SAC.18": {
+    "field_name": "Barrier Delta",
+    "field_type": "NM"
+  },
+  "SAC.19": {
+    "field_name": "Bottom Delta",
+    "field_type": "NM"
+  },
+  "SAC.20": {
+    "field_name": "Container Height/Diameter/Delta Units",
+    "field_type": "CE"
+  },
+  "SAC.21": {
+    "field_name": "Container Volume",
+    "field_type": "NM"
+  },
+  "SAC.22": {
+    "field_name": "Available Specimen Volume",
+    "field_type": "NM"
+  },
+  "SAC.23": {
+    "field_name": "Initial Specimen Volume",
+    "field_type": "NM"
+  },
+  "SAC.24": {
+    "field_name": "Volume Units",
+    "field_type": "CE"
+  },
+  "SAC.25": {
+    "field_name": "Separator Type",
+    "field_type": "CE"
+  },
+  "SAC.26": {
+    "field_name": "Cap Type",
+    "field_type": "CE"
+  },
+  "SAC.27": {
+    "field_name": "Additive",
+    "field_type": "CWE"
+  },
+  "SAC.28": {
+    "field_name": "Specimen Component",
+    "field_type": "CE"
+  },
+  "SAC.29": {
+    "field_name": "Dilution Factor",
+    "field_type": "SN"
+  },
+  "SAC.30": {
+    "field_name": "Treatment",
+    "field_type": "CE"
+  },
+  "SAC.31": {
+    "field_name": "Temperature",
+    "field_type": "SN"
+  },
+  "SAC.32": {
+    "field_name": "Hemolysis Index",
+    "field_type": "NM"
+  },
+  "SAC.33": {
+    "field_name": "Hemolysis Index Units",
+    "field_type": "CE"
+  },
+  "SAC.34": {
+    "field_name": "Lipemia Index",
+    "field_type": "NM"
+  },
+  "SAC.35": {
+    "field_name": "Lipemia Index Units",
+    "field_type": "CE"
+  },
+  "SAC.36": {
+    "field_name": "Icterus Index",
+    "field_type": "NM"
+  },
+  "SAC.37": {
+    "field_name": "Icterus Index Units",
+    "field_type": "CE"
+  },
+  "SAC.38": {
+    "field_name": "Fibrin Index",
+    "field_type": "NM"
+  },
+  "SAC.39": {
+    "field_name": "Fibrin Index Units",
+    "field_type": "CE"
+  },
+  "SAC.40": {
+    "field_name": "System Induced Contaminants",
+    "field_type": "CE"
+  },
+  "SAC.41": {
+    "field_name": "Drug Interference",
+    "field_type": "CE"
+  },
+  "SAC.42": {
+    "field_name": "Artificial Blood",
+    "field_type": "CE"
+  },
+  "SAC.43": {
+    "field_name": "Special Handling Code",
+    "field_type": "CWE"
+  },
+  "SAC.44": {
+    "field_name": "Other Environmental Factors",
+    "field_type": "CE"
+  },
+  "SCH.1": {
+    "field_name": "Placer Appointment ID",
+    "field_type": "EI"
+  },
+  "SCH.2": {
+    "field_name": "Filler Appointment ID",
+    "field_type": "EI"
+  },
+  "SCH.3": {
+    "field_name": "Occurrence Number",
+    "field_type": "NM"
+  },
+  "SCH.4": {
+    "field_name": "Placer Group Number",
+    "field_type": "EI"
+  },
+  "SCH.5": {
+    "field_name": "Schedule ID",
+    "field_type": "CE"
+  },
+  "SCH.6": {
+    "field_name": "Event Reason",
+    "field_type": "CE"
+  },
+  "SCH.7": {
+    "field_name": "Appointment Reason",
+    "field_type": "CE"
+  },
+  "SCH.8": {
+    "field_name": "Appointment Type",
+    "field_type": "CE"
+  },
+  "SCH.9": {
+    "field_name": "Appointment Duration",
+    "field_type": "NM"
+  },
+  "SCH.10": {
+    "field_name": "Appointment Duration Units",
+    "field_type": "CE"
+  },
+  "SCH.11": {
+    "field_name": "Appointment Timing Quantity",
+    "field_type": "TQ"
+  },
+  "SCH.12": {
+    "field_name": "Placer Contact Person",
+    "field_type": "XCN"
+  },
+  "SCH.13": {
+    "field_name": "Placer Contact Phone Number",
+    "field_type": "XTN"
+  },
+  "SCH.14": {
+    "field_name": "Placer Contact Address",
+    "field_type": "XAD"
+  },
+  "SCH.15": {
+    "field_name": "Placer Contact Location",
+    "field_type": "PL"
+  },
+  "SCH.16": {
+    "field_name": "Filler Contact Person",
+    "field_type": "XCN"
+  },
+  "SCH.17": {
+    "field_name": "Filler Contact Phone Number",
+    "field_type": "XTN"
+  },
+  "SCH.18": {
+    "field_name": "Filler Contact Address",
+    "field_type": "XAD"
+  },
+  "SCH.19": {
+    "field_name": "Filler Contact Location",
+    "field_type": "PL"
+  },
+  "SCH.20": {
+    "field_name": "Entered By Person",
+    "field_type": "XCN"
+  },
+  "SCH.21": {
+    "field_name": "Entered By Phone Number",
+    "field_type": "XTN"
+  },
+  "SCH.22": {
+    "field_name": "Entered By Location",
+    "field_type": "PL"
+  },
+  "SCH.23": {
+    "field_name": "Parent Placer Appointment ID",
+    "field_type": "EI"
+  },
+  "SCH.24": {
+    "field_name": "Parent Filler Appointment ID",
+    "field_type": "EI"
+  },
+  "SCH.25": {
+    "field_name": "Filler Status Code",
+    "field_type": "CE"
+  },
+  "SCH.26": {
+    "field_name": "Placer Order Number",
+    "field_type": "EI"
+  },
+  "SCH.27": {
+    "field_name": "Filler Order Number",
+    "field_type": "EI"
+  },
+  "SFT.1": {
+    "field_name": "Software Vendor Organization",
+    "field_type": "XON"
+  },
+  "SFT.2": {
+    "field_name": "Software Certified Version or Release Number",
+    "field_type": "ST"
+  },
+  "SFT.3": {
+    "field_name": "Software Product Name",
+    "field_type": "ST"
+  },
+  "SFT.4": {
+    "field_name": "Software Binary ID",
+    "field_type": "ST"
+  },
+  "SFT.5": {
+    "field_name": "Software Product Information",
+    "field_type": "TX"
+  },
+  "SFT.6": {
+    "field_name": "Software Install Date",
+    "field_type": "TS"
+  },
+  "SID.1": {
+    "field_name": "Application / Method Identifier",
+    "field_type": "CE"
+  },
+  "SID.2": {
+    "field_name": "Substance Lot Number",
+    "field_type": "ST"
+  },
+  "SID.3": {
+    "field_name": "Substance Container Identifier",
+    "field_type": "ST"
+  },
+  "SID.4": {
+    "field_name": "Substance Manufacturer Identifier",
+    "field_type": "CE"
+  },
+  "SPM.1": {
+    "field_name": "Set ID - SPM",
+    "field_type": "SI"
+  },
+  "SPM.2": {
+    "field_name": "Specimen ID",
+    "field_type": "EIP"
+  },
+  "SPM.3": {
+    "field_name": "Specimen Parent IDs",
+    "field_type": "EIP"
+  },
+  "SPM.4": {
+    "field_name": "Specimen Type",
+    "field_type": "CWE"
+  },
+  "SPM.5": {
+    "field_name": "Specimen Type Modifier",
+    "field_type": "CWE"
+  },
+  "SPM.6": {
+    "field_name": "Specimen Additives",
+    "field_type": "CWE"
+  },
+  "SPM.7": {
+    "field_name": "Specimen Collection Method",
+    "field_type": "CWE"
+  },
+  "SPM.8": {
+    "field_name": "Specimen Source Site",
+    "field_type": "CWE"
+  },
+  "SPM.9": {
+    "field_name": "Specimen Source Site Modifier",
+    "field_type": "CWE"
+  },
+  "SPM.10": {
+    "field_name": "Specimen Collection Site",
+    "field_type": "CWE"
+  },
+  "SPM.11": {
+    "field_name": "Specimen Role",
+    "field_type": "CWE"
+  },
+  "SPM.12": {
+    "field_name": "Specimen Collection Amount",
+    "field_type": "CQ"
+  },
+  "SPM.13": {
+    "field_name": "Grouped Specimen Count",
+    "field_type": "NM"
+  },
+  "SPM.14": {
+    "field_name": "Specimen Description",
+    "field_type": "ST"
+  },
+  "SPM.15": {
+    "field_name": "Specimen Handling Code",
+    "field_type": "CWE"
+  },
+  "SPM.16": {
+    "field_name": "Specimen Risk Code",
+    "field_type": "CWE"
+  },
+  "SPM.17": {
+    "field_name": "Specimen Collection Date/Time",
+    "field_type": "DR"
+  },
+  "SPM.18": {
+    "field_name": "Specimen Received Date/Time",
+    "field_type": "TS"
+  },
+  "SPM.19": {
+    "field_name": "Specimen Expiration Date/Time",
+    "field_type": "TS"
+  },
+  "SPM.20": {
+    "field_name": "Specimen Availability",
+    "field_type": "ID"
+  },
+  "SPM.21": {
+    "field_name": "Specimen Reject Reason",
+    "field_type": "CWE"
+  },
+  "SPM.22": {
+    "field_name": "Specimen Quality",
+    "field_type": "CWE"
+  },
+  "SPM.23": {
+    "field_name": "Specimen Appropriateness",
+    "field_type": "CWE"
+  },
+  "SPM.24": {
+    "field_name": "Specimen Condition",
+    "field_type": "CWE"
+  },
+  "SPM.25": {
+    "field_name": "Specimen Current Quantity",
+    "field_type": "CQ"
+  },
+  "SPM.26": {
+    "field_name": "Number of Specimen Containers",
+    "field_type": "NM"
+  },
+  "SPM.27": {
+    "field_name": "Container Type",
+    "field_type": "CWE"
+  },
+  "SPM.28": {
+    "field_name": "Container Condition",
+    "field_type": "CWE"
+  },
+  "SPM.29": {
+    "field_name": "Specimen Child Role",
+    "field_type": "CWE"
+  },
+  "SPR.1": {
+    "field_name": "Query Tag",
+    "field_type": "ST"
+  },
+  "SPR.2": {
+    "field_name": "Query/Response Format Code",
+    "field_type": "ID"
+  },
+  "SPR.3": {
+    "field_name": "Stored Procedure Name",
+    "field_type": "CE"
+  },
+  "SPR.4": {
+    "field_name": "Input Parameter List",
+    "field_type": "QIP"
+  },
+  "STF.1": {
+    "field_name": "Primary Key Value - STF",
+    "field_type": "CE"
+  },
+  "STF.2": {
+    "field_name": "Staff Identifier List",
+    "field_type": "CX"
+  },
+  "STF.3": {
+    "field_name": "Staff Name",
+    "field_type": "XPN"
+  },
+  "STF.4": {
+    "field_name": "Staff Type",
+    "field_type": "IS"
+  },
+  "STF.5": {
+    "field_name": "Administrative Sex",
+    "field_type": "IS"
+  },
+  "STF.6": {
+    "field_name": "Date/Time of Birth",
+    "field_type": "TS"
+  },
+  "STF.7": {
+    "field_name": "Active/Inactive Flag",
+    "field_type": "ID"
+  },
+  "STF.8": {
+    "field_name": "Department",
+    "field_type": "CE"
+  },
+  "STF.9": {
+    "field_name": "Hospital Service - STF",
+    "field_type": "CE"
+  },
+  "STF.10": {
+    "field_name": "Phone",
+    "field_type": "XTN"
+  },
+  "STF.11": {
+    "field_name": "Office/Home Address/Birthplace",
+    "field_type": "XAD"
+  },
+  "STF.12": {
+    "field_name": "Institution Activation Date",
+    "field_type": "DIN"
+  },
+  "STF.13": {
+    "field_name": "Institution Inactivation Date",
+    "field_type": "DIN"
+  },
+  "STF.14": {
+    "field_name": "Backup Person ID",
+    "field_type": "CE"
+  },
+  "STF.15": {
+    "field_name": "E-Mail Address",
+    "field_type": "ST"
+  },
+  "STF.16": {
+    "field_name": "Preferred Method of Contact",
+    "field_type": "CE"
+  },
+  "STF.17": {
+    "field_name": "Marital Status",
+    "field_type": "CE"
+  },
+  "STF.18": {
+    "field_name": "Job Title",
+    "field_type": "ST"
+  },
+  "STF.19": {
+    "field_name": "Job Code/Class",
+    "field_type": "JCC"
+  },
+  "STF.20": {
+    "field_name": "Employment Status Code",
+    "field_type": "CE"
+  },
+  "STF.21": {
+    "field_name": "Additional Insured on Auto",
+    "field_type": "ID"
+  },
+  "STF.22": {
+    "field_name": "Driver's License Number - Staff",
+    "field_type": "DLN"
+  },
+  "STF.23": {
+    "field_name": "Copy Auto Ins",
+    "field_type": "ID"
+  },
+  "STF.24": {
+    "field_name": "Auto Ins. Expires",
+    "field_type": "DT"
+  },
+  "STF.25": {
+    "field_name": "Date Last DMV Review",
+    "field_type": "DT"
+  },
+  "STF.26": {
+    "field_name": "Date Next DMV Review",
+    "field_type": "DT"
+  },
+  "STF.27": {
+    "field_name": "Race",
+    "field_type": "CE"
+  },
+  "STF.28": {
+    "field_name": "Ethnic Group",
+    "field_type": "CE"
+  },
+  "STF.29": {
+    "field_name": "Re-activation Approval Indicator",
+    "field_type": "ID"
+  },
+  "STF.30": {
+    "field_name": "Citizenship",
+    "field_type": "CE"
+  },
+  "STF.31": {
+    "field_name": "Death Date and Time",
+    "field_type": "TS"
+  },
+  "STF.32": {
+    "field_name": "Death Indicator",
+    "field_type": "ID"
+  },
+  "STF.33": {
+    "field_name": "Institution Relationship Type Code",
+    "field_type": "CWE"
+  },
+  "STF.34": {
+    "field_name": "Institution Relationship Period",
+    "field_type": "DR"
+  },
+  "STF.35": {
+    "field_name": "Expected Return Date",
+    "field_type": "DT"
+  },
+  "STF.36": {
+    "field_name": "Cost Center Code",
+    "field_type": "CWE"
+  },
+  "STF.37": {
+    "field_name": "Generic Classification Indicator",
+    "field_type": "ID"
+  },
+  "STF.38": {
+    "field_name": "Inactive Reason Code",
+    "field_type": "CWE"
+  },
+  "TCC.1": {
+    "field_name": "Universal Service Identifier",
+    "field_type": "CE"
+  },
+  "TCC.2": {
+    "field_name": "Test Application Identifier",
+    "field_type": "EI"
+  },
+  "TCC.3": {
+    "field_name": "Specimen Source",
+    "field_type": "SPS"
+  },
+  "TCC.4": {
+    "field_name": "Auto-Dilution Factor Default",
+    "field_type": "SN"
+  },
+  "TCC.5": {
+    "field_name": "Rerun Dilution Factor Default",
+    "field_type": "SN"
+  },
+  "TCC.6": {
+    "field_name": "Pre-Dilution Factor Default",
+    "field_type": "SN"
+  },
+  "TCC.7": {
+    "field_name": "Endogenous Content of Pre-Dilution Diluent",
+    "field_type": "SN"
+  },
+  "TCC.8": {
+    "field_name": "Inventory Limits Warning Level",
+    "field_type": "NM"
+  },
+  "TCC.9": {
+    "field_name": "Automatic Rerun Allowed",
+    "field_type": "ID"
+  },
+  "TCC.10": {
+    "field_name": "Automatic Repeat Allowed",
+    "field_type": "ID"
+  },
+  "TCC.11": {
+    "field_name": "Automatic Reflex Allowed",
+    "field_type": "ID"
+  },
+  "TCC.12": {
+    "field_name": "Equipment Dynamic Range",
+    "field_type": "SN"
+  },
+  "TCC.13": {
+    "field_name": "Units",
+    "field_type": "CE"
+  },
+  "TCC.14": {
+    "field_name": "Processing Type",
+    "field_type": "CE"
+  },
+  "TCD.1": {
+    "field_name": "Universal Service Identifier",
+    "field_type": "CE"
+  },
+  "TCD.2": {
+    "field_name": "Auto-Dilution Factor",
+    "field_type": "SN"
+  },
+  "TCD.3": {
+    "field_name": "Rerun Dilution Factor",
+    "field_type": "SN"
+  },
+  "TCD.4": {
+    "field_name": "Pre-Dilution Factor",
+    "field_type": "SN"
+  },
+  "TCD.5": {
+    "field_name": "Endogenous Content of Pre-Dilution Diluent",
+    "field_type": "SN"
+  },
+  "TCD.6": {
+    "field_name": "Automatic Repeat Allowed",
+    "field_type": "ID"
+  },
+  "TCD.7": {
+    "field_name": "Reflex Allowed",
+    "field_type": "ID"
+  },
+  "TCD.8": {
+    "field_name": "Analyte Repeat Status",
+    "field_type": "CE"
+  },
+  "TQ1.1": {
+    "field_name": "Set ID - TQ1",
+    "field_type": "SI"
+  },
+  "TQ1.2": {
+    "field_name": "Quantity",
+    "field_type": "CQ"
+  },
+  "TQ1.3": {
+    "field_name": "Repeat Pattern",
+    "field_type": "RPT"
+  },
+  "TQ1.4": {
+    "field_name": "Explicit Time",
+    "field_type": "TM"
+  },
+  "TQ1.5": {
+    "field_name": "Relative Time and Units",
+    "field_type": "CQ"
+  },
+  "TQ1.6": {
+    "field_name": "Service Duration",
+    "field_type": "CQ"
+  },
+  "TQ1.7": {
+    "field_name": "Start date/time",
+    "field_type": "TS"
+  },
+  "TQ1.8": {
+    "field_name": "End date/time",
+    "field_type": "TS"
+  },
+  "TQ1.9": {
+    "field_name": "Priority",
+    "field_type": "CWE"
+  },
+  "TQ1.10": {
+    "field_name": "Condition text",
+    "field_type": "TX"
+  },
+  "TQ1.11": {
+    "field_name": "Text instruction",
+    "field_type": "TX"
+  },
+  "TQ1.12": {
+    "field_name": "Conjunction",
+    "field_type": "ID"
+  },
+  "TQ1.13": {
+    "field_name": "Occurrence duration",
+    "field_type": "CQ"
+  },
+  "TQ1.14": {
+    "field_name": "Total occurrence's",
+    "field_type": "NM"
+  },
+  "TQ2.1": {
+    "field_name": "Set ID - TQ2",
+    "field_type": "SI"
+  },
+  "TQ2.2": {
+    "field_name": "Sequence/Results Flag",
+    "field_type": "ID"
+  },
+  "TQ2.3": {
+    "field_name": "Related Placer Number",
+    "field_type": "EI"
+  },
+  "TQ2.4": {
+    "field_name": "Related Filler Number",
+    "field_type": "EI"
+  },
+  "TQ2.5": {
+    "field_name": "Related Placer Group Number",
+    "field_type": "EI"
+  },
+  "TQ2.6": {
+    "field_name": "Sequence Condition Code",
+    "field_type": "ID"
+  },
+  "TQ2.7": {
+    "field_name": "Cyclic Entry/Exit Indicator",
+    "field_type": "ID"
+  },
+  "TQ2.8": {
+    "field_name": "Sequence Condition Time Interval",
+    "field_type": "CQ"
+  },
+  "TQ2.9": {
+    "field_name": "Cyclic Group Maximum Number of Repeats",
+    "field_type": "NM"
+  },
+  "TQ2.10": {
+    "field_name": "Special Service Request Relationship",
+    "field_type": "ID"
+  },
+  "TXA.1": {
+    "field_name": "Set ID - TXA",
+    "field_type": "SI"
+  },
+  "TXA.2": {
+    "field_name": "Document Type",
+    "field_type": "IS"
+  },
+  "TXA.3": {
+    "field_name": "Document Content Presentation",
+    "field_type": "ID"
+  },
+  "TXA.4": {
+    "field_name": "Activity Date/Time",
+    "field_type": "TS"
+  },
+  "TXA.5": {
+    "field_name": "Primary Activity Provider Code/Name",
+    "field_type": "XCN"
+  },
+  "TXA.6": {
+    "field_name": "Origination Date/Time",
+    "field_type": "TS"
+  },
+  "TXA.7": {
+    "field_name": "Transcription Date/Time",
+    "field_type": "TS"
+  },
+  "TXA.8": {
+    "field_name": "Edit Date/Time",
+    "field_type": "TS"
+  },
+  "TXA.9": {
+    "field_name": "Originator Code/Name",
+    "field_type": "XCN"
+  },
+  "TXA.10": {
+    "field_name": "Assigned Document Authenticator",
+    "field_type": "XCN"
+  },
+  "TXA.11": {
+    "field_name": "Transcriptionist Code/Name",
+    "field_type": "XCN"
+  },
+  "TXA.12": {
+    "field_name": "Unique Document Number",
+    "field_type": "EI"
+  },
+  "TXA.13": {
+    "field_name": "Parent Document Number",
+    "field_type": "EI"
+  },
+  "TXA.14": {
+    "field_name": "Placer Order Number",
+    "field_type": "EI"
+  },
+  "TXA.15": {
+    "field_name": "Filler Order Number",
+    "field_type": "EI"
+  },
+  "TXA.16": {
+    "field_name": "Unique Document File Name",
+    "field_type": "ST"
+  },
+  "TXA.17": {
+    "field_name": "Document Completion Status",
+    "field_type": "ID"
+  },
+  "TXA.18": {
+    "field_name": "Document Confidentiality Status",
+    "field_type": "ID"
+  },
+  "TXA.19": {
+    "field_name": "Document Availability Status",
+    "field_type": "ID"
+  },
+  "TXA.20": {
+    "field_name": "Document Storage Status",
+    "field_type": "ID"
+  },
+  "TXA.21": {
+    "field_name": "Document Change Reason",
+    "field_type": "ST"
+  },
+  "TXA.22": {
+    "field_name": "Authentication Person, Time Stamp",
+    "field_type": "PPN"
+  },
+  "TXA.23": {
+    "field_name": "Distributed Copies (Code and Name of Recipients)",
+    "field_type": "XCN"
+  },
+  "UB1.1": {
+    "field_name": "Set ID - UB1",
+    "field_type": "SI"
+  },
+  "UB1.2": {
+    "field_name": "Blood Deductible  (43)",
+    "field_type": "NM"
+  },
+  "UB1.3": {
+    "field_name": "Blood Furnished-Pints Of (40)",
+    "field_type": "NM"
+  },
+  "UB1.4": {
+    "field_name": "Blood Replaced-Pints (41)",
+    "field_type": "NM"
+  },
+  "UB1.5": {
+    "field_name": "Blood Not Replaced-Pints(42)",
+    "field_type": "NM"
+  },
+  "UB1.6": {
+    "field_name": "Co-Insurance Days (25)",
+    "field_type": "NM"
+  },
+  "UB1.7": {
+    "field_name": "Condition Code (35-39)",
+    "field_type": "IS"
+  },
+  "UB1.8": {
+    "field_name": "Covered Days - (23)",
+    "field_type": "NM"
+  },
+  "UB1.9": {
+    "field_name": "Non Covered Days - (24)",
+    "field_type": "NM"
+  },
+  "UB1.10": {
+    "field_name": "Value Amount & Code (46-49)",
+    "field_type": "UVC"
+  },
+  "UB1.11": {
+    "field_name": "Number Of Grace Days (90)",
+    "field_type": "NM"
+  },
+  "UB1.12": {
+    "field_name": "Special Program Indicator (44)",
+    "field_type": "CE"
+  },
+  "UB1.13": {
+    "field_name": "PSRO/UR Approval Indicator (87)",
+    "field_type": "CE"
+  },
+  "UB1.14": {
+    "field_name": "PSRO/UR Approved Stay-Fm (88)",
+    "field_type": "DT"
+  },
+  "UB1.15": {
+    "field_name": "PSRO/UR Approved Stay-To (89)",
+    "field_type": "DT"
+  },
+  "UB1.16": {
+    "field_name": "Occurrence (28-32)",
+    "field_type": "OCD"
+  },
+  "UB1.17": {
+    "field_name": "Occurrence Span (33)",
+    "field_type": "CE"
+  },
+  "UB1.18": {
+    "field_name": "Occur Span Start Date(33)",
+    "field_type": "DT"
+  },
+  "UB1.19": {
+    "field_name": "Occur Span End Date (33)",
+    "field_type": "DT"
+  },
+  "UB1.20": {
+    "field_name": "UB-82 Locator 2",
+    "field_type": "ST"
+  },
+  "UB1.21": {
+    "field_name": "UB-82 Locator 9",
+    "field_type": "ST"
+  },
+  "UB1.22": {
+    "field_name": "UB-82 Locator 27",
+    "field_type": "ST"
+  },
+  "UB1.23": {
+    "field_name": "UB-82 Locator 45",
+    "field_type": "ST"
+  },
+  "UB2.1": {
+    "field_name": "Set ID - UB2",
+    "field_type": "SI"
+  },
+  "UB2.2": {
+    "field_name": "Co-Insurance Days (9)",
+    "field_type": "ST"
+  },
+  "UB2.3": {
+    "field_name": "Condition Code (24-30)",
+    "field_type": "IS"
+  },
+  "UB2.4": {
+    "field_name": "Covered Days (7)",
+    "field_type": "ST"
+  },
+  "UB2.5": {
+    "field_name": "Non-Covered Days (8)",
+    "field_type": "ST"
+  },
+  "UB2.6": {
+    "field_name": "Value Amount & Code",
+    "field_type": "UVC"
+  },
+  "UB2.7": {
+    "field_name": "Occurrence Code & Date (32-35)",
+    "field_type": "OCD"
+  },
+  "UB2.8": {
+    "field_name": "Occurrence Span Code/Dates (36)",
+    "field_type": "OSP"
+  },
+  "UB2.9": {
+    "field_name": "UB92 Locator 2 (State)",
+    "field_type": "ST"
+  },
+  "UB2.10": {
+    "field_name": "UB92 Locator 11 (State)",
+    "field_type": "ST"
+  },
+  "UB2.11": {
+    "field_name": "UB92 Locator 31 (National)",
+    "field_type": "ST"
+  },
+  "UB2.12": {
+    "field_name": "Document Control Number",
+    "field_type": "ST"
+  },
+  "UB2.13": {
+    "field_name": "UB92 Locator 49 (National)",
+    "field_type": "ST"
+  },
+  "UB2.14": {
+    "field_name": "UB92 Locator 56 (State)",
+    "field_type": "ST"
+  },
+  "UB2.15": {
+    "field_name": "UB92 Locator 57 (National)",
+    "field_type": "ST"
+  },
+  "UB2.16": {
+    "field_name": "UB92 Locator 78 (State)",
+    "field_type": "ST"
+  },
+  "UB2.17": {
+    "field_name": "Special Visit Count",
+    "field_type": "NM"
+  },
+  "URD.1": {
+    "field_name": "R/U Date/Time",
+    "field_type": "TS"
+  },
+  "URD.2": {
+    "field_name": "Report Priority",
+    "field_type": "ID"
+  },
+  "URD.3": {
+    "field_name": "R/U Who Subject Definition",
+    "field_type": "XCN"
+  },
+  "URD.4": {
+    "field_name": "R/U What Subject Definition",
+    "field_type": "CE"
+  },
+  "URD.5": {
+    "field_name": "R/U What Department Code",
+    "field_type": "CE"
+  },
+  "URD.6": {
+    "field_name": "R/U Display/Print Locations",
+    "field_type": "ST"
+  },
+  "URD.7": {
+    "field_name": "R/U Results Level",
+    "field_type": "ID"
+  },
+  "URS.1": {
+    "field_name": "R/U Where Subject Definition",
+    "field_type": "ST"
+  },
+  "URS.2": {
+    "field_name": "R/U When Data Start Date/Time",
+    "field_type": "TS"
+  },
+  "URS.3": {
+    "field_name": "R/U When Data End Date/Time",
+    "field_type": "TS"
+  },
+  "URS.4": {
+    "field_name": "R/U What User Qualifier",
+    "field_type": "ST"
+  },
+  "URS.5": {
+    "field_name": "R/U Other Results Subject Definition",
+    "field_type": "ST"
+  },
+  "URS.6": {
+    "field_name": "R/U Which Date/Time Qualifier",
+    "field_type": "ID"
+  },
+  "URS.7": {
+    "field_name": "R/U Which Date/Time Status Qualifier",
+    "field_type": "ID"
+  },
+  "URS.8": {
+    "field_name": "R/U Date/Time Selection Qualifier",
+    "field_type": "ID"
+  },
+  "URS.9": {
+    "field_name": "R/U Quantity/Timing Qualifier",
+    "field_type": "TQ"
+  },
+  "VAR.1": {
+    "field_name": "Variance Instance ID",
+    "field_type": "EI"
+  },
+  "VAR.2": {
+    "field_name": "Documented Date/Time",
+    "field_type": "TS"
+  },
+  "VAR.3": {
+    "field_name": "Stated Variance Date/Time",
+    "field_type": "TS"
+  },
+  "VAR.4": {
+    "field_name": "Variance Originator",
+    "field_type": "XCN"
+  },
+  "VAR.5": {
+    "field_name": "Variance Classification",
+    "field_type": "CE"
+  },
+  "VAR.6": {
+    "field_name": "Variance Description",
+    "field_type": "ST"
+  },
+  "VTQ.1": {
+    "field_name": "Query Tag",
+    "field_type": "ST"
+  },
+  "VTQ.2": {
+    "field_name": "Query/Response Format Code",
+    "field_type": "ID"
+  },
+  "VTQ.3": {
+    "field_name": "VT Query Name",
+    "field_type": "CE"
+  },
+  "VTQ.4": {
+    "field_name": "Virtual Table Name",
+    "field_type": "CE"
+  },
+  "VTQ.5": {
+    "field_name": "Selection Criteria",
+    "field_type": "QSC"
+  }
+}
