@@ -66,7 +66,7 @@ hl7_env\Scripts\activate     # Windows
 ### 2. Install Python Dependencies
 ```bash
 # Core HL7 processing
-pip install hl7 tqdm
+pip install hl7 tqdm cryptography
 ```
 
 ### 3. Clone/Download Project
