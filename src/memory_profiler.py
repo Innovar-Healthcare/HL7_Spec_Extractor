@@ -7,6 +7,16 @@ import time
 import logging
 from functools import wraps
 
+logging.basicConfig(level=logging.INFO)  # Only show info and above
+
+# Silence all fontTools logs
+for name in [
+    "fontTools",
+    "fontTools.subset",
+    "fontTools.ttLib.ttFont",
+    "fontTools.subset.timer"
+]:
+    logging.getLogger(name).setLevel(logging.ERROR)
 logger = logging.getLogger(__name__)
 
 class MemoryMonitor:

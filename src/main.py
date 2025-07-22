@@ -29,6 +29,15 @@ logging.basicConfig(
         logging.StreamHandler()
     ]
 )
+
+# Silence all fontTools logs
+for name in [
+    "fontTools",
+    "fontTools.subset",
+    "fontTools.ttLib.ttFont",
+    "fontTools.subset.timer"
+]:
+    logging.getLogger(name).setLevel(logging.ERROR)
 logger = logging.getLogger(__name__)
 
 def parse_single_file(file_path):

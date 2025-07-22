@@ -7,6 +7,16 @@ from pathlib import Path
 import time
 from datetime import datetime
 
+logging.basicConfig(level=logging.INFO)  # Only show info and above
+
+# Silence all fontTools logs
+for name in [
+    "fontTools",
+    "fontTools.subset",
+    "fontTools.ttLib.ttFont",
+    "fontTools.subset.timer"
+]:
+    logging.getLogger(name).setLevel(logging.ERROR)
 logger = logging.getLogger(__name__)
 
 def write_json_spec(aggregated, output_file, combined_only=False):
