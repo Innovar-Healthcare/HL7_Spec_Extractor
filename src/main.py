@@ -266,9 +266,9 @@ def main():
     # Generate reports
     logger.info("Generating reports...")
     if combined_only:
-        logger.info("🚀 Combined-only mode: Generating combined reports only")
+        logger.info("Combined-only mode: Generating combined reports only")
     else:
-        logger.info("🚀 Full mode: Generating combined + individual reports")
+        logger.info("Full mode: Generating combined and individual reports")
     
     report_start = time.time()
     write_json_spec(aggregated, output_file, combined_only=combined_only)
@@ -277,18 +277,18 @@ def main():
 
     # Final stats
     total_time = time.time() - start_time
-    logger.info(f"✅ Analysis complete!")
-    logger.info(f"📊 Processed {len(messages)} messages")
-    logger.info(f"⏱️  Total time: {total_time:.2f}s")
-    logger.info(f"📁 Output written to {output_file}")
+    logger.info("Analysis complete!")
+    logger.info(f"Processed {len(messages)} messages")
+    logger.info(f"Total time: {total_time:.2f}s")
+    logger.info(f"Output written to {output_file}")
     
     if combined_only:
-        logger.info(f"📋 Mode: Combined reports only (faster generation)")
+        logger.info("Mode: Combined reports only (faster generation)")
     else:
-        logger.info(f"📋 Mode: Full analysis with individual message type reports")
+        logger.info("Mode: Full analysis with individual message type reports")
     
     if errors:
-        logger.warning(f"⚠️  {len(errors)} files had parsing errors (see log for details)")
+        logger.warning(f"{len(errors)} files had parsing errors (see log for details)")
 
 if __name__ == "__main__":
     freeze_support()

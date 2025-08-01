@@ -62,5 +62,5 @@ def write_json_spec(aggregated, output_file, combined_only=False):
     logger.info(f"Combined spec:      {combined_time:.2f}s")
     logger.info(f"Combined JSON:      {json_time:.2f}s")
     logger.info(f"Total time:         {total_time:.2f}s")
-    logger.info(f"✅ Generated 1 JSON spec file")
-    logger.info(f"📈 Report generation rate: {1/total_time:.1f} files/second")
+    logger.info(f"Generated 1 JSON spec file")
+    logger.info(f"Report generation rate: {1/total_time:.1f} files/second")
