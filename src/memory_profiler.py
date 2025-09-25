@@ -7,6 +7,16 @@ import time
 import logging
 from functools import wraps
 
+logging.basicConfig(level=logging.INFO)  # Only show info and above
+
+# Silence all fontTools logs
+for name in [
+    "fontTools",
+    "fontTools.subset",
+    "fontTools.ttLib.ttFont",
+    "fontTools.subset.timer"
+]:
+    logging.getLogger(name).setLevel(logging.ERROR)
 logger = logging.getLogger(__name__)
 
 class MemoryMonitor:
@@ -110,14 +120,14 @@ def estimate_memory_needs(file_count, total_size_mb):
     logger.info(f"Available system RAM:  {available_memory:.1f} MB")
     
     if estimated_peak > available_memory * 0.8:  # Use 80% as safety margin
-        logger.warning("⚠️  Estimated memory usage may exceed available RAM!")
+        logger.warning("Estimated memory usage may exceed available RAM!")
         logger.warning("Consider using --streaming mode or processing in smaller batches")
         return False
     elif estimated_peak > available_memory * 0.5:
         logger.warning("Estimated memory usage is significant. Consider monitoring closely.")
         return True
     else:
-        logger.info("✅ Memory usage should be within acceptable limits")
+        logger.info("Memory usage should be within acceptable limits")
         return True
 
 def get_optimal_workers(file_count, total_size_mb):

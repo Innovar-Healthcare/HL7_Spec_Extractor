@@ -3,6 +3,16 @@ from hl7_fields import field_datatype
 from sequence_profiler import profile_sequences_by_message_type
 import logging
 
+logging.basicConfig(level=logging.INFO)  # Only show info and above
+
+# Silence all fontTools logs
+for name in [
+    "fontTools",
+    "fontTools.subset",
+    "fontTools.ttLib.ttFont",
+    "fontTools.subset.timer"
+]:
+    logging.getLogger(name).setLevel(logging.ERROR)
 logger = logging.getLogger(__name__)
 
 MAX_UNIQUE = 100

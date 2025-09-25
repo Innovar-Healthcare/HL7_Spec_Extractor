@@ -1,4 +1,19 @@
 from collections import Counter, defaultdict
+import logging
+from time import time
+
+logging.basicConfig(level=logging.INFO)  # Only show info and above
+
+# Silence all fontTools logs
+for name in [
+    "fontTools",
+    "fontTools.subset",
+    "fontTools.ttLib.ttFont",
+    "fontTools.subset.timer"
+]:
+    logging.getLogger(name).setLevel(logging.ERROR)
+
+logger = logging.getLogger(__name__)
 
 def normalize_sequence(seq):
     normalized = []
@@ -111,6 +126,10 @@ def profile_sequences_for_type(messages):
 
     # Sort by count (most common first)
     final_sequences.sort(key=lambda x: x["count"], reverse=True)
+
+    logger.info("Profiling complete.")
+    logger.info(f"Profiled {len(messages)} messages")
+    logger.debug(f"Most common sequence: {final_sequences[0]['sequence']} ({final_sequences[0]['count']} times)" if final_sequences else "No sequences found.")
 
     return {
         "common_sequences": final_sequences,
